@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://radarlabs.surge.sh/sitemap.xml
+Sitemap: https://sjdfi0wjvosdju9.github.io/sitemap.xml
