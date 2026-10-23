@@ -1,0 +1,6 @@
+# Radar Labs — public dataset site
+# Everything here is meant to be crawled and quoted.
+User-agent: *
+Allow: /
+
+Sitemap: https://radarlabs.surge.sh/sitemap.xml

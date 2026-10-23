@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATS Job Feed — sample output</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.55 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+         max-width: 1080px; margin: 40px auto; padding: 0 18px; }
+  h1 { font-size: 24px; margin-bottom: 6px; }
+  p.meta { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 18px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 7px 9px; border-bottom: 1px solid #ddd; vertical-align: top; }
+  th { font-weight: 600; background: #f6f6f6; position: sticky; top: 0; }
+  td:nth-child(n+3) { white-space: nowrap; }
+  a { color: #0b5fff; }
+  .note { background: #f7f7f7; border-left: 3px solid #0b5fff; padding: 10px 12px; font-size: 14px; }
+  footer { color: #666; font-size: 13px; margin-top: 28px; }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="ATS Job Feed — sample output">
+<meta property="og:description" content="ATS Job Feed — sample output">
+<meta property="og:url" content="https://radarlabs.surge.sh/samples/ats-jobs.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ATS Job Feed — sample output">
+<meta name="twitter:description" content="ATS Job Feed — sample output">
+<link rel="canonical" href="https://radarlabs.surge.sh/samples/ats-jobs.html">
+</head>
+<body>
+<h1>ATS Job Feed — sample output</h1>
+<p class="meta">50 job records with a normalised annual salary range in USD.</p>
+<div class="note">This is a <strong>static snapshot</strong> captured 2026-10-24 05:00 (UTC+8) from a live run, so it stays readable
+even when the Apify dataset behind it is cleaned up. Every row was produced by the Actor itself — nothing here is
+hand-written. Raw file: <a href="ats-jobs.json">ats-jobs.json</a>.</div>
+<table>
+<thead><tr><th>Company</th><th>ATS</th><th>Role</th><th>Salary low</th><th>Salary high</th><th>Posted</th></tr></thead>
+<tbody>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/5ef10e09-2b3f-41de-b77c-829787302101" rel="nofollow noopener">ashby</a></td><td>Research Scientist / Research Engineer, Search Integrity</td><td>$380,000</td><td>$850,000</td><td>2026-10-21</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/1441816f-6429-426e-8f6d-8e5930a818f9" rel="nofollow noopener">ashby</a></td><td>Research Scientist / Research Engineer, Search - Knowledge Graphs</td><td>$380,000</td><td>$850,000</td><td>2026-10-21</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5459098008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Chip Design RL</td><td>$500,000</td><td>$850,000</td><td>2026-10-21</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5442680008" rel="nofollow noopener">greenhouse</a></td><td>Staff Research Engineer, Multi-Agent Scaling</td><td>$500,000</td><td>$850,000</td><td>2026-10-02</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5438044008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer / Research Scientist, RL Frontiers</td><td>$500,000</td><td>$850,000</td><td>2026-09-29</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5438030008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer / Performance Engineer, RL Distributed Systems</td><td>$500,000</td><td>$850,000</td><td>2026-09-29</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5404725008" rel="nofollow noopener">greenhouse</a></td><td>Staff+ Research Engineer, RL Data Platform</td><td>$500,000</td><td>$850,000</td><td>2026-08-27</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5297059008" rel="nofollow noopener">greenhouse</a></td><td>Engineering Manager, Research Data Platform</td><td>$405,000</td><td>$850,000</td><td>2026-07-07</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5285246008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Computer Use</td><td>$500,000</td><td>$850,000</td><td>2026-06-30</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5254364008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Code RL (Reinforcement Learning)</td><td>$500,000</td><td>$850,000</td><td>2026-06-11</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5223093008" rel="nofollow noopener">greenhouse</a></td><td>Engineering Manager, Research Productivity</td><td>$405,000</td><td>$850,000</td><td>2026-05-22</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5224564008" rel="nofollow noopener">greenhouse</a></td><td>Performance Engineer, Inference Systems</td><td>$350,000</td><td>$850,000</td><td>2026-05-20</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5198255008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Post-Training Model Evaluations</td><td>$500,000</td><td>$850,000</td><td>2026-04-28</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5074217008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Visual Knowledge Work</td><td>$350,000</td><td>$850,000</td><td>2026-01-16</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/5025624008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Cybersecurity RL (Reinforcement Learning)</td><td>$500,000</td><td>$850,000</td><td>2025-12-09</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4980427008" rel="nofollow noopener">greenhouse</a></td><td>Research Scientist, Interpretability</td><td>$350,000</td><td>$850,000</td><td>2025-11-07</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4973067008" rel="nofollow noopener">greenhouse</a></td><td>Pre-training Data Infrastructure Engineer</td><td>$500,000</td><td>$850,000</td><td>2025-11-03</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4952051008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, RL Engineering</td><td>$500,000</td><td>$850,000</td><td>2025-10-15</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4938432008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer, Pretraining Scaling</td><td>$350,000</td><td>$850,000</td><td>2025-09-30</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4926227008" rel="nofollow noopener">greenhouse</a></td><td>Performance Engineer, GPU</td><td>$280,000</td><td>$850,000</td><td>2025-09-22</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4616971008" rel="nofollow noopener">greenhouse</a></td><td>Research Engineer/Research Scientist, Pre-training</td><td>$350,000</td><td>$850,000</td><td>2025-07-18</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/020b2aae-8be0-408c-ab49-20eefa8541af" rel="nofollow noopener">ashby</a></td><td>Research Scientist / Research Engineer - Foundations, Search</td><td>$380,000</td><td>$850,000</td><td>2025-06-16</td></tr>
+<tr><td>anthropic</td><td><a href="https://job-boards.greenhouse.io/anthropic/jobs/4741104008" rel="nofollow noopener">greenhouse</a></td><td>Engineering Manager, GPU (ML Accelerator)</td><td>$500,000</td><td>$850,000</td><td>2025-05-29</td></tr>
+<tr><td>cohere</td><td><a href="https://jobs.ashbyhq.com/cohere/49a6485c-c449-4e07-8001-cafc97a39a13" rel="nofollow noopener">ashby</a></td><td>VP of Sales - Public Sector</td><td>$560,000</td><td>$675,000</td><td>2026-10-22</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/97d3670c-e75a-4bb2-a235-171765f5f10e" rel="nofollow noopener">ashby</a></td><td>Researcher, Training</td><td>$300,000</td><td>$600,000</td><td>2025-05-14</td></tr>
+<tr><td>databricks</td><td><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8569608002" rel="nofollow noopener">greenhouse</a></td><td>Director, Lakebase Sales Specialist- Financial Services</td><td>$430,400</td><td>$591,800</td><td>2026-06-08</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/7322d344-9325-4a92-8445-0a2c4e9272f8" rel="nofollow noopener">ashby</a></td><td>Research Engineer, Retrieval &amp; Search, Applied Engineering</td><td>$293,000</td><td>$585,000</td><td>2024-03-20</td></tr>
+<tr><td>launchdarkly</td><td><a href="https://job-boards.greenhouse.io/launchdarkly/jobs/8042026003" rel="nofollow noopener">greenhouse</a></td><td>VP, Product Management</td><td>$424,000</td><td>$583,000</td><td>2026-10-22</td></tr>
+<tr><td>galileo</td><td><a href="https://job-boards.greenhouse.io/galileo/jobs/8702529002" rel="nofollow noopener">greenhouse</a></td><td>Dermatologist</td><td>$468,000</td><td>$572,000</td><td>2026-08-12</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/6fdc9e35-c9d9-49fb-a8f7-80d2d7f03968" rel="nofollow noopener">ashby</a></td><td>Researcher, Training - London</td><td>$215,900</td><td>$565,150</td><td>2026-06-04</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d" rel="nofollow noopener">ashby</a></td><td>Machine Learning Engineer, Monetization AI/ML</td><td>$381,000</td><td>$555,000</td><td>2026-09-21</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/e2afdede-a222-4825-b2fc-fec439a7c893" rel="nofollow noopener">ashby</a></td><td>3P Systems Architect</td><td>$342,000</td><td>$555,000</td><td>2026-09-14</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/8caa3654-aa0e-48f3-a231-5e9dc276253d" rel="nofollow noopener">ashby</a></td><td>Engineering Manager, MLE</td><td>$500,000</td><td>$555,000</td><td>2026-06-23</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/4d14449e-5e7f-45d4-b103-8776a6c87086" rel="nofollow noopener">ashby</a></td><td>Software Engineer, Inference - Multi Modal</td><td>$295,000</td><td>$555,000</td><td>2025-05-21</td></tr>
+<tr><td>cohere</td><td><a href="https://jobs.ashbyhq.com/cohere/1e6c4acf-d98a-46ac-bacb-d609ca1326c1" rel="nofollow noopener">ashby</a></td><td>Senior Director, Solutions Architecture — Americas</td><td>$270,000</td><td>$539,750</td><td>2026-09-11</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/40de0618-fb19-443d-85fd-ba690d3721a8" rel="nofollow noopener">ashby</a></td><td>Principal Software Engineer, ChatGPT Education and Learning</td><td>$459,000</td><td>$536,000</td><td>2026-10-23</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/dd9c7c04-7181-4c65-9c6a-0e04313e3707" rel="nofollow noopener">ashby</a></td><td>Principal Software Engineer, Productivity</td><td>$459,000</td><td>$536,000</td><td>2026-10-22</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/74842880-e750-4664-9e2e-83b4c96c5a03" rel="nofollow noopener">ashby</a></td><td>Principal Software Engineer, Full Stack — Codex</td><td>$459,000</td><td>$536,000</td><td>2026-10-21</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/4ca2e49f-83bb-4276-be17-d85a9a0c58e9" rel="nofollow noopener">ashby</a></td><td>Engineering Manager, Rosalind Workbench</td><td>$401,000</td><td>$536,000</td><td>2026-09-25</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/acbf80cd-20a7-47fe-aaf9-3e9224d1570c" rel="nofollow noopener">ashby</a></td><td>Data Engineering Manager, Growth &amp; Revenue</td><td>$459,000</td><td>$536,000</td><td>2026-09-14</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01" rel="nofollow noopener">ashby</a></td><td>Software Engineer - Data Aquisition (systems)</td><td>$295,000</td><td>$536,000</td><td>2026-07-27</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/eda0d516-94bd-4257-9679-aded0d709fba" rel="nofollow noopener">ashby</a></td><td>Engineering Manager, Core Experimentation</td><td>$510,000</td><td>$536,000</td><td>2026-07-10</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78" rel="nofollow noopener">ashby</a></td><td>Full-Stack SWE, Data Acquisition (Foundations)</td><td>$295,000</td><td>$536,000</td><td>2025-02-12</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/41d9d129-2e58-4ad3-be81-2e5096f4da4d" rel="nofollow noopener">ashby</a></td><td>Software Engineer, Data Acquisition</td><td>$295,000</td><td>$536,000</td><td>2023-09-22</td></tr>
+<tr><td>openai</td><td><a href="https://jobs.ashbyhq.com/openai/a8210588-a178-4afe-91e7-1fa2d269d2e8" rel="nofollow noopener">ashby</a></td><td>Product Manager, Financial Services</td><td>$401,000</td><td>$530,000</td><td>2026-10-06</td></tr>
+<tr><td>vanta</td><td><a href="https://jobs.ashbyhq.com/vanta/19837d21-971e-4b9d-b078-320895fae28a" rel="nofollow noopener">ashby</a></td><td>Head of Design</td><td>$365,000</td><td>$513,000</td><td>2026-07-06</td></tr>
+<tr><td>scaleai</td><td><a href="https://job-boards.greenhouse.io/scaleai/jobs/4611448005" rel="nofollow noopener">greenhouse</a></td><td>VP, Research</td><td>$396,800</td><td>$496,000</td><td>2026-08-01</td></tr>
+<tr><td>snowflake</td><td><a href="https://jobs.ashbyhq.com/snowflake/35026637-d96b-47b3-a154-96e31765a7aa" rel="nofollow noopener">ashby</a></td><td>Senior Director of Engineering – Horizon Catalog, Collaboration &amp; Marketplace</td><td>$340,000</td><td>$488,700</td><td>2026-10-03</td></tr>
+<tr><td>perplexity</td><td><a href="https://jobs.ashbyhq.com/perplexity/8fe61c73-0daf-4432-a47d-44714c1ef764" rel="nofollow noopener">ashby</a></td><td>Member of Technical Staff (AI Researcher)</td><td>$220,000</td><td>$485,000</td><td>2026-08-25</td></tr>
+<tr><td>vercel</td><td><a href="https://job-boards.greenhouse.io/vercel/jobs/6119846004" rel="nofollow noopener">greenhouse</a></td><td>Head of Solutions Architecture, Startups</td><td>$382,000</td><td>$485,000</td><td>2026-07-20</td></tr>
+</tbody>
+</table>
+<footer>Radar Labs — <a href="https://apify.com/contributory_garnet_hyz">Apify Store profile</a> ·
+<a href="/">home</a></footer>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What does a company publish as pay? Search 148 companies</title>
+<meta name="description" content="Type a company name to see the salary bands it actually publishes on its own job board: median, p25-p75, share of remote roles. Free, no signup.">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; max-width: 900px; margin: 42px auto; padding: 0 18px; }
+  h1 { font-size: 26px; line-height: 1.25; margin-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 30px; }
+  p.meta { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 4px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #ddd; }
+  th { background: #f6f6f6; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .kpi { display: flex; gap: 18px; flex-wrap: wrap; margin: 16px 0; }
+  .kpi div { background: #f7f7f7; padding: 10px 14px; border-radius: 8px; }
+  .kpi b { display: block; font-size: 21px; }
+  .note { background: #f7f7f7; border-left: 3px solid #0b5fff; padding: 11px 14px; font-size: 14px; }
+  a { color: #0b5fff; }
+  footer { color: #666; font-size: 13px; margin-top: 30px; }
+  #q { width: 100%; padding: 12px 14px; font-size: 16px; border: 1px solid #bbb; border-radius: 8px; }
+  #hint { color: #666; font-size: 13px; margin: 6px 0 0; }
+  .row { cursor: pointer; }
+  .row:hover td { background: #f2f6ff; }
+  .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+  .card h2 { margin: 0 0 4px; }
+  .empty { color: #666; margin-top: 14px; }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="What does a company publish as pay? Search 148 companies">
+<meta property="og:description" content="Type a company name to see the salary bands it actually publishes on its own job board: median, p25-p75, share of remote roles. Free, no signup.">
+<meta property="og:url" content="https://radarlabs.surge.sh/lookup.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="What does a company publish as pay? Search 148 companies">
+<meta name="twitter:description" content="Type a company name to see the salary bands it actually publishes on its own job board: median, p25-p75, share of remote roles. Free, no signup.">
+<link rel="canonical" href="https://radarlabs.surge.sh/lookup.html">
+</head>
+<body>
+
+<h1>What does a company actually publish as pay?</h1>
+<p class="meta">Search <b id="count">148</b> companies. Numbers come from their own public job boards, normalised to a yearly USD range. Free, no signup, no tracking.</p>
+
+<input id="q" type="search" placeholder="Try: anthropic, stripe, datadog&hellip;" autocomplete="off" spellcheck="false" autofocus>
+<p id="hint">Showing the 12 best matches. Data regenerated weekly from a free CSV.</p>
+
+<div id="detail"></div>
+<table id="results" hidden>
+  <thead>
+    <tr><th>Company</th><th class="n">Median</th><th class="n">p25 &ndash; p75</th><th class="n">Postings</th><th class="n">Remote</th></tr>
+  </thead>
+  <tbody id="rows"></tbody>
+</table>
+<p id="empty" class="empty" hidden>No company by that name publishes enough salary data to show. Only companies with at least 5 postings that state a number are listed &mdash; a page built on two rows would be noise in a confident font.</p>
+
+<div class="note">
+  This is what companies <b>publish</b>, not what they pay. Two thirds of postings say nothing, and the boards differ a lot:
+  Ashby 53.5%, Greenhouse 45.4%, Lever 9.5%, Workable 0% (their feed has no salary field at all).
+  A low count means a company rarely publishes pay &mdash; not that it pays badly.
+</div>
+
+<h2>Want all of it?</h2>
+<p>
+  <a href="/data/salary-ranges-full.csv">Download the full CSV</a> (7,984 rows, CC BY 4.0) &middot;
+  <a href="/salary-data.html">How the data is built</a> &middot;
+  <a href="/pay/">All companies</a> &middot;
+  <a href="https://apify.com/contributory_garnet_hyz/ats-job-feed">Bulk JSON API, refreshed hourly</a>
+</p>
+
+<footer>
+  Radar Labs &middot; built from public ATS feeds &middot; only &ldquo;stated&rdquo; ranges are counted, nothing is estimated.
+</footer>
+
+<script>
+(function () {
+  var state = { all: [], byName: {} };
+  var q = document.getElementById('q');
+  var rowsEl = document.getElementById('rows');
+  var tableEl = document.getElementById('results');
+  var detailEl = document.getElementById('detail');
+  var emptyEl = document.getElementById('empty');
+  var hintEl = document.getElementById('hint');
+  var countEl = document.getElementById('count');
+  var LIMIT = 12;
+
+  function money(v) { return v == null ? '&mdash;' : '$' + Number(v).toLocaleString('en-US'); }
+
+  function render(query) {
+    var needle = query.trim().toLowerCase();
+    detailEl.innerHTML = '';
+    if (!needle) {
+      var top = state.all.slice(0, LIMIT);
+      paint(top, top.length);
+      hintEl.textContent = 'Showing the 12 highest medians. Type to search.';
+      return;
+    }
+    var exact = state.byName[needle];
+    if (exact) { showDetail(exact); }
+    var hits = state.all.filter(function (c) { return c.name.toLowerCase().indexOf(needle) !== -1; });
+    var list = hits.slice(0, LIMIT);
+    paint(list, hits.length);
+    hintEl.textContent = hits.length
+      ? hits.length + ' match' + (hits.length === 1 ? '' : 'es') + (hits.length > LIMIT ? ' (showing ' + LIMIT + ')' : '')
+      : '';
+    emptyEl.hidden = hits.length !== 0;
+  }
+
+  function paint(list, total) {
+    rowsEl.innerHTML = '';
+    list.forEach(function (c) {
+      var tr = document.createElement('tr');
+      tr.className = 'row';
+      tr.innerHTML = '<td>' + c.name + '</td><td class="n">' + money(c.median) +
+        '</td><td class="n">' + money(c.p25) + ' &ndash; ' + money(c.p75) +
+        '</td><td class="n">' + c.n + '</td><td class="n">' + c.remote_pct + '%</td>';
+      tr.addEventListener('click', function () { q.value = c.name; render(c.name); });
+      rowsEl.appendChild(tr);
+    });
+    tableEl.hidden = list.length === 0;
+  }
+
+  function showDetail(c) {
+    var fams = c.families.map(function (f) {
+      return '<tr><td>' + f[0] + '</td><td class="n">' + money(f[1]) + '</td><td class="n">' + f[2] + '</td></tr>';
+    }).join('');
+    detailEl.innerHTML = '<div class="card"><h2>' + c.name + '</h2>' +
+      '<p class="meta">' + c.n + ' postings with a stated range &middot; board: ' + c.ats +
+      ' &middot; <a href="/pay/' + c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.html">full page</a></p>' +
+      '<div class="kpi"><div><b>' + money(c.median) + '</b>median</div>' +
+      '<div><b>' + money(c.p25) + '</b>p25</div><div><b>' + money(c.p75) + '</b>p75</div>' +
+      '<div><b>' + money(c.p90) + '</b>p90</div><div><b>' + c.remote_pct + '%</b>remote</div></div>' +
+      (fams ? '<table><thead><tr><th>Role family</th><th class="n">Median</th><th class="n">Rows</th></tr></thead><tbody>' + fams + '</tbody></table>' : '') +
+      '</div>';
+  }
+
+  fetch('/data/lookup.json').then(function (r) { return r.json(); }).then(function (data) {
+    state.all = data.companies || [];
+    state.all.forEach(function (c) { state.byName[c.name.toLowerCase()] = c; });
+    countEl.textContent = state.all.length;
+    render('');
+  }).catch(function () {
+    hintEl.textContent = 'Could not load the index. The CSV still works: /data/salary-ranges-full.csv';
+  });
+
+  var timer = null;
+  q.addEventListener('input', function () {
+    clearTimeout(timer);
+    var value = q.value;
+    timer = setTimeout(function () { render(value); }, 90);
+  });
+})();
+</script>
+</body>
+</html>

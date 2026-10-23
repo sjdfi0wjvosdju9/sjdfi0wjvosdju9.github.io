@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Only jobs that publish a salary - ATS Job Feed</title>
+<meta name="description" content="Filter 266 companies' job boards down to the 8,040 postings that actually state a pay range, and pay only for rows you keep.">
+<link rel="canonical" href="https://radarlabs.surge.sh/salary-only.html">
+<link rel="icon" href="/favicon.ico">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; max-width: 900px; margin: 42px auto; padding: 0 18px; }
+  h1 { font-size: 25px; line-height: 1.25; margin-bottom: 6px; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  p.meta { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14px; }
+  th, td { border-bottom: 1px solid #ddd; padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: #f6f6f6; font-weight: 600; }
+  td.n, th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  code { background: #f2f2f2; padding: 1px 4px; border-radius: 3px; }
+  .big { font-size: 30px; font-weight: 600; }
+  .cards { display: flex; gap: 26px; flex-wrap: wrap; margin: 18px 0 6px; }
+  .card span { display: block; color: #666; font-size: 13px; }
+  .calc { border: 1px solid #ddd; border-radius: 8px; padding: 16px 18px; margin: 18px 0; }
+  .calc label { display: block; margin: 10px 0 4px; font-size: 14px; color: #444; }
+  .calc input[type=range] { width: 100%; }
+  .out { font-size: 15px; margin-top: 12px; }
+  .out b { font-size: 22px; }
+  .note { color: #666; font-size: 13px; }
+  footer { margin-top: 44px; border-top: 1px solid #ddd; padding-top: 12px; color: #666; font-size: 13px; }
+  @media (prefers-color-scheme: dark) {
+    th { background: #222; } td, th { border-color: #333; }
+    code { background: #222; } .calc { border-color: #333; }
+    footer { border-color: #333; }
+  }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Only jobs that publish a salary - ATS Job Feed">
+<meta property="og:description" content="Filter 266 companies&#x27; job boards down to the 8,040 postings that actually state a pay range, and pay only for rows you keep.">
+<meta property="og:url" content="https://radarlabs.surge.sh/salary-only.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Only jobs that publish a salary - ATS Job Feed">
+<meta name="twitter:description" content="Filter 266 companies&#x27; job boards down to the 8,040 postings that actually state a pay range, and pay only for rows you keep.">
+</head>
+<body>
+<h1>Only the jobs that publish a salary</h1>
+<p class="meta">Measured 2026-10-24 · 266 companies · 18,670 postings scanned</p>
+
+<p>Most job feeds hand you everything and let you filter. That is fine until you are paying per row, and roughly <b>three in five</b> postings never state a number. Here is the same pool, split by whether the employer actually published pay:</p>
+
+<div class="cards">
+  <div class="card"><div class="big">8,040</div><span>postings with a pay range (43.1%)</span></div>
+  <div class="card"><div class="big">10,630</div><span>postings with no pay range</span></div>
+  <div class="card"><div class="big">$200,000</div><span>median annual pay (USD)</span></div>
+</div>
+
+<h2>Where pay gets published, by board</h2>
+<p>This is a property of the board, not of the employer's generosity: Greenhouse usually carries pay in the description, Ashby ships a structured field, Lever almost never does, Workable does not have a field at all.</p>
+<table>
+<tr><th>Board</th><th class=n>Postings</th><th class=n>With pay</th><th class=n>Rate</th></tr>
+<tr><td>greenhouse</td><td class=n>11,562</td><td class=n>5,134</td><td class=n>44.4%</td></tr><tr><td>ashby</td><td class=n>5,357</td><td class=n>2,742</td><td class=n>51.2%</td></tr><tr><td>lever</td><td class=n>1,751</td><td class=n>164</td><td class=n>9.4%</td></tr>
+</table>
+
+<h2>What a filtered run costs you</h2>
+<p>Billing is per returned row, so rows removed by <code>salaryOnly</code> are never charged. Move the slider to see the arithmetic - start fee $0.0005 per run plus $0.0015 per row you keep:</p>
+
+<div class="calc">
+  <label for="n">Rows you want back: <output id="nval">100</output></label>
+  <input id="n" type="range" min="10" max="1000" step="10" value="100">
+  <div class="out">Estimated: <b id="cost">$0.1505</b> <span class="note" id="perrow"></span></div>
+  <p class="note">Without the filter you would be paying the same $0.0015 per row for a stream that is only ~43% usable, and you would spend your own compute or eyeballs separating the rest.</p>
+</div>
+
+<h2>How to use it</h2>
+<p>One switch on the <a href="https://apify.com/contributory_garnet_hyz/ats-job-feed">ATS Job Feed</a> actor:</p>
+<pre><code>{"useVerifiedPool": true, "salaryOnly": true, "maxJobs": 100}</code></pre>
+<p>Add <code>"minSalaryUsd": 150000</code> to keep only postings that clear a floor, or <code>"includeDescriptions": false</code> for a cheaper run that still carries pay for Ashby and Lever (Greenhouse pay lives inside the description, so it disappears in that mode). If you do not want to pay at all, the same numbers are in the free <a href="/data/salary-ranges-full.csv">CSV</a> (8,040 rows, CC BY 4.0) and you can check a single employer on <a href="/lookup.html">the lookup page</a>.</p>
+
+<h2>Honest limits</h2>
+<ul>
+  <li>This counts <em>published</em> pay, not paid pay. A posting without a range may still pay well - we just refuse to invent a number.</li>
+  <li>Boards differ by design (see the table), so a pool of mostly Lever companies will look much emptier under this filter.</li>
+  <li>Currency is converted with a dated USD table; the rate date is reported as <code>fxDate</code> in each run summary. Unknown currencies stay null.</li>
+  <li>Slugs go stale. When a company moves to a new ATS, that company returns nothing and the run summary names it under <code>failedCompanies</code> instead of silently shrinking.</li>
+</ul>
+
+<footer>
+  <p><a href="/">Home</a> · <a href="/salary-data.html">Salary dataset</a> · <a href="/freshness.html">How old are these postings</a> · <a href="/lookup.html">Look up a company</a> · <a href="/how-we-choose.html">Why these companies</a></p>
+  <p>Run by a single developer. No tracking, no cookies.</p>
+</footer>
+
+<script>
+(function () {
+  var n = document.getElementById('n'), out = document.getElementById('cost'),
+      nval = document.getElementById('nval'), perrow = document.getElementById('perrow'),
+      START = 0.0005, ROW = 0.0015;
+  function render() {
+    var rows = parseInt(n.value, 10);
+    nval.textContent = rows;
+    out.textContent = '$' + (START + rows * ROW).toFixed(4);
+    perrow.textContent = '(' + rows + ' rows x $' + ROW + ' + $' + START + ' start)';
+  }
+  n.addEventListener('input', render);
+  render();
+})();
+</script>
+</body>
+</html>

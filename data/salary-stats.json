@@ -1,0 +1,1328 @@
+{
+  "generated_at": "2026-10-24 06:34 (UTC+8)",
+  "companies_in_pool": 266,
+  "postings_scanned": 18670,
+  "postings_with_salary": 8040,
+  "share_with_salary": 43.1,
+  "remote_share": 28.0,
+  "median_mid": 200000,
+  "p25_mid": 150000,
+  "p75_mid": 253000,
+  "p90_mid": 323500,
+  "sample_rows": 1523,
+  "failed_companies": [
+    "robusta",
+    "callsign",
+    "yapily",
+    "vouched"
+  ],
+  "salary_by_ats": {
+    "greenhouse": 5134,
+    "ashby": 2742,
+    "lever": 164
+  },
+  "publication_by_ats": [
+    {
+      "ats": "greenhouse",
+      "postings": 11562,
+      "with_salary": 5134,
+      "rate": 44.4
+    },
+    {
+      "ats": "ashby",
+      "postings": 5357,
+      "with_salary": 2742,
+      "rate": 51.2
+    },
+    {
+      "ats": "lever",
+      "postings": 1751,
+      "with_salary": 164,
+      "rate": 9.4
+    }
+  ],
+  "remote_median": 190781,
+  "remote_n": 2254,
+  "onsite_median": 204000,
+  "onsite_n": 5786,
+  "companies_with_pay": 165,
+  "family_remote": [
+    {
+      "family": "support / ops",
+      "remote_n": 170,
+      "remote_median": 140000,
+      "onsite_n": 338,
+      "onsite_median": 161000,
+      "gap_pct": -13.0
+    },
+    {
+      "family": "other",
+      "remote_n": 521,
+      "remote_median": 161250,
+      "onsite_n": 1207,
+      "onsite_median": 185000,
+      "gap_pct": -12.8
+    },
+    {
+      "family": "engineering",
+      "remote_n": 854,
+      "remote_median": 206000,
+      "onsite_n": 2332,
+      "onsite_median": 222325,
+      "gap_pct": -7.3
+    },
+    {
+      "family": "finance / legal",
+      "remote_n": 63,
+      "remote_median": 191100,
+      "onsite_n": 205,
+      "onsite_median": 201000,
+      "gap_pct": -4.9
+    },
+    {
+      "family": "product",
+      "remote_n": 108,
+      "remote_median": 215375,
+      "onsite_n": 211,
+      "onsite_median": 225000,
+      "gap_pct": -4.3
+    },
+    {
+      "family": "data / ml",
+      "remote_n": 115,
+      "remote_median": 208125,
+      "onsite_n": 373,
+      "onsite_median": 216900,
+      "gap_pct": -4.0
+    },
+    {
+      "family": "marketing",
+      "remote_n": 100,
+      "remote_median": 170000,
+      "onsite_n": 294,
+      "onsite_median": 176625,
+      "gap_pct": -3.8
+    },
+    {
+      "family": "sales",
+      "remote_n": 242,
+      "remote_median": 165555,
+      "onsite_n": 627,
+      "onsite_median": 151137,
+      "gap_pct": 9.5
+    }
+  ],
+  "snapshot_date": "2026-10-24",
+  "history_points": 1,
+  "momentum_baseline": null,
+  "momentum": [],
+  "companies": [
+    {
+      "company": "anthropic",
+      "n": 588,
+      "median": 347500,
+      "p25": 287500,
+      "p75": 402500
+    },
+    {
+      "company": "galileo",
+      "n": 3,
+      "median": 315000,
+      "p25": 312500,
+      "p75": 520000
+    },
+    {
+      "company": "openai",
+      "n": 632,
+      "median": 307500,
+      "p25": 248500,
+      "p75": 366000
+    },
+    {
+      "company": "pika",
+      "n": 6,
+      "median": 292500,
+      "p25": 215000,
+      "p75": 300000
+    },
+    {
+      "company": "cohere",
+      "n": 78,
+      "median": 257500,
+      "p25": 199807,
+      "p75": 280087
+    },
+    {
+      "company": "character",
+      "n": 13,
+      "median": 250000,
+      "p25": 240000,
+      "p75": 275000
+    },
+    {
+      "company": "vercel",
+      "n": 71,
+      "median": 245000,
+      "p25": 195500,
+      "p75": 260000
+    },
+    {
+      "company": "perplexity",
+      "n": 110,
+      "median": 245000,
+      "p25": 195000,
+      "p75": 312500
+    },
+    {
+      "company": "render",
+      "n": 34,
+      "median": 242000,
+      "p25": 230000,
+      "p75": 259000
+    },
+    {
+      "company": "figma",
+      "n": 80,
+      "median": 236000,
+      "p25": 207000,
+      "p75": 264500
+    },
+    {
+      "company": "faire",
+      "n": 69,
+      "median": 232750,
+      "p25": 190000,
+      "p75": 256500
+    },
+    {
+      "company": "baseten",
+      "n": 101,
+      "median": 230000,
+      "p25": 195000,
+      "p75": 247500
+    },
+    {
+      "company": "vanta",
+      "n": 47,
+      "median": 229000,
+      "p25": 212000,
+      "p75": 264500
+    },
+    {
+      "company": "scaleai",
+      "n": 116,
+      "median": 228600,
+      "p25": 187200,
+      "p75": 251100
+    },
+    {
+      "company": "launchdarkly",
+      "n": 35,
+      "median": 227735,
+      "p25": 203300,
+      "p75": 285650
+    },
+    {
+      "company": "mintlify",
+      "n": 15,
+      "median": 227500,
+      "p25": 165000,
+      "p75": 227500
+    },
+    {
+      "company": "modal",
+      "n": 42,
+      "median": 225000,
+      "p25": 200000,
+      "p75": 275000
+    },
+    {
+      "company": "roboflow",
+      "n": 7,
+      "median": 225000,
+      "p25": 225000,
+      "p75": 225000
+    },
+    {
+      "company": "togetherai",
+      "n": 40,
+      "median": 225000,
+      "p25": 195000,
+      "p75": 250000
+    },
+    {
+      "company": "latitude",
+      "n": 17,
+      "median": 224000,
+      "p25": 200000,
+      "p75": 224000
+    },
+    {
+      "company": "demandbase",
+      "n": 3,
+      "median": 223000,
+      "p25": 178000,
+      "p75": 258000
+    },
+    {
+      "company": "gridmaticinc",
+      "n": 10,
+      "median": 222500,
+      "p25": 190000,
+      "p75": 225000
+    },
+    {
+      "company": "hex",
+      "n": 37,
+      "median": 220000,
+      "p25": 180000,
+      "p75": 247500
+    },
+    {
+      "company": "elliptic",
+      "n": 8,
+      "median": 218750,
+      "p25": 202000,
+      "p75": 230500
+    },
+    {
+      "company": "wrike",
+      "n": 6,
+      "median": 217500,
+      "p25": 137000,
+      "p75": 277500
+    },
+    {
+      "company": "stripe",
+      "n": 22,
+      "median": 216935,
+      "p25": 196000,
+      "p75": 245843
+    },
+    {
+      "company": "databricks",
+      "n": 473,
+      "median": 216104,
+      "p25": 195500,
+      "p75": 246525
+    },
+    {
+      "company": "plaid",
+      "n": 128,
+      "median": 215256,
+      "p25": 175200,
+      "p75": 251400
+    },
+    {
+      "company": "labelbox",
+      "n": 7,
+      "median": 215000,
+      "p25": 170000,
+      "p75": 220000
+    },
+    {
+      "company": "llamaindex",
+      "n": 4,
+      "median": 215000,
+      "p25": 215000,
+      "p75": 215000
+    },
+    {
+      "company": "ramp",
+      "n": 160,
+      "median": 214300,
+      "p25": 162700,
+      "p75": 257500
+    },
+    {
+      "company": "zapier",
+      "n": 12,
+      "median": 214275,
+      "p25": 155000,
+      "p75": 217700
+    },
+    {
+      "company": "headway",
+      "n": 82,
+      "median": 214200,
+      "p25": 156000,
+      "p75": 250650
+    },
+    {
+      "company": "ripple",
+      "n": 63,
+      "median": 211000,
+      "p25": 162000,
+      "p75": 243000
+    },
+    {
+      "company": "pinecone",
+      "n": 8,
+      "median": 210000,
+      "p25": 177500,
+      "p75": 230000
+    },
+    {
+      "company": "brex",
+      "n": 195,
+      "median": 208485,
+      "p25": 142375,
+      "p75": 262500
+    },
+    {
+      "company": "airbyte",
+      "n": 13,
+      "median": 207188,
+      "p25": 145217,
+      "p75": 215500
+    },
+    {
+      "company": "prefect",
+      "n": 7,
+      "median": 207000,
+      "p25": 188000,
+      "p75": 233500
+    },
+    {
+      "company": "adyen",
+      "n": 77,
+      "median": 205000,
+      "p25": 175000,
+      "p75": 229000
+    },
+    {
+      "company": "omni",
+      "n": 29,
+      "median": 205000,
+      "p25": 180000,
+      "p75": 255000
+    },
+    {
+      "company": "descript",
+      "n": 9,
+      "median": 205000,
+      "p25": 162500,
+      "p75": 229750
+    },
+    {
+      "company": "zocdoc",
+      "n": 46,
+      "median": 204425,
+      "p25": 169550,
+      "p75": 225000
+    },
+    {
+      "company": "snowflake",
+      "n": 239,
+      "median": 203500,
+      "p25": 171100,
+      "p75": 269200
+    },
+    {
+      "company": "mercury",
+      "n": 75,
+      "median": 202700,
+      "p25": 151850,
+      "p75": 225800
+    },
+    {
+      "company": "mesh",
+      "n": 16,
+      "median": 201750,
+      "p25": 190000,
+      "p75": 264500
+    },
+    {
+      "company": "tailscale",
+      "n": 53,
+      "median": 201000,
+      "p25": 172190,
+      "p75": 245890
+    },
+    {
+      "company": "chargepoint",
+      "n": 15,
+      "median": 200950,
+      "p25": 171662,
+      "p75": 210000
+    },
+    {
+      "company": "coinbase",
+      "n": 181,
+      "median": 200078,
+      "p25": 161968,
+      "p75": 237262
+    },
+    {
+      "company": "rain",
+      "n": 37,
+      "median": 200000,
+      "p25": 157500,
+      "p75": 225000
+    },
+    {
+      "company": "deepgram",
+      "n": 56,
+      "median": 200000,
+      "p25": 175000,
+      "p75": 234000
+    },
+    {
+      "company": "sift",
+      "n": 5,
+      "median": 200000,
+      "p25": 165000,
+      "p75": 290000
+    },
+    {
+      "company": "encord",
+      "n": 9,
+      "median": 200000,
+      "p25": 165000,
+      "p75": 225000
+    },
+    {
+      "company": "cognition",
+      "n": 9,
+      "median": 200000,
+      "p25": 155000,
+      "p75": 202500
+    },
+    {
+      "company": "zilliz",
+      "n": 7,
+      "median": 200000,
+      "p25": 137500,
+      "p75": 200000
+    },
+    {
+      "company": "assemblyai",
+      "n": 12,
+      "median": 199643,
+      "p25": 177457,
+      "p75": 240000
+    },
+    {
+      "company": "sentry",
+      "n": 42,
+      "median": 199009,
+      "p25": 155000,
+      "p75": 295000
+    },
+    {
+      "company": "starburst",
+      "n": 21,
+      "median": 197500,
+      "p25": 162500,
+      "p75": 205000
+    },
+    {
+      "company": "writer",
+      "n": 34,
+      "median": 197275,
+      "p25": 177000,
+      "p75": 232000
+    },
+    {
+      "company": "airwallex",
+      "n": 157,
+      "median": 195000,
+      "p25": 165000,
+      "p75": 230000
+    },
+    {
+      "company": "clickup",
+      "n": 34,
+      "median": 195000,
+      "p25": 162500,
+      "p75": 225000
+    },
+    {
+      "company": "asana",
+      "n": 70,
+      "median": 194500,
+      "p25": 155000,
+      "p75": 225500
+    },
+    {
+      "company": "instacart",
+      "n": 103,
+      "median": 194250,
+      "p25": 157250,
+      "p75": 235000
+    },
+    {
+      "company": "squarespace",
+      "n": 25,
+      "median": 193850,
+      "p25": 148000,
+      "p75": 265625
+    },
+    {
+      "company": "vapi",
+      "n": 4,
+      "median": 193750,
+      "p25": 162500,
+      "p75": 225000
+    },
+    {
+      "company": "clickhouse",
+      "n": 76,
+      "median": 192500,
+      "p25": 179350,
+      "p75": 240000
+    },
+    {
+      "company": "doxel",
+      "n": 12,
+      "median": 192500,
+      "p25": 157500,
+      "p75": 197500
+    },
+    {
+      "company": "lightningai",
+      "n": 46,
+      "median": 192500,
+      "p25": 170000,
+      "p75": 215000
+    },
+    {
+      "company": "mavenclinic",
+      "n": 28,
+      "median": 192250,
+      "p25": 162500,
+      "p75": 242500
+    },
+    {
+      "company": "chime",
+      "n": 70,
+      "median": 191750,
+      "p25": 158500,
+      "p75": 237000
+    },
+    {
+      "company": "dave",
+      "n": 6,
+      "median": 190000,
+      "p25": 175000,
+      "p75": 202000
+    },
+    {
+      "company": "planetscale",
+      "n": 10,
+      "median": 190000,
+      "p25": 175000,
+      "p75": 205000
+    },
+    {
+      "company": "intercom",
+      "n": 31,
+      "median": 188415,
+      "p25": 152000,
+      "p75": 228410
+    },
+    {
+      "company": "affirm",
+      "n": 196,
+      "median": 188171,
+      "p25": 158000,
+      "p75": 225000
+    },
+    {
+      "company": "gitlab",
+      "n": 104,
+      "median": 187200,
+      "p25": 150600,
+      "p75": 206000
+    },
+    {
+      "company": "temporal",
+      "n": 69,
+      "median": 185900,
+      "p25": 156325,
+      "p75": 223925
+    },
+    {
+      "company": "fivetran",
+      "n": 109,
+      "median": 185252,
+      "p25": 160297,
+      "p75": 207500
+    },
+    {
+      "company": "typeface",
+      "n": 5,
+      "median": 185000,
+      "p25": 166000,
+      "p75": 200000
+    },
+    {
+      "company": "robinhood",
+      "n": 125,
+      "median": 180500,
+      "p25": 152500,
+      "p75": 231500
+    },
+    {
+      "company": "bumbleinc",
+      "n": 14,
+      "median": 180000,
+      "p25": 142500,
+      "p75": 240000
+    },
+    {
+      "company": "attio",
+      "n": 15,
+      "median": 180000,
+      "p25": 147323,
+      "p75": 192500
+    },
+    {
+      "company": "mixpanel",
+      "n": 20,
+      "median": 178625,
+      "p25": 153000,
+      "p75": 192500
+    },
+    {
+      "company": "amplitude",
+      "n": 6,
+      "median": 178500,
+      "p25": 144000,
+      "p75": 209000
+    },
+    {
+      "company": "kong",
+      "n": 41,
+      "median": 175000,
+      "p25": 96755,
+      "p75": 260000
+    },
+    {
+      "company": "alloy",
+      "n": 23,
+      "median": 172500,
+      "p25": 158000,
+      "p75": 190000
+    },
+    {
+      "company": "6sense",
+      "n": 14,
+      "median": 172460,
+      "p25": 116550,
+      "p75": 222430
+    },
+    {
+      "company": "dialpad",
+      "n": 3,
+      "median": 172250,
+      "p25": 115900,
+      "p75": 191500
+    },
+    {
+      "company": "cockroachlabs",
+      "n": 10,
+      "median": 171250,
+      "p25": 152550,
+      "p75": 199000
+    },
+    {
+      "company": "gemini",
+      "n": 20,
+      "median": 170000,
+      "p25": 157250,
+      "p75": 204000
+    },
+    {
+      "company": "hopper",
+      "n": 9,
+      "median": 165000,
+      "p25": 128447,
+      "p75": 214079
+    },
+    {
+      "company": "forter",
+      "n": 9,
+      "median": 165000,
+      "p25": 147500,
+      "p75": 197500
+    },
+    {
+      "company": "dataiku",
+      "n": 3,
+      "median": 165000,
+      "p25": 125000,
+      "p75": 175000
+    },
+    {
+      "company": "appfolio",
+      "n": 31,
+      "median": 164350,
+      "p25": 117000,
+      "p75": 198550
+    },
+    {
+      "company": "mongodb",
+      "n": 121,
+      "median": 163000,
+      "p25": 148500,
+      "p75": 187000
+    },
+    {
+      "company": "honehealth",
+      "n": 6,
+      "median": 162500,
+      "p25": 92500,
+      "p75": 190000
+    },
+    {
+      "company": "onetrust",
+      "n": 36,
+      "median": 162365,
+      "p25": 140625,
+      "p75": 179862
+    },
+    {
+      "company": "sofi",
+      "n": 54,
+      "median": 161100,
+      "p25": 138320,
+      "p75": 210000
+    },
+    {
+      "company": "poshmark",
+      "n": 22,
+      "median": 160550,
+      "p25": 122028,
+      "p75": 189000
+    },
+    {
+      "company": "klaviyo",
+      "n": 150,
+      "median": 160000,
+      "p25": 140000,
+      "p75": 185000
+    },
+    {
+      "company": "secureframe",
+      "n": 15,
+      "median": 160000,
+      "p25": 135000,
+      "p75": 170000
+    },
+    {
+      "company": "pagerduty",
+      "n": 41,
+      "median": 159200,
+      "p25": 132550,
+      "p75": 196250
+    },
+    {
+      "company": "fireblocks",
+      "n": 10,
+      "median": 158375,
+      "p25": 106559,
+      "p75": 236500
+    },
+    {
+      "company": "circleci",
+      "n": 12,
+      "median": 158000,
+      "p25": 149500,
+      "p75": 185000
+    },
+    {
+      "company": "collibra",
+      "n": 13,
+      "median": 157500,
+      "p25": 110000,
+      "p75": 189000
+    },
+    {
+      "company": "project44",
+      "n": 4,
+      "median": 157500,
+      "p25": 155000,
+      "p75": 160000
+    },
+    {
+      "company": "block",
+      "n": 11,
+      "median": 157400,
+      "p25": 107500,
+      "p75": 214550
+    },
+    {
+      "company": "oscar",
+      "n": 213,
+      "median": 157010,
+      "p25": 106268,
+      "p75": 208708
+    },
+    {
+      "company": "smartsheet",
+      "n": 41,
+      "median": 156875,
+      "p25": 103754,
+      "p75": 170000
+    },
+    {
+      "company": "toast",
+      "n": 21,
+      "median": 156000,
+      "p25": 131500,
+      "p75": 188500
+    },
+    {
+      "company": "snyk",
+      "n": 28,
+      "median": 155712,
+      "p25": 116000,
+      "p75": 216000
+    },
+    {
+      "company": "immuta",
+      "n": 12,
+      "median": 153750,
+      "p25": 57200,
+      "p75": 200225
+    },
+    {
+      "company": "harnessinc",
+      "n": 8,
+      "median": 150625,
+      "p25": 150000,
+      "p75": 151250
+    },
+    {
+      "company": "sardine",
+      "n": 46,
+      "median": 149365,
+      "p25": 117086,
+      "p75": 190000
+    },
+    {
+      "company": "modernhealth",
+      "n": 5,
+      "median": 145800,
+      "p25": 110450,
+      "p75": 153900
+    },
+    {
+      "company": "span",
+      "n": 22,
+      "median": 143500,
+      "p25": 140000,
+      "p75": 160000
+    },
+    {
+      "company": "outreach",
+      "n": 14,
+      "median": 142500,
+      "p25": 117500,
+      "p75": 190000
+    },
+    {
+      "company": "jfrog",
+      "n": 23,
+      "median": 142500,
+      "p25": 122500,
+      "p75": 175000
+    },
+    {
+      "company": "algolia",
+      "n": 30,
+      "median": 142452,
+      "p25": 90575,
+      "p75": 173298
+    },
+    {
+      "company": "n8n",
+      "n": 10,
+      "median": 140180,
+      "p25": 135722,
+      "p75": 184571
+    },
+    {
+      "company": "persona",
+      "n": 13,
+      "median": 140000,
+      "p25": 115000,
+      "p75": 175000
+    },
+    {
+      "company": "koho",
+      "n": 9,
+      "median": 139151,
+      "p25": 124879,
+      "p75": 139151
+    },
+    {
+      "company": "elastic",
+      "n": 257,
+      "median": 138800,
+      "p25": 97024,
+      "p75": 171850
+    },
+    {
+      "company": "cultureamp",
+      "n": 6,
+      "median": 137800,
+      "p25": 130600,
+      "p75": 217500
+    },
+    {
+      "company": "circle",
+      "n": 10,
+      "median": 137500,
+      "p25": 72800,
+      "p75": 170000
+    },
+    {
+      "company": "commercetools",
+      "n": 10,
+      "median": 137500,
+      "p25": 135000,
+      "p75": 157500
+    },
+    {
+      "company": "gusto",
+      "n": 18,
+      "median": 137000,
+      "p25": 102622,
+      "p75": 177000
+    },
+    {
+      "company": "dnb",
+      "n": 9,
+      "median": 136800,
+      "p25": 80400,
+      "p75": 153950
+    },
+    {
+      "company": "taxbit",
+      "n": 12,
+      "median": 136250,
+      "p25": 119392,
+      "p75": 140000
+    },
+    {
+      "company": "tia",
+      "n": 18,
+      "median": 134750,
+      "p25": 46800,
+      "p75": 165000
+    },
+    {
+      "company": "includedhealth",
+      "n": 4,
+      "median": 131984,
+      "p25": 127500,
+      "p75": 136469
+    },
+    {
+      "company": "fourkites",
+      "n": 8,
+      "median": 128750,
+      "p25": 112500,
+      "p75": 145000
+    },
+    {
+      "company": "swordhealth",
+      "n": 50,
+      "median": 128207,
+      "p25": 74703,
+      "p75": 175500
+    },
+    {
+      "company": "stockx",
+      "n": 14,
+      "median": 125000,
+      "p25": 95000,
+      "p75": 125000
+    },
+    {
+      "company": "virtahealth",
+      "n": 19,
+      "median": 124500,
+      "p25": 93600,
+      "p75": 185250
+    },
+    {
+      "company": "contentful",
+      "n": 8,
+      "median": 124237,
+      "p25": 116300,
+      "p75": 132175
+    },
+    {
+      "company": "storyblok",
+      "n": 5,
+      "median": 121450,
+      "p25": 120000,
+      "p75": 121450
+    },
+    {
+      "company": "braze",
+      "n": 235,
+      "median": 121000,
+      "p25": 88000,
+      "p75": 153815
+    },
+    {
+      "company": "singlestore",
+      "n": 15,
+      "median": 120000,
+      "p25": 120000,
+      "p75": 177500
+    },
+    {
+      "company": "kapitus",
+      "n": 9,
+      "median": 116800,
+      "p25": 81800,
+      "p75": 153400
+    },
+    {
+      "company": "entrata",
+      "n": 19,
+      "median": 115200,
+      "p25": 53602,
+      "p75": 140000
+    },
+    {
+      "company": "samsara",
+      "n": 39,
+      "median": 113588,
+      "p25": 101286,
+      "p75": 133055
+    },
+    {
+      "company": "lyrahealth",
+      "n": 62,
+      "median": 112000,
+      "p25": 80392,
+      "p75": 159000
+    },
+    {
+      "company": "flexport",
+      "n": 63,
+      "median": 107500,
+      "p25": 92250,
+      "p75": 151000
+    },
+    {
+      "company": "monzo",
+      "n": 10,
+      "median": 105016,
+      "p25": 95342,
+      "p75": 116654
+    },
+    {
+      "company": "melio",
+      "n": 13,
+      "median": 100000,
+      "p25": 100000,
+      "p75": 147500
+    },
+    {
+      "company": "lightspeed",
+      "n": 4,
+      "median": 100000,
+      "p25": 90000,
+      "p75": 110000
+    },
+    {
+      "company": "paddle",
+      "n": 3,
+      "median": 98526,
+      "p25": 64531,
+      "p75": 114000
+    },
+    {
+      "company": "salesloft",
+      "n": 13,
+      "median": 97500,
+      "p25": 72250,
+      "p75": 112500
+    },
+    {
+      "company": "tide",
+      "n": 7,
+      "median": 95146,
+      "p25": 65393,
+      "p75": 97165
+    },
+    {
+      "company": "delfina",
+      "n": 27,
+      "median": 93600,
+      "p25": 67600,
+      "p75": 150800
+    },
+    {
+      "company": "wealthsimple",
+      "n": 33,
+      "median": 93124,
+      "p25": 71717,
+      "p75": 121383
+    },
+    {
+      "company": "d2l",
+      "n": 12,
+      "median": 88187,
+      "p25": 78000,
+      "p75": 111250
+    },
+    {
+      "company": "shipbobinc",
+      "n": 13,
+      "median": 87500,
+      "p25": 69000,
+      "p75": 124500
+    },
+    {
+      "company": "carta",
+      "n": 4,
+      "median": 86375,
+      "p25": 71000,
+      "p75": 101750
+    },
+    {
+      "company": "zoominfo",
+      "n": 15,
+      "median": 83750,
+      "p25": 74000,
+      "p75": 103450
+    },
+    {
+      "company": "gorgias",
+      "n": 19,
+      "median": 83013,
+      "p25": 49759,
+      "p75": 98182
+    },
+    {
+      "company": "talkspace",
+      "n": 16,
+      "median": 83000,
+      "p25": 78500,
+      "p75": 132500
+    },
+    {
+      "company": "gocardless",
+      "n": 23,
+      "median": 81697,
+      "p25": 65057,
+      "p75": 104465
+    },
+    {
+      "company": "riskified",
+      "n": 18,
+      "median": 75712,
+      "p25": 70104,
+      "p75": 150000
+    },
+    {
+      "company": "complyadvantage",
+      "n": 5,
+      "median": 75000,
+      "p25": 63500,
+      "p75": 170000
+    },
+    {
+      "company": "alan",
+      "n": 5,
+      "median": 73469,
+      "p25": 68983,
+      "p75": 85808
+    },
+    {
+      "company": "sumup",
+      "n": 3,
+      "median": 51088,
+      "p25": 32506,
+      "p75": 78000
+    },
+    {
+      "company": "siteminder",
+      "n": 3,
+      "median": 50893,
+      "p25": 50893,
+      "p75": 52233
+    },
+    {
+      "company": "bloomreach",
+      "n": 23,
+      "median": 50026,
+      "p25": 47487,
+      "p75": 63481
+    },
+    {
+      "company": "deliveroo",
+      "n": 18,
+      "median": 44418,
+      "p25": 44418,
+      "p75": 45428
+    },
+    {
+      "company": "backmarket",
+      "n": 16,
+      "median": 17498,
+      "p25": 17498,
+      "p75": 17498
+    }
+  ],
+  "role_families": [
+    {
+      "family": "product",
+      "n": 319,
+      "median": 222430
+    },
+    {
+      "family": "engineering",
+      "n": 3186,
+      "median": 216104
+    },
+    {
+      "family": "data / ml",
+      "n": 488,
+      "median": 214143
+    },
+    {
+      "family": "finance / legal",
+      "n": 268,
+      "median": 200000
+    },
+    {
+      "family": "security",
+      "n": 125,
+      "median": 195000
+    },
+    {
+      "family": "design",
+      "n": 155,
+      "median": 185000
+    },
+    {
+      "family": "marketing",
+      "n": 394,
+      "median": 175291
+    },
+    {
+      "family": "other",
+      "n": 1728,
+      "median": 175000
+    },
+    {
+      "family": "sales",
+      "n": 869,
+      "median": 157034
+    },
+    {
+      "family": "support / ops",
+      "n": 508,
+      "median": 154811
+    }
+  ]
+}

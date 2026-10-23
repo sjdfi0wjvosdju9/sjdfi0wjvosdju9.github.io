@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we choose what to build — Radar Labs</title>
+<meta name="description" content="We measured 55 niches on the Apify Store before writing a line of code: supply, median users, and how many users per month a newly launched actor actually gets. Most of the ranking is humbling, some of it is surprising.">
+<link rel="canonical" href="https://radarlabs.surge.sh/how-we-choose.html">
+<style>
+  :root{--bg:#0b0f14;--panel:#121820;--line:#1f2a36;--text:#e6edf3;--dim:#8b98a5;--accent:#4fd1c5;--accent2:#f6ad55;--ok:#68d391}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:48px 22px 80px}
+  h1{font-size:31px;line-height:1.22;margin:0 0 10px;letter-spacing:-.02em}
+  h2{font-size:21px;margin:46px 0 12px}
+  p.lead{color:var(--dim);font-size:17.5px;margin:0}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--dim);font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+  tr.no td{color:#6b7784}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .dim{color:var(--dim)}
+  .box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;margin:18px 0}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#0d1117;border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:13px}
+  ul{padding-left:20px;color:#cfd8e3}li{margin:6px 0}
+  .zh{color:#b9c6d4;background:#0f151c;border-left:3px solid #2b6f68;padding:14px 16px;border-radius:6px;margin:22px 0}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--dim);font-size:13.5px}
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="How we choose what to build — Radar Labs">
+<meta property="og:description" content="We measured 55 niches on the Apify Store before writing a line of code: supply, median users, and how many users per month a newly launched actor actually gets. Most of the ranking is humbling, some…">
+<meta property="og:url" content="https://radarlabs.surge.sh/how-we-choose.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How we choose what to build — Radar Labs">
+<meta name="twitter:description" content="We measured 55 niches on the Apify Store before writing a line of code: supply, median users, and how many users per month a newly launched actor actually gets. Most of the ranking is humbling, some…">
+</head>
+<body>
+<div class="wrap">
+
+<p class="dim"><a href="/">← Radar Labs</a></p>
+
+<h1>How we choose what to build</h1>
+<p class="lead">Before writing code for a product, we measured the market. Here is the raw output, including the parts that talked us out of ideas.</p>
+
+<h2>The method</h2>
+<p>Every product we consider has to clear three gates, in this order:</p>
+<ul>
+  <li><strong>Can I get the data without a browser, a proxy, or an account?</strong> If a source needs a logged-in session, a captcha, or residential IPs, we skip it — those tools break on day 30 and take the product with them.</li>
+  <li><strong>Do new entrants in this niche actually get users?</strong> Star counts mean nothing. We take every actor in a search result, read its creation date from the public API, and compute <em>users per month of age</em>. A niche where the best newcomer gets 2 users/month is a graveyard no matter how big the head is.</li>
+  <li><strong>Is what we would sell the thing people already pay for?</strong> A niche can be busy and still want something else — see the salary-benchmark story below.</li>
+</ul>
+
+<h2>What 55 niches looked like (measured 2026-10-22)</h2>
+<p class="dim">“Supply” = actors matching the search term. “Newcomer u/mo” = median users-per-month-of-age among actors launched in the last 12 months.</p>
+<table>
+  <tr><th>Niche</th><th style="text-align:right">Supply</th><th style="text-align:right">Newcomer u/mo</th><th>Our verdict</th></tr>
+  <tr><td>douyin / xiaohongshu</td><td class="n">213 / 194</td><td class="n">119 / 67</td><td>Best numbers — but needs browsers &amp; anti-bot work. Skipped.</td></tr>
+  <tr><td>trustpilot</td><td class="n">470</td><td class="n">38.5</td><td>Attractive, but the API is 403 and the HTML blocks us.</td></tr>
+  <tr><td>seo / backlink</td><td class="n">7,051</td><td class="n">30</td><td>Crowded but alive; needs paid data sources.</td></tr>
+  <tr><td><strong>salary / jobs</strong></td><td class="n">6,510</td><td class="n">27.8</td><td><strong>This is what we built.</strong></td></tr>
+  <tr><td>flight prices</td><td class="n">3,806</td><td class="n">20.6</td><td>Needs a paid flight API to be useful.</td></tr>
+  <tr><td>product hunt</td><td class="n">3,009</td><td class="n">11.6</td><td>Small but keyless. Candidate for a third product.</td></tr>
+  <tr class="no"><td>mcp server</td><td class="n">1,297</td><td class="n">8.5</td><td>Hyped, but nobody pays.</td></tr>
+  <tr class="no"><td>ai agent / rag / prompt</td><td class="n">12,173</td><td class="n">2–6</td><td>Hyped, but nobody pays.</td></tr>
+  <tr class="no"><td>llm pricing / openrouter</td><td class="n">748 / 154</td><td class="n">0.7 / 1.2</td><td>Worst numbers in the whole scan.</td></tr>
+</table>
+
+<div class="box">
+  <strong>The uncomfortable finding.</strong> Everything adjacent to AI had terrible newcomer traction
+  (LLM pricing 0.7, OpenRouter 1.2, prompts 2.1, MCP servers 8.5), while “boring” data with a clear buyer —
+  job listings, salaries, flight prices — scored 10–40× better. We built the boring thing.
+</div>
+
+<h2>The idea we killed after measuring it</h2>
+<p>A salary-benchmark product looked obvious: we already had normalised salary data. Then we looked at who offers one:</p>
+<table>
+  <tr><th>Actor</th><th style="text-align:right">Users</th><th style="text-align:right">Runs</th></tr>
+  <tr><td><code>hirebase/salary-benchmark</code></td><td class="n">3</td><td class="n">24</td></tr>
+  <tr><td><code>thebee/SalaryBenchmark</code></td><td class="n">2</td><td class="n">21</td></tr>
+  <tr><td><code>northbell/linkedin-salary-benchmark</code></td><td class="n">2</td><td class="n">24</td></tr>
+  <tr><td><code>studio-amba/eu-salary-benchmark</code></td><td class="n">1</td><td class="n">212</td></tr>
+  <tr><td><em>…while the biggest job-board scraper has</em></td><td class="n"><strong>27,860</strong></td><td class="n">—</td></tr>
+</table>
+<p>Four people had already tried the same idea and none of them got traction. What sells is the raw listing data,
+not our opinion about it. So instead of a fifth benchmark we added connectors — which is why the ATS Job Feed
+covers six systems and ships a list of 259 verified companies.</p>
+
+<h2>What that produced</h2>
+<ul>
+  <li><strong>ATS Job Feed</strong> — 259 companies, 18,825 open jobs, 8,071 with a published pay range, 6,848 after de-duplication. <a href="https://apify.com/contributory_garnet_hyz/ats-job-feed">On Apify →</a></li>
+  <li><strong>Freelance Lead Radar</strong> — five sources, noise removed, ranked by USD/hour. <a href="https://apify.com/contributory_garnet_hyz/freelance-lead-radar">On Apify →</a></li>
+</ul>
+
+<div class="zh">
+  <strong>中文摘要</strong><br>
+  选品不是靠感觉，是先量市场：<br>
+  ① 数据源能不能「无浏览器、无代理、无账号」拿到——要登录态/验证码/住宅 IP 的一律跳过，那种工具第 30 天就坏；<br>
+  ② 这个赛道里<strong>新上线的产品</strong>拿不拿得到用户——不看星标，只看「用户数 ÷ 上线月数」，最好的新人也只有 2 用户/月的赛道直接放弃；<br>
+  ③ 大家真正在付钱买的是不是我要卖的东西——薪资基准（salary benchmark）有 4 个人做过，用户数分别是 3 / 2 / 2 / 1，而纯招聘数据抓取有 27,860 用户。所以我们没做第 5 个基准，而是把连接器做多。<br>
+  顺便一句实话：AI / LLM 周边的数据产品在 Apify 上几乎没人买（OpenRouter 1.2、LLM 定价 0.7），<br>
+  「无聊」的岗位与薪资数据反而是 10–40 倍。
+</div>
+
+<footer>
+  <p>Measured 2026-10-22 against the public Apify Store API. Numbers move; the method does not.
+  <a href="/">Back to the products</a> · <a href="https://dev.to/sdijjxcfs">Writing</a></p>
+</footer>
+
+</div>
+</body>
+</html>

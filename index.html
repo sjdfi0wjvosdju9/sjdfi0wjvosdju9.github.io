@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Labs — job and bounty data, without the noise</title>
+<meta name="description" content="Two small, honest data tools: an ATS job feed covering 259 companies across six applicant-tracking systems with normalised USD salaries, and a freelance/bounty lead radar that throws out 60-90% noise. Sample data is public — look before you pay.">
+<meta name="keywords" content="ATS jobs API, Greenhouse jobs API, Lever jobs API, Ashby jobs API, Workday jobs API, salary data API, freelance leads, GitHub bounties, bug bounty list">
+<link rel="canonical" href="https://radarlabs.surge.sh/">
+<style>
+  :root{
+    --bg:#0b0f14; --panel:#121820; --line:#1f2a36; --text:#e6edf3; --dim:#8b98a5;
+    --accent:#4fd1c5; --accent2:#f6ad55; --ok:#68d391;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:56px 22px 80px}
+  header h1{font-size:34px;line-height:1.2;margin:0 0 10px;letter-spacing:-.02em}
+  header p.lead{color:var(--dim);font-size:18px;margin:0 0 8px}
+  .meta{color:var(--dim);font-size:13px;margin-top:18px}
+  h2{font-size:22px;margin:52px 0 14px;letter-spacing:-.01em}
+  h3{font-size:17px;margin:0 0 6px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;margin:16px 0}
+  .card .row{display:flex;gap:18px;flex-wrap:wrap;align-items:baseline;justify-content:space-between}
+  .pill{display:inline-block;font-size:12px;color:var(--ok);border:1px solid #2f5f4a;background:#12241c;
+        border-radius:999px;padding:2px 10px;margin-bottom:10px}
+  .price{font-variant-numeric:tabular-nums;color:var(--accent2);font-weight:600}
+  .num{font-variant-numeric:tabular-nums;font-weight:600;color:var(--accent)}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--dim);font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  pre{background:#0d1117;border:1px solid var(--line);border-radius:10px;padding:14px;overflow:auto;font-size:13px;line-height:1.5}
+  .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{display:inline-block;padding:9px 16px;border-radius:8px;border:1px solid #2b6f68;background:#10312e;
+       color:#d7fbf6;font-size:14px;font-weight:500}
+  .btn.ghost{border-color:var(--line);background:transparent;color:var(--dim)}
+  ul{margin:10px 0 0;padding-left:20px;color:#cfd8e3}
+  li{margin:5px 0}
+  .dim{color:var(--dim)}
+  footer{margin-top:64px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:13.5px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr}header h1{font-size:27px}}
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Radar Labs — job and bounty data, without the noise">
+<meta property="og:description" content="Two small, honest data tools: an ATS job feed covering 259 companies across six applicant-tracking systems with normalised USD salaries, and a freelance/bounty lead radar that throws out 60-90% noise…">
+<meta property="og:url" content="https://radarlabs.surge.sh/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Radar Labs — job and bounty data, without the noise">
+<meta name="twitter:description" content="Two small, honest data tools: an ATS job feed covering 259 companies across six applicant-tracking systems with normalised USD salaries, and a freelance/bounty lead radar that throws out 60-90% noise…">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Job and bounty data, without the noise</h1>
+  <p class="lead">Two small tools. Both throw away most of what they download and tell you exactly what they threw away.</p>
+  <p class="meta">Run on Apify · public sample data · pay per result · last measured 2026-10-24<br><a href="/how-we-choose.html">How we chose these two products (55 niches measured)</a></p>
+</header>
+
+<p>New: <a href="freshness.html">how old are the still-"open" postings?</a> — median 51 days, 14.2% older than six months, oldest 2,628 days.</p>
+<h2>What we sell</h2>
+
+<div class="card">
+  <span class="pill">259 companies bundled · 6 ATS connectors</span>
+  <div class="row">
+    <h3>ATS Job Feed</h3>
+    <span class="price">$0.0015 / job &nbsp;+&nbsp; $0.0005 / run</span>
+  </div>
+  <p class="dim">Pulls open roles straight from the applicant-tracking systems companies actually use —
+  Greenhouse, Lever, Ashby, Workable, Personio and Workday — then normalises every pay range to annual USD,
+  removes duplicates across boards, and can return <em>only</em> postings that state a salary.</p>
+  <table>
+    <tr><th>Measured, whole bundled pool</th><th style="text-align:right">Count</th></tr>
+    <tr><td>Companies verified reachable</td><td class="n num">259</td></tr>
+    <tr><td>Open postings scraped</td><td class="n num">18,825</td></tr>
+    <tr><td>Postings that state a pay range</td><td class="n num">8,071</td></tr>
+    <tr><td>…after cross-board de-duplication</td><td class="n num">6,848</td></tr>
+    <tr><td>Cost of one full-pool run (paying customers)</td><td class="n">≈ $0.11</td></tr>
+  </table>
+  <p class="dim">Salary coverage is honest and uneven: Ashby publishes structured pay on ~52% of postings,
+  Greenhouse ~44% (we read it out of the job description), Lever ~9%. Workable publishes none.
+  If a posting has no salary we leave the field empty — we never estimate it.</p>
+  <div class="btns">
+    <a class="btn" href="https://apify.com/contributory_garnet_hyz/ats-job-feed">Open on Apify →</a>
+    <a class="btn ghost" href="https://api.apify.com/v2/datasets/lnvagZk4qpjQGOTPQ/items?format=json&amp;clean=true">Sample JSON</a>
+    <a class="btn ghost" href="https://api.apify.com/v2/datasets/lnvagZk4qpjQGOTPQ/items?format=csv&amp;clean=true">Sample CSV</a>
+        <a class="btn ghost" href="/samples/ats-jobs.html">See it as a table</a>
+  </div>
+</div>
+
+<div class="card">
+  <span class="pill">5 sources · noise removed</span>
+  <div class="row">
+    <h3>Freelance Lead Radar</h3>
+    <span class="price">$0.015 / lead &nbsp;+&nbsp; $0.005 / run</span>
+  </div>
+  <p class="dim">Scans GitHub bounties, Hacker News contract threads, Freelancer.com and YesWeHack bug-bounty programmes,
+  drops the for-hire posts and the bait repositories, estimates effort in hours and ranks every lead by
+  <strong>USD per hour</strong> instead of headline size.</p>
+  <table>
+    <tr><th>Why the filter exists</th><th style="text-align:right">Measured</th></tr>
+    <tr><td>Open GitHub issues tagged <code>bounty</code></td><td class="n num">4,640</td></tr>
+    <tr><td>…of the newest 200, how many name a dollar amount</td><td class="n num">4</td></tr>
+    <tr><td>…of those 200, how many came from one spam repo</td><td class="n num">191</td></tr>
+    <tr><td>Median bounty in a 298-post sample of <code>💎 Bounty</code></td><td class="n">$5</td></tr>
+    <tr><td>Top-level comments in the October HN “Freelancer? Seeking freelancer?” thread that were job offers</td><td class="n num">0 / 21</td></tr>
+  </table>
+  <div class="btns">
+    <a class="btn" href="https://apify.com/contributory_garnet_hyz/freelance-lead-radar">Open on Apify →</a>
+    <a class="btn ghost" href="https://api.apify.com/v2/datasets/AJmD3D3pa2iRZnXw8/items?format=json&amp;clean=true">Sample JSON</a>
+        <a class="btn ghost" href="/samples/freelance-leads.html">See it as a table</a>
+  </div>
+</div>
+
+<h2>Look before you pay</h2>
+<p>Both sample datasets above are real runs with default input, readable without an account. They are also mirrored as <a href="/samples/">static snapshots</a> on this site, so they stay readable even if the Apify dataset is cleaned up later. One job record looks like this:</p>
+<pre>{
+  "company": "openai",
+  "ats": "ashby",
+  "title": "Research Scientist / Research Engineer - Foundations, Search",
+  "location": "San Francisco, CA",
+  "remote": false,
+  "salaryLow": 380000,
+  "salaryHigh": 850000,
+  "salaryCurrency": "USD",
+  "salaryUsdLow": 380000,
+  "salaryUsdHigh": 850000,
+  "postedAt": "2025-06-16T22:35:00.347000+00:00",
+  "url": "https://jobs.ashbyhq.com/openai/…"
+}</pre>
+
+<h2>Free dataset: published salary ranges</h2>
+<p>While building the job feed we ended up with something useful on its own — a census of what companies
+<em>actually publish</em> as pay. <strong>6,823 postings with an annual range, from 259 companies, normalised to USD</strong>,
+median midpoint <strong>$204,750</strong>. The CSV is free, no signup, no email:
+<a href="/salary-data.html"><strong>salary-data.html</strong></a> · <a href="/data/salary-ranges.csv">salary-ranges.csv</a>.</p>
+
+<p>Not sure which company? <a href="/lookup.html"><strong>Type a company name</strong></a> and see the bands it publishes.</p>
+<p>Per-company pages (145 of them) live under <a href="pay/">/pay/</a> — median, p25/p75, role breakdown, and the highest published ranges for each company.</p>
+<h2>What we deliberately do not do</h2>
+<ul>
+  <li>We never submit bids, applications, or bug-bounty reports. The tools read public listings; you do the sending.</li>
+  <li>We never guess a salary that a posting does not state, and we drop implausible ones rather than publish them.</li>
+  <li>We do not promise a posting is still open by the time you act on it.</li>
+  <li>No browser automation, no proxies, no captcha solving. Every source is a public, keyless endpoint.</li>
+</ul>
+
+<h2>Notes on how it breaks</h2>
+<ul>
+  <li>Job boards rotate their slugs. When a company vanishes we report it in <code>failedCompanies</code> instead of silently returning less.</li>
+  <li>Workday needs the full careers URL — its board-host prefix cannot be guessed reliably; 192 guesses produced exactly one hit.</li>
+  <li>Bug-bounty programmes publish a reward <em>range</em>. For ranking we use the geometric mean of the range, not the ceiling.</li>
+</ul>
+
+<h2>Writing</h2>
+<p>We publish the measurements behind these numbers, including the mistakes:
+<a href="https://dev.to/sdijjxcfs/i-built-a-job-lead-radar-because-the-job-boards-i-tried-returned-garbage-1bcc">I built a job-lead radar because the job boards I tried returned garbage</a>,
+<a href="https://dev.to/sdijjxcfs/what-259-companies-actually-publish-as-pay-6823-job-postings-normalised-to-usd-4b04">what 259 companies actually publish as pay</a>,
+and <a href="https://dev.to/sdijjxcfs/across-15534-postings-remote-engineering-roles-publish-115-lower-pay-than-on-site-ones-3abe">why remote engineering roles publish 11.5% less</a>
+on dev.to.</p>
+
+<footer>
+  <p>Radar Labs — operated by an individual developer. Two tools, both live, both small on purpose.
+  Sample data and pricing reflect runs on 2026-10-24 (Asia/Shanghai).</p>
+  <p>Contact: <a href="https://dev.to/sdijjxcfs">dev.to/sdijjxcfs</a> ·
+  <a href="https://apify.com/contributory_garnet_hyz">all actors on Apify</a></p>
+</footer>
+
+</div>
+<p><a href="/salary-only.html">Only want jobs that publish a salary? (and what that costs)</a></p>
+</body>
+</html>
