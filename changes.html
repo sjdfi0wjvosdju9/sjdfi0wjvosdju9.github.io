@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Change log — every revision to the published salary data</title>
+<meta name="description" content="Every revision that changed a published number in the job salary dataset: what broke, why, and the before/after numbers.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0 auto; max-width: 62rem; padding: 2rem 1.25rem 4rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+         color: #16181d; background: #fff; }
+  header a.home { text-decoration: none; font-weight: 700; color: #16181d; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 1.25rem 0 .5rem; }
+  .lede { color: #4a4f58; margin: 0 0 1.5rem; }
+  .note { background: #f6f7f9; border-left: 3px solid #b9bec7; padding: .75rem 1rem; margin: 0 0 2rem; font-size: .95rem; color: #3c4148; }
+  article { border-top: 1px solid #e6e8ec; padding: 1.5rem 0 .5rem; }
+  article:first-of-type { border-top: 2px solid #16181d; }
+  .meta { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; font-size: .85rem; color: #6b7280; }
+  .kind { border: 1px solid #d5d9e0; border-radius: 999px; padding: .1rem .55rem; font-size: .78rem; letter-spacing: .02em; text-transform: uppercase; }
+  h2 { font-size: 1.15rem; line-height: 1.4; margin: .5rem 0 .75rem; }
+  dl { margin: 0 0 .9rem; }
+  dt { font-weight: 600; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; color: #6b7280; margin-top: .6rem; }
+  dd { margin: .15rem 0 0; }
+  table { border-collapse: collapse; width: 100%; margin: .5rem 0 0; font-size: .93rem; }
+  th, td { text-align: left; padding: .4rem .5rem; border-bottom: 1px solid #eef0f3; }
+  td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .before { color: #a33; }
+  .after { color: #1c7c4a; font-weight: 600; }
+  footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #e6e8ec; font-size: .85rem; color: #6b7280; }
+  a { color: #0b5fff; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8eaee; background: #11131a; }
+    header a.home, h1 { color: #f2f4f7; }
+    .lede, .note { color: #b6bcc6; }
+    .note { background: #1a1d26; border-left-color: #3a4150; }
+    article { border-top-color: #262b36; }
+    article:first-of-type { border-top-color: #3a4150; }
+    .meta, dt, footer { color: #8b93a1; }
+    .kind { border-color: #333a47; }
+    th, td { border-bottom-color: #222834; }
+    .before { color: #f08b8b; }
+    .after { color: #5fd08d; }
+    a { color: #7fb0ff; }
+  }
+</style>
+<link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/changes.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Change log — every revision to the published salary data">
+<meta property="og:description" content="Every revision that changed a published number in the job salary dataset: what broke, why, and the before/after numbers.">
+<meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/changes.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Change log — every revision to the published salary data">
+<meta name="twitter:description" content="Every revision that changed a published number in the job salary dataset: what broke, why, and the before/after numbers.">
+</head>
+<body>
+<header><a class="home" href="/">Radar Labs</a></header>
+<main>
+<h1>Change log</h1>
+<p class="lede">The dataset is rebuilt weekly from live job boards. When a number moves because the pipeline was wrong rather than because the market moved, it belongs here.</p>
+<p class="note">Every revision that changed a published number. Newest first. Dates are the day the corrected data went live.<br>Current build: 266 companies, 18,670 de-duplicated postings, 8,041 with a published salary, median $200,000.</p>
+<article id="2026-10-24-classification">
+<div class="meta"><time datetime="2026-10-24">2026-10-24</time><span class="kind">classification</span></div>
+<h2>Role families: a single-tier classifier was sorting 21.5% of rows into &quot;other&quot;</h2>
+<dl>
+<dt>What was wrong</dt><dd>The role-family bucket came from one rule list that tested `engineer` first. Sales Engineer, Solutions Engineer and Support Engineer were therefore counted as engineering, and the bare word `data` pulled data-center technicians into data/ML.</dd>
+<dt>What changed</dt><dd>Four tiers: disambiguation, then specific titles, then generic words, then broad engineering words. 21 unit tests cover the traps (Technical Account Manager must not become sales; Senior Accountant must not become sales).</dd>
+</dl>
+
+<table><thead><tr><th>measure</th><th>before</th><th>after</th></tr></thead><tbody>
+<tr><td>engineering share</td><td class="n before">39.7%</td><td class="n after">27.4%</td></tr>
+<tr><td>other share</td><td class="n before">21.5%</td><td class="n after">8.5%</td></tr>
+<tr><td>remote vs on-site gap, engineering</td><td class="n before">-11.5%</td><td class="n after">-6.2%</td></tr>
+</tbody></table>
+</article>
+<article id="2026-10-24-statistics">
+<div class="meta"><time datetime="2026-10-24">2026-10-24</time><span class="kind">statistics</span></div>
+<h2>Per-company publication rate divided two different things</h2>
+<dl>
+<dt>What was wrong</dt><dd>The rate was computed as paid rows in the CSV divided by open postings on the board. Those are different populations, and the CSV is sampled, so one company reported a 105.9% publication rate.</dd>
+<dt>What changed</dt><dd>Numerator and denominator now come from the same de-duplicated population. Companies with fewer than 25 open postings are left out of the table instead of producing a meaningless percentage.</dd>
+</dl>
+
+<table><thead><tr><th>measure</th><th>before</th><th>after</th></tr></thead><tbody>
+<tr><td>companies in the table</td><td class="n before">n/a</td><td class="n after">146</td></tr>
+<tr><td>companies with 40+ postings publishing no salary</td><td class="n before">n/a</td><td class="n after">11</td></tr>
+</tbody></table>
+</article>
+<article id="2026-10-24-data">
+<div class="meta"><time datetime="2026-10-24">2026-10-24</time><span class="kind">data</span></div>
+<h2>Currency conversion used a hardcoded table of ten currencies</h2>
+<dl>
+<dt>What was wrong</dt><dd>Anything outside USD/EUR/GBP/CNY and six more came back as &quot;no salary&quot;. Filtering by salary then deleted those postings, so the filter reported &quot;this job has no pay&quot; when the truth was &quot;we could not convert it&quot;.</dd>
+<dt>What changed</dt><dd>Live rates for 166 currencies from open.er-api.com, cached 24 hours, with the snapshot timestamp stored in every row and in the run summary. Unconvertible currencies stay null instead of being guessed.</dd>
+</dl>
+
+<table><thead><tr><th>measure</th><th>before</th><th>after</th></tr></thead><tbody>
+<tr><td>postings with a salary</td><td class="n before">7,984</td><td class="n after">8,004</td></tr>
+<tr><td>rows hidden by the salary filter</td><td class="n before">~1,170</td><td class="n after">0</td></tr>
+</tbody></table>
+</article>
+<article id="2026-10-24-dates">
+<div class="meta"><time datetime="2026-10-24">2026-10-24</time><span class="kind">dates</span></div>
+<h2>Greenhouse publish date was actually the last-edit date</h2>
+<dl>
+<dt>What was wrong</dt><dd>The pipeline read updated_at because created_at does not exist in Greenhouse responses. A 2024 evergreen role edited for a typo looked like it was posted today, which also broke the &quot;only new jobs&quot; mode.</dd>
+<dt>What changed</dt><dd>Read first_published, fall back to created_at, then updated_at. Documented per board on the freshness page, because each board exposes a different date field.</dd>
+</dl>
+
+<table><thead><tr><th>measure</th><th>before</th><th>after</th></tr></thead><tbody>
+<tr><td>postings older than 180 days, Greenhouse</td><td class="n before">0.0%</td><td class="n after">14.5%</td></tr>
+<tr><td>median posting age, all boards</td><td class="n before">22 days</td><td class="n after">51 days</td></tr>
+</tbody></table>
+</article>
+<article id="2026-10-23-dedupe">
+<div class="meta"><time datetime="2026-10-23">2026-10-23</time><span class="kind">dedupe</span></div>
+<h2>De-duplication ignored location and deleted 17% of real postings</h2>
+<dl>
+<dt>What was wrong</dt><dd>Rows were merged on company + title. The same title in Dublin, Singapore and Chicago is three different jobs, so about 17% of the dataset disappeared. A normal de-duplication rate on a multi-board scrape is 1-3%.</dd>
+<dt>What changed</dt><dd>The key is company + normalized title + normalized location. Hyphens are normalized too, otherwise US-Chicago and us chicago stay apart.</dd>
+</dl>
+
+<table><thead><tr><th>measure</th><th>before</th><th>after</th></tr></thead><tbody>
+<tr><td>share removed by de-duplication</td><td class="n before">17.4%</td><td class="n after">1.4%</td></tr>
+<tr><td>postings with a salary</td><td class="n before">6,833</td><td class="n after">7,984</td></tr>
+<tr><td>median salary</td><td class="n before">$204,750</td><td class="n after">$200,000</td></tr>
+</tbody></table>
+</article>
+<article id="2026-10-24-infrastructure">
+<div class="meta"><time datetime="2026-10-24">2026-10-24</time><span class="kind">infrastructure</span></div>
+<h2>Site moved off a host that disallowed crawling</h2>
+<dl>
+<dt>What was wrong</dt><dd>The static host served a platform-injected robots.txt with Disallow: / on the bare path while our own file appeared under any query string. Every URL answered 200, so nothing looked wrong, but crawlers that respect robots.txt never entered.</dd>
+<dt>What changed</dt><dd>Moved to GitHub Pages under a path that serves our own robots.txt, and added an automated crawlability check that compares the bare path against a cache-busted one and fails if a sitemap entry points at another host.</dd>
+</dl>
+</article>
+</main>
+<footer>
+<p>Latest revision 2026-10-24 · data CC BY 4.0 · <a href="/salary-data.html">dataset</a> ·
+<a href="/lookup.html">look up a company</a> · <a href="/run.html">run it yourself</a> ·
+<a href="/data/changes.json">changes.json</a></p>
+</footer>
+</body>
+</html>
