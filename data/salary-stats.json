@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24 11:00 (UTC+8)",
+  "generated_at": "2026-10-24 12:28 (UTC+8)",
   "companies_in_pool": 266,
-  "postings_scanned": 18671,
+  "postings_scanned": 18670,
   "postings_with_salary": 8042,
   "share_with_salary": 43.1,
   "remote_share": 28.0,
@@ -30,7 +30,7 @@
     },
     {
       "ats": "ashby",
-      "postings": 5359,
+      "postings": 5358,
       "with_salary": 2744,
       "rate": 51.2
     },
