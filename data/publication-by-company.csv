@@ -34,7 +34,7 @@ perplexity,ashby,131,110,84.0
 pagerduty,greenhouse,50,41,82.0
 coinbase,greenhouse,225,181,80.4
 robinhood,greenhouse,157,125,79.6
-openai,ashby,794,631,79.5
+openai,ashby,795,631,79.4
 zocdoc,greenhouse,59,46,78.0
 omni,ashby,36,28,77.8
 brex,greenhouse,254,195,76.8
@@ -45,8 +45,8 @@ vercel,greenhouse,95,71,74.7
 writer,ashby,46,34,73.9
 braze,greenhouse,329,235,71.4
 poshmark,ashby,31,22,71.0
+deepgram,ashby,82,57,69.5
 clickup,ashby,49,34,69.4
-deepgram,ashby,81,56,69.1
 snowflake,ashby,351,239,68.1
 scaleai,greenhouse,171,116,67.8
 asana,greenhouse,107,72,67.3
@@ -69,7 +69,7 @@ stockx,greenhouse,28,14,50.0
 collibra,greenhouse,26,13,50.0
 riskified,greenhouse,37,18,48.6
 backmarket,ashby,33,16,48.5
-togetherai,greenhouse,84,40,47.6
+togetherai,greenhouse,85,41,48.2
 kong,ashby,87,41,47.1
 smartsheet,greenhouse,89,41,46.1
 onetrust,greenhouse,79,36,45.6
@@ -124,7 +124,7 @@ nubank,ashby,97,1,1.0
 sumup,greenhouse,344,3,0.9
 elevenlabs,ashby,161,1,0.6
 gopuff,lever,784,1,0.1
-datadog,greenhouse,418,0,0.0
+datadog,greenhouse,417,0,0.0
 betterhelp,greenhouse,154,0,0.0
 notion,ashby,140,0,0.0
 langchain,ashby,104,0,0.0
