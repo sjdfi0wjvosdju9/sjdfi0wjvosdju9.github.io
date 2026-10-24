@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Only jobs that publish a salary - ATS Job Feed</title>
-<meta name="description" content="Filter 266 companies' job boards down to the 8,039 postings that actually state a pay range, and pay only for rows you keep.">
+<meta name="description" content="Filter 266 companies' job boards down to the 8,041 postings that actually state a pay range, and pay only for rows you keep.">
 <link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/salary-only.html">
 <link rel="icon" href="/favicon.ico">
 <style>
@@ -37,20 +37,20 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Radar Labs">
 <meta property="og:title" content="Only jobs that publish a salary - ATS Job Feed">
-<meta property="og:description" content="Filter 266 companies&#x27; job boards down to the 8,039 postings that actually state a pay range, and pay only for rows you keep.">
+<meta property="og:description" content="Filter 266 companies&#x27; job boards down to the 8,041 postings that actually state a pay range, and pay only for rows you keep.">
 <meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/salary-only.html">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Only jobs that publish a salary - ATS Job Feed">
-<meta name="twitter:description" content="Filter 266 companies&#x27; job boards down to the 8,039 postings that actually state a pay range, and pay only for rows you keep.">
+<meta name="twitter:description" content="Filter 266 companies&#x27; job boards down to the 8,041 postings that actually state a pay range, and pay only for rows you keep.">
 </head>
 <body>
 <h1>Only the jobs that publish a salary</h1>
-<p class="meta">Measured 2026-10-24 · 266 companies · 18,668 postings scanned</p>
+<p class="meta">Measured 2026-10-24 · 266 companies · 18,670 postings scanned</p>
 
 <p>Most job feeds hand you everything and let you filter. That is fine until you are paying per row, and roughly <b>three in five</b> postings never state a number. Here is the same pool, split by whether the employer actually published pay:</p>
 
 <div class="cards">
-  <div class="card"><div class="big">8,039</div><span>postings with a pay range (43.1%)</span></div>
+  <div class="card"><div class="big">8,041</div><span>postings with a pay range (43.1%)</span></div>
   <div class="card"><div class="big">10,629</div><span>postings with no pay range</span></div>
   <div class="card"><div class="big">$200,000</div><span>median annual pay (USD)</span></div>
 </div>
@@ -59,7 +59,7 @@
 <p>This is a property of the board, not of the employer's generosity: Greenhouse usually carries pay in the description, Ashby ships a structured field, Lever almost never does, Workable does not have a field at all.</p>
 <table>
 <tr><th>Board</th><th class=n>Postings</th><th class=n>With pay</th><th class=n>Rate</th></tr>
-<tr><td>greenhouse</td><td class=n>11,561</td><td class=n>5,133</td><td class=n>44.4%</td></tr><tr><td>ashby</td><td class=n>5,356</td><td class=n>2,742</td><td class=n>51.2%</td></tr><tr><td>lever</td><td class=n>1,751</td><td class=n>164</td><td class=n>9.4%</td></tr>
+<tr><td>greenhouse</td><td class=n>11,561</td><td class=n>5,134</td><td class=n>44.4%</td></tr><tr><td>ashby</td><td class=n>5,358</td><td class=n>2,743</td><td class=n>51.2%</td></tr><tr><td>lever</td><td class=n>1,751</td><td class=n>164</td><td class=n>9.4%</td></tr>
 </table>
 
 <h2>What a filtered run costs you</h2>
@@ -75,7 +75,7 @@
 <h2>How to use it</h2>
 <p>One switch on the <a href="https://apify.com/contributory_garnet_hyz/ats-job-feed">ATS Job Feed</a> actor:</p>
 <pre><code>{"useVerifiedPool": true, "salaryOnly": true, "maxJobs": 100}</code></pre>
-<p>Add <code>"minSalaryUsd": 150000</code> to keep only postings that clear a floor, or <code>"includeDescriptions": false</code> for a cheaper run that still carries pay for Ashby and Lever (Greenhouse pay lives inside the description, so it disappears in that mode). If you do not want to pay at all, the same numbers are in the free <a href="/data/salary-ranges-full.csv">CSV</a> (8,039 rows, CC BY 4.0) and you can check a single employer on <a href="/lookup.html">the lookup page</a>.</p>
+<p>Add <code>"minSalaryUsd": 150000</code> to keep only postings that clear a floor, or <code>"includeDescriptions": false</code> for a cheaper run that still carries pay for Ashby and Lever (Greenhouse pay lives inside the description, so it disappears in that mode). If you do not want to pay at all, the same numbers are in the free <a href="/data/salary-ranges-full.csv">CSV</a> (8,041 rows, CC BY 4.0) and you can check a single employer on <a href="/lookup.html">the lookup page</a>.</p>
 
 <h2>Honest limits</h2>
 <ul>
@@ -105,6 +105,5 @@
   render();
 })();
 </script>
-<p style="margin-top:2rem"><a href="/run.html">Run it in 60 seconds &rarr;</a></p>
 </body>
 </html>
