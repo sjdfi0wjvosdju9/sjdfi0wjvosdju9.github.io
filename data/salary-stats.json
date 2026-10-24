@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24 09:36 (UTC+8)",
+  "generated_at": "2026-10-24 11:00 (UTC+8)",
   "companies_in_pool": 266,
-  "postings_scanned": 18670,
-  "postings_with_salary": 8041,
+  "postings_scanned": 18671,
+  "postings_with_salary": 8042,
   "share_with_salary": 43.1,
   "remote_share": 28.0,
   "median_mid": 200000,
   "p25_mid": 150000,
   "p75_mid": 253000,
-  "p90_mid": 323000,
+  "p90_mid": 323500,
   "sample_rows": 1522,
   "failed_companies": [
     "robusta",
@@ -18,7 +18,7 @@
   ],
   "salary_by_ats": {
     "greenhouse": 5134,
-    "ashby": 2743,
+    "ashby": 2744,
     "lever": 164
   },
   "publication_by_ats": [
@@ -30,8 +30,8 @@
     },
     {
       "ats": "ashby",
-      "postings": 5358,
-      "with_salary": 2743,
+      "postings": 5359,
+      "with_salary": 2744,
       "rate": 51.2
     },
     {
@@ -45,8 +45,8 @@
     {
       "slug": "sentry",
       "ats": "ashby",
-      "postings": 42,
-      "with_salary": 42,
+      "postings": 43,
+      "with_salary": 43,
       "rate": 100.0
     },
     {
@@ -129,9 +129,9 @@
     {
       "slug": "baseten",
       "ats": "ashby",
-      "postings": 106,
-      "with_salary": 101,
-      "rate": 95.3
+      "postings": 105,
+      "with_salary": 100,
+      "rate": 95.2
     },
     {
       "slug": "hex",
@@ -290,8 +290,8 @@
     {
       "slug": "openai",
       "ats": "ashby",
-      "postings": 795,
-      "with_salary": 631,
+      "postings": 796,
+      "with_salary": 632,
       "rate": 79.4
     },
     {
@@ -1147,14 +1147,14 @@
   "remote_median": 190781,
   "remote_n": 2255,
   "onsite_median": 204000,
-  "onsite_n": 5786,
+  "onsite_n": 5787,
   "companies_with_pay": 166,
   "family_remote": [
     {
       "family": "other",
       "remote_n": 235,
       "remote_median": 150800,
-      "onsite_n": 446,
+      "onsite_n": 445,
       "onsite_median": 200000,
       "gap_pct": -24.6
     },
@@ -1186,7 +1186,7 @@
       "family": "marketing",
       "remote_n": 135,
       "remote_median": 180000,
-      "onsite_n": 377,
+      "onsite_n": 378,
       "onsite_median": 192500,
       "gap_pct": -6.5
     },
@@ -1194,7 +1194,7 @@
       "family": "engineering",
       "remote_n": 563,
       "remote_median": 212000,
-      "onsite_n": 1638,
+      "onsite_n": 1639,
       "onsite_median": 226000,
       "gap_pct": -6.2
     },
@@ -1252,7 +1252,7 @@
     },
     {
       "company": "openai",
-      "n": 631,
+      "n": 632,
       "median": 307500,
       "p25": 248000,
       "p75": 366000
@@ -1314,13 +1314,6 @@
       "p75": 256500
     },
     {
-      "company": "baseten",
-      "n": 101,
-      "median": 230000,
-      "p25": 195000,
-      "p75": 247500
-    },
-    {
       "company": "togetherai",
       "n": 41,
       "median": 230000,
@@ -1340,6 +1333,13 @@
       "median": 229000,
       "p25": 212000,
       "p75": 264500
+    },
+    {
+      "company": "baseten",
+      "n": 100,
+      "median": 228250,
+      "p25": 195000,
+      "p75": 247500
     },
     {
       "company": "launchdarkly",
@@ -1538,6 +1538,13 @@
       "p75": 269200
     },
     {
+      "company": "sentry",
+      "n": 43,
+      "median": 203018,
+      "p25": 155000,
+      "p75": 307500
+    },
+    {
       "company": "mesh",
       "n": 16,
       "median": 201750,
@@ -1613,13 +1620,6 @@
       "median": 199643,
       "p25": 177457,
       "p75": 240000
-    },
-    {
-      "company": "sentry",
-      "n": 42,
-      "median": 199009,
-      "p25": 155000,
-      "p75": 295000
     },
     {
       "company": "starburst",
@@ -2412,8 +2412,8 @@
     },
     {
       "family": "engineering",
-      "n": 2201,
-      "median": 223000
+      "n": 2202,
+      "median": 223025
     },
     {
       "family": "security",
@@ -2432,13 +2432,13 @@
     },
     {
       "family": "marketing",
-      "n": 512,
-      "median": 186424
+      "n": 513,
+      "median": 186948
     },
     {
       "family": "other",
-      "n": 681,
-      "median": 180500
+      "n": 680,
+      "median": 180250
     },
     {
       "family": "sales",
