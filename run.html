@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Run the job + salary API in 60 seconds — Radar Labs</title>
-<meta name="description" content="One curl command returns 8,041 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
+<meta name="description" content="One curl command returns 8,042 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
 <link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/run.html">
 <link rel="icon" href="/favicon.ico">
 <style>
@@ -17,16 +17,16 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Radar Labs">
 <meta property="og:title" content="Run the job + salary API in 60 seconds — Radar Labs">
-<meta property="og:description" content="One curl command returns 8,041 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
+<meta property="og:description" content="One curl command returns 8,042 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
 <meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/run.html">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Run the job + salary API in 60 seconds — Radar Labs">
-<meta name="twitter:description" content="One curl command returns 8,041 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
+<meta name="twitter:description" content="One curl command returns 8,042 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
 </head>
 <body>
 <p class="meta"><a href="/">Radar Labs</a> · <a href="/salary-data.html">free dataset</a> · <a href="/lookup.html">look up a company</a> · <a href="/how-we-choose.html">method</a></p>
 <h1>Run the job + salary API in 60 seconds</h1>
-<p>One call returns rows like this — 8,041 postings across 266 companies already carry a published annual range; the median is <strong>$200,000</strong>:</p>
+<p>One call returns rows like this — 8,042 postings across 266 companies already carry a published annual range; the median is <strong>$200,000</strong>:</p>
 <pre>{"company":"anthropic","ats":"ashby","title":"Software Engineer, Inference",
  "location":"San Francisco, CA","remote":false,"salaryLow":280000,"salaryHigh":420000,
  "salaryCurrency":"USD","salaryUsdLow":280000,"salaryUsdHigh":420000,
@@ -59,11 +59,11 @@
 <li><strong>Salaries are normalised, not guessed.</strong> Structured fields first (Ashby <code>summaryComponents</code>, Lever <code>salaryRange</code>); only then a text window around pay-cue phrases.</li>
 <li><strong>Implausible values are dropped, not clamped.</strong> Anything outside $5k–$5M a year after normalisation is removed entirely, so the tail is missing rather than wrong.</li>
 <li><strong>Currency uses a daily rate</strong> and the original local range is kept in <code>salaryLocal*</code>, so you can re-derive it yourself.</li>
-<li><strong>Ranges are ranges.</strong> These are published bands, not what anyone was actually paid — 43% of the 18,670 postings we read publish nothing at all.</li>
+<li><strong>Ranges are ranges.</strong> These are published bands, not what anyone was actually paid — 43% of the 18,671 postings we read publish nothing at all.</li>
 </ul>
 
 <h2>5. If you would rather not pay</h2>
-<p>The same rows are a free CSV, CC BY 4.0: <a href="/data/salary-ranges-full.csv">8,041 rows, 1.7 MB</a> · <a href="/salary-data.html">method and distributions</a> · <a href="https://github.com/sjdfi0wjvosdju9/job-salary-open-data">mirror on GitHub</a>. The paid version exists for the things a CSV cannot do: filters, incremental runs, and being a stable endpoint.</p>
+<p>The same rows are a free CSV, CC BY 4.0: <a href="/data/salary-ranges-full.csv">8,042 rows, 1.7 MB</a> · <a href="/salary-data.html">method and distributions</a> · <a href="https://github.com/sjdfi0wjvosdju9/job-salary-open-data">mirror on GitHub</a>. The paid version exists for the things a CSV cannot do: filters, incremental runs, and being a stable endpoint.</p>
 
 <footer class="meta">Data CC BY 4.0 · code MIT · no cookies, no tracking.</footer>
 </body>
