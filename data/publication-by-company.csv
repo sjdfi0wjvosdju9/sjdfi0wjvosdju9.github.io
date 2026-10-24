@@ -1,5 +1,5 @@
 company,ats,postings,with_salary,rate_pct
-sentry,ashby,42,42,100.0
+sentry,ashby,43,43,100.0
 rain,ashby,37,37,100.0
 algolia,greenhouse,28,28,100.0
 mercury,greenhouse,77,76,98.7
@@ -11,7 +11,7 @@ temporal,ashby,71,69,97.2
 sofi,greenhouse,56,54,96.4
 ramp,ashby,167,160,95.8
 plaid,ashby,135,129,95.6
-baseten,ashby,106,101,95.3
+baseten,ashby,105,100,95.2
 hex,ashby,39,37,94.9
 lightningai,greenhouse,49,46,93.9
 sardine,ashby,49,46,93.9
@@ -34,7 +34,7 @@ perplexity,ashby,131,110,84.0
 pagerduty,greenhouse,50,41,82.0
 coinbase,greenhouse,225,181,80.4
 robinhood,greenhouse,157,125,79.6
-openai,ashby,795,631,79.4
+openai,ashby,796,632,79.4
 zocdoc,greenhouse,59,46,78.0
 omni,ashby,36,28,77.8
 brex,greenhouse,254,195,76.8
