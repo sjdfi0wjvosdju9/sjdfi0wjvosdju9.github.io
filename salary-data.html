@@ -88,46 +88,8 @@ company in the pool appears at least once. CC BY 4.0 — use it, just link back 
 (8,041), same columns, 1.3 MB. <strong>Use this one if you are computing statistics</strong>:
 the sample above is deliberately biased towards each company's best-paid roles, so its median is higher than the real one.</p>
 <p>From Python, no key needed &mdash; install the wheel straight from this site (the PyPI listing is still pending):</p>
-<pre><code>pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.1-py3-none-any.whl</code></pre>
-<p>Then <code>salaryranges.fetch()</code> returns every row and <code>salaryranges.stats()</code> prints the same numbers as this page. Direct download: <a href="/packages/salaryranges-0.1.1-py3-none-any.whl">salaryranges-0.1.1-py3-none-any.whl</a>.</p>
-
-<h2>Median midpoint by company (30 highest of 166)</h2>
-<table>
-<thead><tr><th>Company</th><th class="n">Postings</th><th class="n">p25</th><th class="n">Median</th><th class="n">p75</th></tr></thead>
-<tbody>
-<tr><td>anthropic</td><td class="n">589</td><td class="n">$282,500</td><td class="n"><strong>$347,500</strong></td><td class="n">$402,500</td></tr>
-<tr><td>galileo</td><td class="n">3</td><td class="n">$312,500</td><td class="n"><strong>$315,000</strong></td><td class="n">$520,000</td></tr>
-<tr><td>openai</td><td class="n">631</td><td class="n">$248,000</td><td class="n"><strong>$307,500</strong></td><td class="n">$366,000</td></tr>
-<tr><td>pika</td><td class="n">6</td><td class="n">$215,000</td><td class="n"><strong>$292,500</strong></td><td class="n">$300,000</td></tr>
-<tr><td>cohere</td><td class="n">78</td><td class="n">$199,807</td><td class="n"><strong>$257,500</strong></td><td class="n">$280,087</td></tr>
-<tr><td>character</td><td class="n">13</td><td class="n">$240,000</td><td class="n"><strong>$250,000</strong></td><td class="n">$275,000</td></tr>
-<tr><td>vercel</td><td class="n">71</td><td class="n">$195,500</td><td class="n"><strong>$245,000</strong></td><td class="n">$260,000</td></tr>
-<tr><td>perplexity</td><td class="n">110</td><td class="n">$195,000</td><td class="n"><strong>$245,000</strong></td><td class="n">$312,500</td></tr>
-<tr><td>render</td><td class="n">34</td><td class="n">$230,000</td><td class="n"><strong>$242,000</strong></td><td class="n">$259,000</td></tr>
-<tr><td>figma</td><td class="n">79</td><td class="n">$207,000</td><td class="n"><strong>$236,000</strong></td><td class="n">$264,500</td></tr>
-<tr><td>faire</td><td class="n">69</td><td class="n">$190,000</td><td class="n"><strong>$232,750</strong></td><td class="n">$256,500</td></tr>
-<tr><td>baseten</td><td class="n">101</td><td class="n">$195,000</td><td class="n"><strong>$230,000</strong></td><td class="n">$247,500</td></tr>
-<tr><td>togetherai</td><td class="n">41</td><td class="n">$195,000</td><td class="n"><strong>$230,000</strong></td><td class="n">$250,000</td></tr>
-<tr><td>scaleai</td><td class="n">116</td><td class="n">$187,200</td><td class="n"><strong>$229,800</strong></td><td class="n">$255,600</td></tr>
-<tr><td>vanta</td><td class="n">47</td><td class="n">$212,000</td><td class="n"><strong>$229,000</strong></td><td class="n">$264,500</td></tr>
-<tr><td>launchdarkly</td><td class="n">35</td><td class="n">$203,300</td><td class="n"><strong>$227,735</strong></td><td class="n">$285,650</td></tr>
-<tr><td>mintlify</td><td class="n">15</td><td class="n">$165,000</td><td class="n"><strong>$227,500</strong></td><td class="n">$227,500</td></tr>
-<tr><td>modal</td><td class="n">42</td><td class="n">$200,000</td><td class="n"><strong>$225,000</strong></td><td class="n">$275,000</td></tr>
-<tr><td>roboflow</td><td class="n">7</td><td class="n">$225,000</td><td class="n"><strong>$225,000</strong></td><td class="n">$225,000</td></tr>
-<tr><td>latitude</td><td class="n">17</td><td class="n">$200,000</td><td class="n"><strong>$224,000</strong></td><td class="n">$224,000</td></tr>
-<tr><td>demandbase</td><td class="n">3</td><td class="n">$178,000</td><td class="n"><strong>$223,000</strong></td><td class="n">$258,000</td></tr>
-<tr><td>gridmaticinc</td><td class="n">10</td><td class="n">$190,000</td><td class="n"><strong>$222,500</strong></td><td class="n">$225,000</td></tr>
-<tr><td>hex</td><td class="n">37</td><td class="n">$180,000</td><td class="n"><strong>$220,000</strong></td><td class="n">$247,500</td></tr>
-<tr><td>elliptic</td><td class="n">8</td><td class="n">$202,000</td><td class="n"><strong>$218,750</strong></td><td class="n">$230,500</td></tr>
-<tr><td>stripe</td><td class="n">22</td><td class="n">$196,000</td><td class="n"><strong>$218,105</strong></td><td class="n">$245,843</td></tr>
-<tr><td>wrike</td><td class="n">6</td><td class="n">$137,000</td><td class="n"><strong>$217,500</strong></td><td class="n">$277,500</td></tr>
-<tr><td>databricks</td><td class="n">473</td><td class="n">$195,500</td><td class="n"><strong>$216,104</strong></td><td class="n">$246,525</td></tr>
-<tr><td>labelbox</td><td class="n">7</td><td class="n">$170,000</td><td class="n"><strong>$215,000</strong></td><td class="n">$220,000</td></tr>
-<tr><td>llamaindex</td><td class="n">4</td><td class="n">$215,000</td><td class="n"><strong>$215,000</strong></td><td class="n">$215,000</td></tr>
-<tr><td>plaid</td><td class="n">129</td><td class="n">$175,200</td><td class="n"><strong>$214,800</strong></td><td class="n">$251,400</td></tr>
-</tbody>
-</table>
-<p class="meta">Only companies with at least 3 salary-bearing postings are included. Medians mix seniority levels — a company hiring mostly staff engineers will look expensive.</p>
+<pre><code>pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.2-py3-none-any.whl</code></pre>
+<p>Then <code>salaryranges.fetch()</code> returns every row and <code>salaryranges.stats()</code> prints the same numbers as this page. Direct download: <a href="/packages/salaryranges-0.1.2-py3-none-any.whl">salaryranges-0.1.2-py3-none-any.whl</a>.</p>
 
 <h2>Median midpoint by role family</h2>
 <table>
