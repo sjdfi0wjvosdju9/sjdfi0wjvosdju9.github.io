@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-24 06:34 (UTC+8)",
+  "generated_at": "2026-10-24 08:20 (UTC+8)",
   "companies_in_pool": 266,
-  "postings_scanned": 18670,
-  "postings_with_salary": 8040,
+  "postings_scanned": 18668,
+  "postings_with_salary": 8039,
   "share_with_salary": 43.1,
   "remote_share": 28.0,
   "median_mid": 200000,
   "p25_mid": 150000,
   "p75_mid": 253000,
-  "p90_mid": 323500,
-  "sample_rows": 1523,
+  "p90_mid": 323000,
+  "sample_rows": 1522,
   "failed_companies": [
     "robusta",
     "callsign",
@@ -17,20 +17,20 @@
     "vouched"
   ],
   "salary_by_ats": {
-    "greenhouse": 5134,
+    "greenhouse": 5133,
     "ashby": 2742,
     "lever": 164
   },
   "publication_by_ats": [
     {
       "ats": "greenhouse",
-      "postings": 11562,
-      "with_salary": 5134,
+      "postings": 11561,
+      "with_salary": 5133,
       "rate": 44.4
     },
     {
       "ats": "ashby",
-      "postings": 5357,
+      "postings": 5356,
       "with_salary": 2742,
       "rate": 51.2
     },
@@ -41,33 +41,1136 @@
       "rate": 9.4
     }
   ],
-  "remote_median": 190781,
+  "publication_by_company": [
+    {
+      "slug": "sentry",
+      "ats": "ashby",
+      "postings": 42,
+      "with_salary": 42,
+      "rate": 100.0
+    },
+    {
+      "slug": "rain",
+      "ats": "ashby",
+      "postings": 37,
+      "with_salary": 37,
+      "rate": 100.0
+    },
+    {
+      "slug": "algolia",
+      "ats": "greenhouse",
+      "postings": 28,
+      "with_salary": 28,
+      "rate": 100.0
+    },
+    {
+      "slug": "mercury",
+      "ats": "greenhouse",
+      "postings": 77,
+      "with_salary": 76,
+      "rate": 98.7
+    },
+    {
+      "slug": "chime",
+      "ats": "greenhouse",
+      "postings": 71,
+      "with_salary": 70,
+      "rate": 98.6
+    },
+    {
+      "slug": "faire",
+      "ats": "greenhouse",
+      "postings": 70,
+      "with_salary": 69,
+      "rate": 98.6
+    },
+    {
+      "slug": "modal",
+      "ats": "ashby",
+      "postings": 43,
+      "with_salary": 42,
+      "rate": 97.7
+    },
+    {
+      "slug": "klaviyo",
+      "ats": "greenhouse",
+      "postings": 154,
+      "with_salary": 150,
+      "rate": 97.4
+    },
+    {
+      "slug": "temporal",
+      "ats": "ashby",
+      "postings": 71,
+      "with_salary": 69,
+      "rate": 97.2
+    },
+    {
+      "slug": "sofi",
+      "ats": "greenhouse",
+      "postings": 56,
+      "with_salary": 54,
+      "rate": 96.4
+    },
+    {
+      "slug": "ramp",
+      "ats": "ashby",
+      "postings": 167,
+      "with_salary": 160,
+      "rate": 95.8
+    },
+    {
+      "slug": "plaid",
+      "ats": "ashby",
+      "postings": 135,
+      "with_salary": 129,
+      "rate": 95.6
+    },
+    {
+      "slug": "baseten",
+      "ats": "ashby",
+      "postings": 106,
+      "with_salary": 101,
+      "rate": 95.3
+    },
+    {
+      "slug": "hex",
+      "ats": "ashby",
+      "postings": 39,
+      "with_salary": 37,
+      "rate": 94.9
+    },
+    {
+      "slug": "lightningai",
+      "ats": "greenhouse",
+      "postings": 49,
+      "with_salary": 46,
+      "rate": 93.9
+    },
+    {
+      "slug": "sardine",
+      "ats": "ashby",
+      "postings": 49,
+      "with_salary": 46,
+      "rate": 93.9
+    },
+    {
+      "slug": "oscar",
+      "ats": "greenhouse",
+      "postings": 229,
+      "with_salary": 213,
+      "rate": 93.0
+    },
+    {
+      "slug": "swordhealth",
+      "ats": "greenhouse",
+      "postings": 54,
+      "with_salary": 50,
+      "rate": 92.6
+    },
+    {
+      "slug": "squarespace",
+      "ats": "greenhouse",
+      "postings": 27,
+      "with_salary": 25,
+      "rate": 92.6
+    },
+    {
+      "slug": "instacart",
+      "ats": "greenhouse",
+      "postings": 112,
+      "with_salary": 103,
+      "rate": 92.0
+    },
+    {
+      "slug": "render",
+      "ats": "ashby",
+      "postings": 37,
+      "with_salary": 34,
+      "rate": 91.9
+    },
+    {
+      "slug": "headway",
+      "ats": "ashby",
+      "postings": 91,
+      "with_salary": 83,
+      "rate": 91.2
+    },
+    {
+      "slug": "appfolio",
+      "ats": "ashby",
+      "postings": 34,
+      "with_salary": 31,
+      "rate": 91.2
+    },
+    {
+      "slug": "tailscale",
+      "ats": "greenhouse",
+      "postings": 57,
+      "with_salary": 51,
+      "rate": 89.5
+    },
+    {
+      "slug": "gocardless",
+      "ats": "greenhouse",
+      "postings": 26,
+      "with_salary": 23,
+      "rate": 88.5
+    },
+    {
+      "slug": "alloy",
+      "ats": "greenhouse",
+      "postings": 26,
+      "with_salary": 23,
+      "rate": 88.5
+    },
+    {
+      "slug": "affirm",
+      "ats": "greenhouse",
+      "postings": 224,
+      "with_salary": 196,
+      "rate": 87.5
+    },
+    {
+      "slug": "mavenclinic",
+      "ats": "greenhouse",
+      "postings": 32,
+      "with_salary": 28,
+      "rate": 87.5
+    },
+    {
+      "slug": "delfina",
+      "ats": "greenhouse",
+      "postings": 31,
+      "with_salary": 27,
+      "rate": 87.1
+    },
+    {
+      "slug": "anthropic",
+      "ats": "greenhouse",
+      "postings": 678,
+      "with_salary": 589,
+      "rate": 86.9
+    },
+    {
+      "slug": "snyk",
+      "ats": "ashby",
+      "postings": 33,
+      "with_salary": 28,
+      "rate": 84.8
+    },
+    {
+      "slug": "perplexity",
+      "ats": "ashby",
+      "postings": 131,
+      "with_salary": 110,
+      "rate": 84.0
+    },
+    {
+      "slug": "pagerduty",
+      "ats": "greenhouse",
+      "postings": 50,
+      "with_salary": 41,
+      "rate": 82.0
+    },
+    {
+      "slug": "coinbase",
+      "ats": "greenhouse",
+      "postings": 225,
+      "with_salary": 181,
+      "rate": 80.4
+    },
+    {
+      "slug": "robinhood",
+      "ats": "greenhouse",
+      "postings": 157,
+      "with_salary": 125,
+      "rate": 79.6
+    },
+    {
+      "slug": "openai",
+      "ats": "ashby",
+      "postings": 794,
+      "with_salary": 631,
+      "rate": 79.5
+    },
+    {
+      "slug": "zocdoc",
+      "ats": "greenhouse",
+      "postings": 59,
+      "with_salary": 46,
+      "rate": 78.0
+    },
+    {
+      "slug": "omni",
+      "ats": "ashby",
+      "postings": 36,
+      "with_salary": 28,
+      "rate": 77.8
+    },
+    {
+      "slug": "brex",
+      "ats": "greenhouse",
+      "postings": 254,
+      "with_salary": 195,
+      "rate": 76.8
+    },
+    {
+      "slug": "wealthsimple",
+      "ats": "ashby",
+      "postings": 43,
+      "with_salary": 33,
+      "rate": 76.7
+    },
+    {
+      "slug": "virtahealth",
+      "ats": "ashby",
+      "postings": 25,
+      "with_salary": 19,
+      "rate": 76.0
+    },
+    {
+      "slug": "span",
+      "ats": "ashby",
+      "postings": 29,
+      "with_salary": 22,
+      "rate": 75.9
+    },
+    {
+      "slug": "vercel",
+      "ats": "greenhouse",
+      "postings": 95,
+      "with_salary": 71,
+      "rate": 74.7
+    },
+    {
+      "slug": "writer",
+      "ats": "ashby",
+      "postings": 46,
+      "with_salary": 34,
+      "rate": 73.9
+    },
+    {
+      "slug": "braze",
+      "ats": "greenhouse",
+      "postings": 329,
+      "with_salary": 235,
+      "rate": 71.4
+    },
+    {
+      "slug": "poshmark",
+      "ats": "ashby",
+      "postings": 31,
+      "with_salary": 22,
+      "rate": 71.0
+    },
+    {
+      "slug": "clickup",
+      "ats": "ashby",
+      "postings": 49,
+      "with_salary": 34,
+      "rate": 69.4
+    },
+    {
+      "slug": "deepgram",
+      "ats": "ashby",
+      "postings": 81,
+      "with_salary": 56,
+      "rate": 69.1
+    },
+    {
+      "slug": "snowflake",
+      "ats": "ashby",
+      "postings": 351,
+      "with_salary": 239,
+      "rate": 68.1
+    },
+    {
+      "slug": "scaleai",
+      "ats": "greenhouse",
+      "postings": 171,
+      "with_salary": 116,
+      "rate": 67.8
+    },
+    {
+      "slug": "asana",
+      "ats": "greenhouse",
+      "postings": 107,
+      "with_salary": 72,
+      "rate": 67.3
+    },
+    {
+      "slug": "cohere",
+      "ats": "ashby",
+      "postings": 116,
+      "with_salary": 78,
+      "rate": 67.2
+    },
+    {
+      "slug": "gemini",
+      "ats": "greenhouse",
+      "postings": 30,
+      "with_salary": 20,
+      "rate": 66.7
+    },
+    {
+      "slug": "launchdarkly",
+      "ats": "greenhouse",
+      "postings": 53,
+      "with_salary": 35,
+      "rate": 66.0
+    },
+    {
+      "slug": "fivetran",
+      "ats": "greenhouse",
+      "postings": 167,
+      "with_salary": 109,
+      "rate": 65.3
+    },
+    {
+      "slug": "ripple",
+      "ats": "greenhouse",
+      "postings": 98,
+      "with_salary": 63,
+      "rate": 64.3
+    },
+    {
+      "slug": "tia",
+      "ats": "greenhouse",
+      "postings": 28,
+      "with_salary": 18,
+      "rate": 64.3
+    },
+    {
+      "slug": "elastic",
+      "ats": "greenhouse",
+      "postings": 401,
+      "with_salary": 257,
+      "rate": 64.1
+    },
+    {
+      "slug": "mesh",
+      "ats": "greenhouse",
+      "postings": 25,
+      "with_salary": 16,
+      "rate": 64.0
+    },
+    {
+      "slug": "starburst",
+      "ats": "greenhouse",
+      "postings": 35,
+      "with_salary": 21,
+      "rate": 60.0
+    },
+    {
+      "slug": "figma",
+      "ats": "greenhouse",
+      "postings": 138,
+      "with_salary": 79,
+      "rate": 57.2
+    },
+    {
+      "slug": "vanta",
+      "ats": "ashby",
+      "postings": 83,
+      "with_salary": 47,
+      "rate": 56.6
+    },
+    {
+      "slug": "databricks",
+      "ats": "greenhouse",
+      "postings": 881,
+      "with_salary": 473,
+      "rate": 53.7
+    },
+    {
+      "slug": "6sense",
+      "ats": "greenhouse",
+      "postings": 27,
+      "with_salary": 14,
+      "rate": 51.9
+    },
+    {
+      "slug": "latitude",
+      "ats": "greenhouse",
+      "postings": 34,
+      "with_salary": 17,
+      "rate": 50.0
+    },
+    {
+      "slug": "attio",
+      "ats": "ashby",
+      "postings": 30,
+      "with_salary": 15,
+      "rate": 50.0
+    },
+    {
+      "slug": "stockx",
+      "ats": "greenhouse",
+      "postings": 28,
+      "with_salary": 14,
+      "rate": 50.0
+    },
+    {
+      "slug": "collibra",
+      "ats": "greenhouse",
+      "postings": 26,
+      "with_salary": 13,
+      "rate": 50.0
+    },
+    {
+      "slug": "riskified",
+      "ats": "greenhouse",
+      "postings": 37,
+      "with_salary": 18,
+      "rate": 48.6
+    },
+    {
+      "slug": "backmarket",
+      "ats": "ashby",
+      "postings": 33,
+      "with_salary": 16,
+      "rate": 48.5
+    },
+    {
+      "slug": "togetherai",
+      "ats": "greenhouse",
+      "postings": 84,
+      "with_salary": 40,
+      "rate": 47.6
+    },
+    {
+      "slug": "kong",
+      "ats": "ashby",
+      "postings": 87,
+      "with_salary": 41,
+      "rate": 47.1
+    },
+    {
+      "slug": "smartsheet",
+      "ats": "greenhouse",
+      "postings": 89,
+      "with_salary": 41,
+      "rate": 46.1
+    },
+    {
+      "slug": "onetrust",
+      "ats": "greenhouse",
+      "postings": 79,
+      "with_salary": 36,
+      "rate": 45.6
+    },
+    {
+      "slug": "gitlab",
+      "ats": "greenhouse",
+      "postings": 237,
+      "with_salary": 106,
+      "rate": 44.7
+    },
+    {
+      "slug": "mixpanel",
+      "ats": "greenhouse",
+      "postings": 46,
+      "with_salary": 20,
+      "rate": 43.5
+    },
+    {
+      "slug": "clickhouse",
+      "ats": "ashby",
+      "postings": 177,
+      "with_salary": 76,
+      "rate": 42.9
+    },
+    {
+      "slug": "singlestore",
+      "ats": "greenhouse",
+      "postings": 38,
+      "with_salary": 15,
+      "rate": 39.5
+    },
+    {
+      "slug": "salesloft",
+      "ats": "greenhouse",
+      "postings": 34,
+      "with_salary": 13,
+      "rate": 38.2
+    },
+    {
+      "slug": "chargepoint",
+      "ats": "greenhouse",
+      "postings": 40,
+      "with_salary": 15,
+      "rate": 37.5
+    },
+    {
+      "slug": "fireblocks",
+      "ats": "greenhouse",
+      "postings": 27,
+      "with_salary": 10,
+      "rate": 37.0
+    },
+    {
+      "slug": "jfrog",
+      "ats": "greenhouse",
+      "postings": 68,
+      "with_salary": 23,
+      "rate": 33.8
+    },
+    {
+      "slug": "flexport",
+      "ats": "greenhouse",
+      "postings": 186,
+      "with_salary": 62,
+      "rate": 33.3
+    },
+    {
+      "slug": "commercetools",
+      "ats": "greenhouse",
+      "postings": 30,
+      "with_salary": 10,
+      "rate": 33.3
+    },
+    {
+      "slug": "mongodb",
+      "ats": "greenhouse",
+      "postings": 371,
+      "with_salary": 121,
+      "rate": 32.6
+    },
+    {
+      "slug": "bloomreach",
+      "ats": "greenhouse",
+      "postings": 72,
+      "with_salary": 23,
+      "rate": 31.9
+    },
+    {
+      "slug": "airwallex",
+      "ats": "ashby",
+      "postings": 507,
+      "with_salary": 157,
+      "rate": 31.0
+    },
+    {
+      "slug": "adyen",
+      "ats": "greenhouse",
+      "postings": 248,
+      "with_salary": 77,
+      "rate": 31.0
+    },
+    {
+      "slug": "intercom",
+      "ats": "greenhouse",
+      "postings": 102,
+      "with_salary": 31,
+      "rate": 30.4
+    },
+    {
+      "slug": "elliptic",
+      "ats": "ashby",
+      "postings": 29,
+      "with_salary": 8,
+      "rate": 27.6
+    },
+    {
+      "slug": "n8n",
+      "ats": "ashby",
+      "postings": 41,
+      "with_salary": 10,
+      "rate": 24.4
+    },
+    {
+      "slug": "shipbobinc",
+      "ats": "greenhouse",
+      "postings": 55,
+      "with_salary": 13,
+      "rate": 23.6
+    },
+    {
+      "slug": "encord",
+      "ats": "ashby",
+      "postings": 39,
+      "with_salary": 9,
+      "rate": 23.1
+    },
+    {
+      "slug": "roboflow",
+      "ats": "ashby",
+      "postings": 36,
+      "with_salary": 7,
+      "rate": 19.4
+    },
+    {
+      "slug": "cultureamp",
+      "ats": "greenhouse",
+      "postings": 33,
+      "with_salary": 6,
+      "rate": 18.2
+    },
+    {
+      "slug": "gusto",
+      "ats": "greenhouse",
+      "postings": 100,
+      "with_salary": 18,
+      "rate": 18.0
+    },
+    {
+      "slug": "zoominfo",
+      "ats": "greenhouse",
+      "postings": 92,
+      "with_salary": 15,
+      "rate": 16.3
+    },
+    {
+      "slug": "amplitude",
+      "ats": "ashby",
+      "postings": 38,
+      "with_salary": 6,
+      "rate": 15.8
+    },
+    {
+      "slug": "project44",
+      "ats": "greenhouse",
+      "postings": 27,
+      "with_salary": 4,
+      "rate": 14.8
+    },
+    {
+      "slug": "samsara",
+      "ats": "greenhouse",
+      "postings": 270,
+      "with_salary": 39,
+      "rate": 14.4
+    },
+    {
+      "slug": "monzo",
+      "ats": "greenhouse",
+      "postings": 72,
+      "with_salary": 10,
+      "rate": 13.9
+    },
+    {
+      "slug": "lyrahealth",
+      "ats": "lever",
+      "postings": 471,
+      "with_salary": 62,
+      "rate": 13.2
+    },
+    {
+      "slug": "harnessinc",
+      "ats": "greenhouse",
+      "postings": 65,
+      "with_salary": 7,
+      "rate": 10.8
+    },
+    {
+      "slug": "siteminder",
+      "ats": "ashby",
+      "postings": 28,
+      "with_salary": 3,
+      "rate": 10.7
+    },
+    {
+      "slug": "dnb",
+      "ats": "lever",
+      "postings": 96,
+      "with_salary": 9,
+      "rate": 9.4
+    },
+    {
+      "slug": "wrike",
+      "ats": "greenhouse",
+      "postings": 66,
+      "with_salary": 6,
+      "rate": 9.1
+    },
+    {
+      "slug": "deliveroo",
+      "ats": "greenhouse",
+      "postings": 201,
+      "with_salary": 18,
+      "rate": 9.0
+    },
+    {
+      "slug": "cognition",
+      "ats": "ashby",
+      "postings": 105,
+      "with_salary": 9,
+      "rate": 8.6
+    },
+    {
+      "slug": "includedhealth",
+      "ats": "lever",
+      "postings": 52,
+      "with_salary": 4,
+      "rate": 7.7
+    },
+    {
+      "slug": "tide",
+      "ats": "greenhouse",
+      "postings": 100,
+      "with_salary": 7,
+      "rate": 7.0
+    },
+    {
+      "slug": "toast",
+      "ats": "greenhouse",
+      "postings": 319,
+      "with_salary": 21,
+      "rate": 6.6
+    },
+    {
+      "slug": "carta",
+      "ats": "greenhouse",
+      "postings": 73,
+      "with_salary": 4,
+      "rate": 5.5
+    },
+    {
+      "slug": "block",
+      "ats": "greenhouse",
+      "postings": 205,
+      "with_salary": 11,
+      "rate": 5.4
+    },
+    {
+      "slug": "dlocal",
+      "ats": "lever",
+      "postings": 49,
+      "with_salary": 2,
+      "rate": 4.1
+    },
+    {
+      "slug": "alan",
+      "ats": "ashby",
+      "postings": 130,
+      "with_salary": 5,
+      "rate": 3.8
+    },
+    {
+      "slug": "workato",
+      "ats": "greenhouse",
+      "postings": 54,
+      "with_salary": 2,
+      "rate": 3.7
+    },
+    {
+      "slug": "stripe",
+      "ats": "greenhouse",
+      "postings": 712,
+      "with_salary": 22,
+      "rate": 3.1
+    },
+    {
+      "slug": "synthesia",
+      "ats": "ashby",
+      "postings": 34,
+      "with_salary": 1,
+      "rate": 2.9
+    },
+    {
+      "slug": "tripadvisor",
+      "ats": "greenhouse",
+      "postings": 85,
+      "with_salary": 2,
+      "rate": 2.4
+    },
+    {
+      "slug": "supabase",
+      "ats": "ashby",
+      "postings": 59,
+      "with_salary": 1,
+      "rate": 1.7
+    },
+    {
+      "slug": "justworks",
+      "ats": "greenhouse",
+      "postings": 91,
+      "with_salary": 1,
+      "rate": 1.1
+    },
+    {
+      "slug": "nubank",
+      "ats": "ashby",
+      "postings": 97,
+      "with_salary": 1,
+      "rate": 1.0
+    },
+    {
+      "slug": "sumup",
+      "ats": "greenhouse",
+      "postings": 344,
+      "with_salary": 3,
+      "rate": 0.9
+    },
+    {
+      "slug": "elevenlabs",
+      "ats": "ashby",
+      "postings": 161,
+      "with_salary": 1,
+      "rate": 0.6
+    },
+    {
+      "slug": "gopuff",
+      "ats": "lever",
+      "postings": 784,
+      "with_salary": 1,
+      "rate": 0.1
+    },
+    {
+      "slug": "datadog",
+      "ats": "greenhouse",
+      "postings": 418,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "betterhelp",
+      "ats": "greenhouse",
+      "postings": 154,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "notion",
+      "ats": "ashby",
+      "postings": 140,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "langchain",
+      "ats": "ashby",
+      "postings": 104,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "spotify",
+      "ats": "lever",
+      "postings": 89,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "getyourguide",
+      "ats": "greenhouse",
+      "postings": 74,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "trading212",
+      "ats": "ashby",
+      "postings": 53,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "mollie",
+      "ats": "ashby",
+      "postings": 51,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "jobber",
+      "ats": "ashby",
+      "postings": 43,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "qonto",
+      "ats": "lever",
+      "postings": 41,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "marqeta-inc",
+      "ats": "ashby",
+      "postings": 40,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "n26",
+      "ats": "greenhouse",
+      "postings": 38,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "bitpanda",
+      "ats": "greenhouse",
+      "postings": 35,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "zopa",
+      "ats": "lever",
+      "postings": 34,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "linear",
+      "ats": "ashby",
+      "postings": 34,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "sanity",
+      "ats": "ashby",
+      "postings": 33,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "drata",
+      "ats": "ashby",
+      "postings": 33,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "pleo",
+      "ats": "ashby",
+      "postings": 33,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "cloudbeds",
+      "ats": "greenhouse",
+      "postings": 32,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "betterment",
+      "ats": "greenhouse",
+      "postings": 25,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "honeycomb",
+      "ats": "greenhouse",
+      "postings": 25,
+      "with_salary": 0,
+      "rate": 0.0
+    }
+  ],
+  "zero_publishers": [
+    {
+      "slug": "datadog",
+      "ats": "greenhouse",
+      "postings": 418,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "betterhelp",
+      "ats": "greenhouse",
+      "postings": 154,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "notion",
+      "ats": "ashby",
+      "postings": 140,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "langchain",
+      "ats": "ashby",
+      "postings": 104,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "spotify",
+      "ats": "lever",
+      "postings": 89,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "getyourguide",
+      "ats": "greenhouse",
+      "postings": 74,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "trading212",
+      "ats": "ashby",
+      "postings": 53,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "mollie",
+      "ats": "ashby",
+      "postings": 51,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "jobber",
+      "ats": "ashby",
+      "postings": 43,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "qonto",
+      "ats": "lever",
+      "postings": 41,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "marqeta-inc",
+      "ats": "ashby",
+      "postings": 40,
+      "with_salary": 0,
+      "rate": 0.0
+    }
+  ],
+  "remote_median": 190794,
   "remote_n": 2254,
   "onsite_median": 204000,
-  "onsite_n": 5786,
-  "companies_with_pay": 165,
+  "onsite_n": 5785,
+  "companies_with_pay": 166,
   "family_remote": [
     {
       "family": "support / ops",
       "remote_n": 170,
       "remote_median": 140000,
-      "onsite_n": 338,
-      "onsite_median": 161000,
-      "gap_pct": -13.0
+      "onsite_n": 340,
+      "onsite_median": 162000,
+      "gap_pct": -13.6
     },
     {
       "family": "other",
       "remote_n": 521,
       "remote_median": 161250,
-      "onsite_n": 1207,
+      "onsite_n": 1205,
       "onsite_median": 185000,
       "gap_pct": -12.8
     },
     {
       "family": "engineering",
-      "remote_n": 854,
+      "remote_n": 855,
       "remote_median": 206000,
-      "onsite_n": 2332,
+      "onsite_n": 2333,
       "onsite_median": 222325,
       "gap_pct": -7.3
     },
@@ -76,8 +1179,8 @@
       "remote_n": 63,
       "remote_median": 191100,
       "onsite_n": 205,
-      "onsite_median": 201000,
-      "gap_pct": -4.9
+      "onsite_median": 202500,
+      "gap_pct": -5.6
     },
     {
       "family": "product",
@@ -88,26 +1191,26 @@
       "gap_pct": -4.3
     },
     {
-      "family": "data / ml",
-      "remote_n": 115,
-      "remote_median": 208125,
-      "onsite_n": 373,
-      "onsite_median": 216900,
-      "gap_pct": -4.0
+      "family": "marketing",
+      "remote_n": 98,
+      "remote_median": 170000,
+      "onsite_n": 295,
+      "onsite_median": 177500,
+      "gap_pct": -4.2
     },
     {
-      "family": "marketing",
-      "remote_n": 100,
-      "remote_median": 170000,
-      "onsite_n": 294,
-      "onsite_median": 176625,
+      "family": "data / ml",
+      "remote_n": 115,
+      "remote_median": 208750,
+      "onsite_n": 373,
+      "onsite_median": 216900,
       "gap_pct": -3.8
     },
     {
       "family": "sales",
-      "remote_n": 242,
+      "remote_n": 243,
       "remote_median": 165555,
-      "onsite_n": 627,
+      "onsite_n": 625,
       "onsite_median": 151137,
       "gap_pct": 9.5
     }
@@ -119,9 +1222,9 @@
   "companies": [
     {
       "company": "anthropic",
-      "n": 588,
+      "n": 589,
       "median": 347500,
-      "p25": 287500,
+      "p25": 282500,
       "p75": 402500
     },
     {
@@ -133,9 +1236,9 @@
     },
     {
       "company": "openai",
-      "n": 632,
+      "n": 631,
       "median": 307500,
-      "p25": 248500,
+      "p25": 248000,
       "p75": 366000
     },
     {
@@ -182,7 +1285,7 @@
     },
     {
       "company": "figma",
-      "n": 80,
+      "n": 79,
       "median": 236000,
       "p25": 207000,
       "p75": 264500
@@ -202,18 +1305,18 @@
       "p75": 247500
     },
     {
+      "company": "scaleai",
+      "n": 116,
+      "median": 229800,
+      "p25": 187200,
+      "p75": 255600
+    },
+    {
       "company": "vanta",
       "n": 47,
       "median": 229000,
       "p25": 212000,
       "p75": 264500
-    },
-    {
-      "company": "scaleai",
-      "n": 116,
-      "median": 228600,
-      "p25": 187200,
-      "p75": 251100
     },
     {
       "company": "launchdarkly",
@@ -286,6 +1389,13 @@
       "p75": 230500
     },
     {
+      "company": "stripe",
+      "n": 22,
+      "median": 218105,
+      "p25": 196000,
+      "p75": 245843
+    },
+    {
       "company": "wrike",
       "n": 6,
       "median": 217500,
@@ -293,25 +1403,11 @@
       "p75": 277500
     },
     {
-      "company": "stripe",
-      "n": 22,
-      "median": 216935,
-      "p25": 196000,
-      "p75": 245843
-    },
-    {
       "company": "databricks",
       "n": 473,
       "median": 216104,
       "p25": 195500,
       "p75": 246525
-    },
-    {
-      "company": "plaid",
-      "n": 128,
-      "median": 215256,
-      "p25": 175200,
-      "p75": 251400
     },
     {
       "company": "labelbox",
@@ -326,6 +1422,13 @@
       "median": 215000,
       "p25": 215000,
       "p75": 215000
+    },
+    {
+      "company": "plaid",
+      "n": 129,
+      "median": 214800,
+      "p25": 175200,
+      "p75": 251400
     },
     {
       "company": "ramp",
@@ -343,7 +1446,7 @@
     },
     {
       "company": "headway",
-      "n": 82,
+      "n": 83,
       "median": 214200,
       "p25": 156000,
       "p75": 250650
@@ -392,7 +1495,7 @@
     },
     {
       "company": "omni",
-      "n": 29,
+      "n": 28,
       "median": 205000,
       "p25": 180000,
       "p75": 255000
@@ -419,13 +1522,6 @@
       "p75": 269200
     },
     {
-      "company": "mercury",
-      "n": 75,
-      "median": 202700,
-      "p25": 151850,
-      "p75": 225800
-    },
-    {
       "company": "mesh",
       "n": 16,
       "median": 201750,
@@ -434,7 +1530,7 @@
     },
     {
       "company": "tailscale",
-      "n": 53,
+      "n": 51,
       "median": 201000,
       "p25": 172190,
       "p75": 245890
@@ -524,6 +1620,13 @@
       "p75": 232000
     },
     {
+      "company": "mercury",
+      "n": 76,
+      "median": 196925,
+      "p25": 151850,
+      "p75": 225800
+    },
+    {
       "company": "airwallex",
       "n": 157,
       "median": 195000,
@@ -536,13 +1639,6 @@
       "median": 195000,
       "p25": 162500,
       "p75": 225000
-    },
-    {
-      "company": "asana",
-      "n": 70,
-      "median": 194500,
-      "p25": 155000,
-      "p75": 225500
     },
     {
       "company": "instacart",
@@ -601,6 +1697,13 @@
       "p75": 237000
     },
     {
+      "company": "asana",
+      "n": 72,
+      "median": 191250,
+      "p25": 155000,
+      "p75": 225500
+    },
+    {
       "company": "dave",
       "n": 6,
       "median": 190000,
@@ -630,9 +1733,9 @@
     },
     {
       "company": "gitlab",
-      "n": 104,
+      "n": 106,
       "median": 187200,
-      "p25": 150600,
+      "p25": 143500,
       "p75": 206000
     },
     {
@@ -839,6 +1942,13 @@
       "p75": 189000
     },
     {
+      "company": "buildkite",
+      "n": 3,
+      "median": 157500,
+      "p25": 130000,
+      "p75": 235000
+    },
+    {
       "company": "project44",
       "n": 4,
       "median": 157500,
@@ -889,8 +1999,8 @@
     },
     {
       "company": "harnessinc",
-      "n": 8,
-      "median": 150625,
+      "n": 7,
+      "median": 151250,
       "p25": 150000,
       "p75": 151250
     },
@@ -928,13 +2038,6 @@
       "median": 142500,
       "p25": 122500,
       "p75": 175000
-    },
-    {
-      "company": "algolia",
-      "n": 30,
-      "median": 142452,
-      "p25": 90575,
-      "p75": 173298
     },
     {
       "company": "n8n",
@@ -1035,6 +2138,13 @@
       "p75": 175500
     },
     {
+      "company": "algolia",
+      "n": 28,
+      "median": 126317,
+      "p25": 90575,
+      "p75": 173298
+    },
+    {
       "company": "stockx",
       "n": 14,
       "median": 125000,
@@ -1106,9 +2216,9 @@
     },
     {
       "company": "flexport",
-      "n": 63,
-      "median": 107500,
-      "p25": 92250,
+      "n": 62,
+      "median": 107210,
+      "p25": 86500,
       "p75": 151000
     },
     {
@@ -1281,18 +2391,18 @@
     },
     {
       "family": "engineering",
-      "n": 3186,
+      "n": 3188,
       "median": 216104
     },
     {
       "family": "data / ml",
       "n": 488,
-      "median": 214143
+      "median": 214643
     },
     {
       "family": "finance / legal",
       "n": 268,
-      "median": 200000
+      "median": 200039
     },
     {
       "family": "security",
@@ -1301,28 +2411,28 @@
     },
     {
       "family": "design",
-      "n": 155,
-      "median": 185000
+      "n": 154,
+      "median": 184625
     },
     {
       "family": "marketing",
-      "n": 394,
-      "median": 175291
+      "n": 393,
+      "median": 175382
     },
     {
       "family": "other",
-      "n": 1728,
+      "n": 1726,
       "median": 175000
     },
     {
       "family": "sales",
-      "n": 869,
-      "median": 157034
+      "n": 868,
+      "median": 157267
     },
     {
       "family": "support / ops",
-      "n": 508,
-      "median": 154811
+      "n": 510,
+      "median": 155000
     }
   ]
 }

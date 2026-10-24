@@ -59,7 +59,6 @@ anthropic,greenhouse,"Manager, Cybersecurity Sales Specialist","San Francisco, C
 anthropic,greenhouse,"Manager, Enterprise Sales - Hedge Funds","New York City, NY",no,sales,450000,550000,500000,USD,450000,550000,2026-09-08,https://job-boards.greenhouse.io/anthropic/jobs/5282833008
 anthropic,greenhouse,"Manager, Enterprise Sales - Life Sciences","Boston, MA; New York City, NY; San Francisco, CA",no,sales,450000,550000,500000,USD,450000,550000,2026-03-03,https://job-boards.greenhouse.io/anthropic/jobs/5138289008
 openai,ashby,"Principal Software Engineer, ChatGPT Education and Learning",San Francisco,no,engineering,459000,536000,497500,USD,459000,536000,2026-10-23,https://jobs.ashbyhq.com/openai/40de0618-fb19-443d-85fd-ba690d3721a8
-openai,ashby,"Principal Software Engineer, Full Stack — Codex",San Francisco,no,engineering,459000,536000,497500,USD,459000,536000,2026-10-21,https://jobs.ashbyhq.com/openai/74842880-e750-4664-9e2e-83b4c96c5a03
 openai,ashby,"Data Engineering Manager, Growth & Revenue",San Francisco,no,engineering,459000,536000,497500,USD,459000,536000,2026-09-14,https://jobs.ashbyhq.com/openai/acbf80cd-20a7-47fe-aaf9-3e9224d1570c
 openai,ashby,"Principal Software Engineer, Productivity",San Francisco,no,engineering,459000,536000,497500,USD,459000,536000,2026-10-22,https://jobs.ashbyhq.com/openai/dd9c7c04-7181-4c65-9c6a-0e04313e3707
 anthropic,greenhouse,"Staff+ Software Engineer, Safeguards Infrastructure","London, UK",no,engineering,435271,529022,482147,GBP,325000,395000,2026-01-21,https://job-boards.greenhouse.io/anthropic/jobs/5074908008
@@ -217,8 +216,8 @@ anthropic,greenhouse,"Strategic Account Executive, GSI","New York City, NY; San 
 anthropic,greenhouse,"Strategic Account Executive, Healthcare","San Francisco, CA | New York City, NY",no,sales,380000,450000,415000,USD,380000,450000,2026-01-22,https://job-boards.greenhouse.io/anthropic/jobs/5074997008
 anthropic,greenhouse,"Strategic Account Executive, Industries","San Francisco, CA | New York City, NY",no,sales,380000,450000,415000,USD,380000,450000,2026-08-14,https://job-boards.greenhouse.io/anthropic/jobs/5379806008
 anthropic,greenhouse,"Strategic Account Executive, Insurance","New York City, NY",no,sales,380000,450000,415000,USD,380000,450000,2025-11-19,https://job-boards.greenhouse.io/anthropic/jobs/4986288008
-anthropic,greenhouse,"Strategic Account Executive, Tech","Seattle, WA",no,sales,380000,450000,415000,USD,380000,450000,2026-08-28,https://job-boards.greenhouse.io/anthropic/jobs/5126008008
 anthropic,greenhouse,"Strategic Account Executive, Tech","San Francisco, CA",no,sales,380000,450000,415000,USD,380000,450000,2026-09-10,https://job-boards.greenhouse.io/anthropic/jobs/5108111008
+anthropic,greenhouse,"Strategic Account Executive, Tech","Seattle, WA",no,sales,380000,450000,415000,USD,380000,450000,2026-08-28,https://job-boards.greenhouse.io/anthropic/jobs/5126008008
 anthropic,greenhouse,Strategic Growth Account Executive,"San Francisco, CA",no,sales,380000,450000,415000,USD,380000,450000,2026-09-17,https://job-boards.greenhouse.io/anthropic/jobs/5133331008
 anthropic,greenhouse,"Threat Intel Manager, CBRN-E & Advanced Weapons","San Francisco, CA | New York City, NY | Washington, DC",no,other,375000,455000,415000,USD,375000,455000,2026-07-08,https://job-boards.greenhouse.io/anthropic/jobs/5305631008
 anthropic,greenhouse,"Threat Intel Manager, Model Exploitation & Fraud","San Francisco, CA",no,other,375000,455000,415000,USD,375000,455000,2026-07-08,https://job-boards.greenhouse.io/anthropic/jobs/5305476008
@@ -241,9 +240,9 @@ openai,ashby,"Data Scientist, FinEng",San Francisco,no,data / ml,293000,515000,4
 openai,ashby,"Data Scientist, Ads Demand",San Francisco,no,data / ml,293000,515000,404000,USD,293000,515000,2026-07-30,https://jobs.ashbyhq.com/openai/1eb32675-b1a0-4c0a-9b57-19ceab07e9e0
 openai,ashby,"Data Scientist, SMB Ads Growth",San Francisco,no,data / ml,293000,515000,404000,USD,293000,515000,2026-07-30,https://jobs.ashbyhq.com/openai/f5dfd3aa-3bf6-49e2-b780-0da281a21533
 anthropic,greenhouse,Hardware Systems Architect,"San Francisco, CA | New York City, NY | Seattle, WA",no,engineering,320000,485000,402500,USD,320000,485000,2026-08-05,https://job-boards.greenhouse.io/anthropic/jobs/5286362008
-anthropic,greenhouse,Principal Engineer Capacity/Compute,"San Francisco, CA",no,engineering,320000,485000,402500,USD,320000,485000,2026-10-18,https://job-boards.greenhouse.io/anthropic/jobs/5456039008
-anthropic,greenhouse,Principal Engineer Capacity/Compute,"Seattle, WA",no,engineering,320000,485000,402500,USD,320000,485000,2026-10-19,https://job-boards.greenhouse.io/anthropic/jobs/5456406008
 anthropic,greenhouse,Principal Engineer Capacity/Compute,"New York City, NY",no,engineering,320000,485000,402500,USD,320000,485000,2026-10-19,https://job-boards.greenhouse.io/anthropic/jobs/5456405008
+anthropic,greenhouse,Principal Engineer Capacity/Compute,"Seattle, WA",no,engineering,320000,485000,402500,USD,320000,485000,2026-10-19,https://job-boards.greenhouse.io/anthropic/jobs/5456406008
+anthropic,greenhouse,Principal Engineer Capacity/Compute,"San Francisco, CA",no,engineering,320000,485000,402500,USD,320000,485000,2026-10-18,https://job-boards.greenhouse.io/anthropic/jobs/5456039008
 anthropic,greenhouse,"Senior+ Software Engineer, Legal Tech","Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",yes,engineering,320000,485000,402500,USD,320000,485000,2026-09-29,https://job-boards.greenhouse.io/anthropic/jobs/5435665008
 anthropic,greenhouse,Silicon Engineer,"San Francisco, CA",no,engineering,320000,485000,402500,USD,320000,485000,2026-08-05,https://job-boards.greenhouse.io/anthropic/jobs/5286348008
 anthropic,greenhouse,"Software Engineer, Labs","San Francisco, CA | New York City, NY | Seattle, WA",no,engineering,320000,485000,402500,USD,320000,485000,2025-12-08,https://job-boards.greenhouse.io/anthropic/jobs/5017202008
@@ -366,8 +365,8 @@ anthropic,greenhouse,"Product Designer, Growth","San Francisco, CA",no,design,30
 anthropic,greenhouse,"Product Designer, Safeguards","San Francisco, CA | New York City, NY | Seattle, WA",no,design,305000,460000,382500,USD,305000,460000,2026-09-25,https://job-boards.greenhouse.io/anthropic/jobs/5428014008
 anthropic,greenhouse,"Product Manager, Multi-Cloud Growth - Google","San Francisco, CA",no,product,305000,460000,382500,USD,305000,460000,2026-03-27,https://job-boards.greenhouse.io/anthropic/jobs/5153924008
 openai,ashby,Global Head of Events,San Francisco,no,other,361000,401000,381000,USD,361000,401000,2026-09-22,https://jobs.ashbyhq.com/openai/60be7108-c540-4839-87a8-41f19a75c1ce
-asana,greenhouse,"Strategic Enterprise Account Executive, Amazon",New York City,no,sales,380000,380000,380000,USD,380000,380000,2026-08-28,https://www.asana.com/jobs/apply/8165185?gh_jid=8165185
 asana,greenhouse,"Strategic Enterprise Account Executive, Amazon",US WA Seattle - Remote,yes,sales,380000,380000,380000,USD,380000,380000,2026-07-22,https://www.asana.com/jobs/apply/8054355?gh_jid=8054355
+asana,greenhouse,"Strategic Enterprise Account Executive, Amazon",New York City,no,sales,380000,380000,380000,USD,380000,380000,2026-08-28,https://www.asana.com/jobs/apply/8165185?gh_jid=8165185
 ramp,ashby,"Senior Manager, Account Executive | Mid-Market","New York, NY (HQ) · San Francisco, CA",no,sales,360000,400000,380000,USD,360000,400000,2026-09-10,https://jobs.ashbyhq.com/ramp/60ed4fac-3833-4495-9b0f-75e6dfe4b36c
 ramp,ashby,"Director, Product Design","New York, NY (HQ)",no,other,320000,440000,380000,USD,320000,440000,2026-06-08,https://jobs.ashbyhq.com/ramp/78b98c66-af59-4fa8-a5ae-d8af8d737976
 squarespace,greenhouse,"Senior Product Director, Client Engagement Group","Remote, United States",yes,other,323000,435000,379000,USD,323000,435000,2026-09-10,http://www.squarespace.com/about/careers?gh_jid=8186452
@@ -729,8 +728,8 @@ databricks,greenhouse,"Principal Engineer, Authentication","Mountain View, Calif
 ramp,ashby,Account Manager | Strategic,"New York, NY (HQ) · San Francisco, CA",no,other,265000,400000,332500,USD,265000,400000,2026-10-08,https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525
 ramp,ashby,"Director, Strategic Finance","New York, NY (HQ) · San Francisco, CA",no,finance / legal,280000,385000,332500,USD,280000,385000,2026-09-08,https://jobs.ashbyhq.com/ramp/fddcfe54-6fd2-4091-bf9c-346f35606cc9
 ramp,ashby,Design Systems Lead,"New York, NY (HQ) · San Francisco, CA / Remote (US)",yes,other,280000,385000,332500,USD,280000,385000,2026-09-30,https://jobs.ashbyhq.com/ramp/baa94095-c976-46d0-8d18-25a951950714
-asana,greenhouse,"Senior Staff Software Engineer, Developer Productivity",New York City,no,engineering,323500,336750,330125,USD,323500,336750,2026-09-17,https://www.asana.com/jobs/apply/8212172?gh_jid=8212172
 asana,greenhouse,"Senior Staff Software Engineer, Developer Productivity",San Francisco,no,engineering,323500,336750,330125,USD,323500,336750,2026-09-17,https://www.asana.com/jobs/apply/8095555?gh_jid=8095555
+asana,greenhouse,"Senior Staff Software Engineer, Developer Productivity",New York City,no,engineering,323500,336750,330125,USD,323500,336750,2026-09-17,https://www.asana.com/jobs/apply/8212172?gh_jid=8212172
 affirm,greenhouse,"Director, Information Technology & Security",Remote US,yes,security,300000,360000,330000,USD,300000,360000,2026-02-02,https://job-boards.greenhouse.io/affirm/jobs/7607567003
 affirm,greenhouse,"Director, Product Management (Shopping & Offers)",Remote US,yes,other,300000,360000,330000,USD,300000,360000,2026-06-26,https://job-boards.greenhouse.io/affirm/jobs/7780490003
 asana,greenhouse,"Enterprise Account Executive, SLED",US - Remote West,yes,sales,330000,330000,330000,USD,330000,330000,2026-05-21,https://www.asana.com/jobs/apply/7392983?gh_jid=7392983
@@ -828,6 +827,7 @@ snowflake,ashby,Principal Software Engineer I - Snowhouse Foundation,US-CA-Menlo
 snowflake,ashby,"Director of Engineering, AI Functions",US-CA-Menlo Park · US-WA-Bellevue,no,engineering,264000,379500,321750,USD,264000,379500,2026-09-11,https://jobs.ashbyhq.com/snowflake/70fa0e09-f834-42e3-8e77-7133360b417a
 snowflake,ashby,Principal Software Engineer - Agentic Pipelines,US-WA-Bellevue,no,engineering,264000,379500,321750,USD,264000,379500,2026-09-23,https://jobs.ashbyhq.com/snowflake/dd0b29a3-6bc8-4d6c-8fa6-79da445c70bd
 snowflake,ashby,Principal Software Engineer - Performance Engineering (Cloud Infrastructure),US-CA-Menlo Park,no,engineering,264000,379500,321750,USD,264000,379500,2026-09-17,https://jobs.ashbyhq.com/snowflake/351f89c9-7502-4c5c-b600-b3a1192c45eb
+snowflake,ashby,Tech Lead Manager - SUT Team,US-WA-Bellevue,no,other,264000,379500,321750,USD,264000,379500,2026-07-28,https://jobs.ashbyhq.com/snowflake/1f8252af-5383-44ad-ae97-4c555bc48adc
 snowflake,ashby,Principal Frontend AI Engineer - Cortex Code,US-CA-Menlo Park,no,engineering,264000,379500,321750,USD,264000,379500,2026-09-18,https://jobs.ashbyhq.com/snowflake/577b516f-af2c-40fb-80c2-9371015b6908
 snowflake,ashby,Senior Engineering Manager - OLTP,US-CA-Menlo Park,no,engineering,264000,379500,321750,USD,264000,379500,2026-08-15,https://jobs.ashbyhq.com/snowflake/e4bb8aa6-a4b5-48c6-8a29-bfbbd5b7fe83
 snowflake,ashby,Staff/Principal AI Software Engineer - Snowflake CoWork,US-CA-Menlo Park,no,engineering,264000,379500,321750,USD,264000,379500,2026-08-19,https://jobs.ashbyhq.com/snowflake/92b3b8b0-b60d-43c5-a15b-7fcd7aeeeb3e
@@ -1245,7 +1245,6 @@ snowflake,ashby,Staff Software Engineer,US-CA-Menlo Park · US-WA-Bellevue,no,en
 snowflake,ashby,Senior Product Manager - AI Migrations,US-CA-Menlo Park,no,data / ml,236000,339200,287600,USD,236000,339200,2026-06-17,https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef
 snowflake,ashby,Principal / Staff Applied Research Scientist,US-CA-Menlo Park,no,data / ml,236000,339200,287600,USD,236000,339200,2026-09-02,https://jobs.ashbyhq.com/snowflake/31fdda97-2347-4031-8cb3-0d78207b58b4
 snowflake,ashby,Principal Software Engineer,US-CA-Menlo Park · US-WA-Bellevue,no,engineering,236000,339200,287600,USD,236000,339200,2026-07-28,https://jobs.ashbyhq.com/snowflake/ef4a5f8b-76c5-4b98-a52a-6e65aef426ba
-snowflake,ashby,Tech Lead Manager - SUT Team,US-WA-Bellevue,no,other,236000,339200,287600,USD,236000,339200,2026-07-28,https://jobs.ashbyhq.com/snowflake/1f8252af-5383-44ad-ae97-4c555bc48adc
 snowflake,ashby,Engineering Manager - Cost Intelligence,US-WA-Bellevue,no,engineering,236000,339200,287600,USD,236000,339200,2026-08-24,https://jobs.ashbyhq.com/snowflake/21ed6b75-331d-472d-a36c-48520377d3d3
 snowflake,ashby,"Staff Software Engineer, Snowpark Container Service",US-CA-Menlo Park · US-WA-Bellevue,no,engineering,236000,339200,287600,USD,236000,339200,2026-08-24,https://jobs.ashbyhq.com/snowflake/b470bf43-46b4-4a31-a164-7181e7372d29
 snowflake,ashby,Staff Software Engineer - Snowhouse,US-CA-Menlo Park,no,engineering,236000,339200,287600,USD,236000,339200,2026-08-27,https://jobs.ashbyhq.com/snowflake/68b45abb-f1d6-46b2-a30e-c551076e7e7e
@@ -1377,6 +1376,7 @@ cohere,ashby,"Member of Technical Staff, Agentic Environments",Europe · Canada 
 cohere,ashby,Member of Technical Staff - RL Environments,London,no,other,178399,381774,280087,CAD,250000,535000,2026-08-17,https://jobs.ashbyhq.com/cohere/dc523c5b-9477-46c4-a122-4f3b2b8f4b67
 cohere,ashby,"Member of Technical Staff, North Modelling (Evals)",London · Europe / Toronto,no,other,178399,381774,280087,CAD,250000,535000,2026-08-19,https://jobs.ashbyhq.com/cohere/60de50e9-aba7-4a3a-8cdb-955a456749aa
 virtahealth,ashby,General Counsel,Remote,yes,finance / legal,267551,292583,280067,USD,267551,292583,2026-05-29,https://jobs.ashbyhq.com/virtahealth/838cf391-38f8-4faa-ab7d-4ce95650ab32
+anthropic,greenhouse,"Communications Manager, Claude Platform","San Francisco, CA | New York City, NY | Seattle, WA",no,other,265000,295000,280000,USD,265000,295000,2026-10-23,https://job-boards.greenhouse.io/anthropic/jobs/5462557008
 anthropic,greenhouse,"Communications Manager, Safeguards","San Francisco, CA | New York City, NY",no,other,265000,295000,280000,USD,265000,295000,2026-10-06,https://job-boards.greenhouse.io/anthropic/jobs/5445577008
 anthropic,greenhouse,"Communications Manager, The Anthropic Institute","San Francisco, CA | New York City, NY",no,other,265000,295000,280000,USD,265000,295000,2026-10-22,https://job-boards.greenhouse.io/anthropic/jobs/5461534008
 anthropic,greenhouse,"Community Engagement Manager, Data Centers (Indiana & Kentucky)","Remote-Friendly, United States",yes,data / ml,265000,295000,280000,USD,265000,295000,2026-10-18,https://job-boards.greenhouse.io/anthropic/jobs/5454535008
@@ -1508,7 +1508,7 @@ gitlab,greenhouse,"Director of Product Management, Agentic Software Delivery","R
 gitlab,greenhouse,Principal Technical Program Manager,"Remote, Canada; Remote, United States",yes,other,203200,345600,274400,USD,203200,345600,2026-08-25,https://job-boards.greenhouse.io/gitlab/jobs/8693068002
 ripple,greenhouse,"Director, Product Management, Global Payouts","San Francisco, CA, United States",no,other,248000,300000,274000,USD,248000,300000,2026-08-17,https://ripple.com/careers/all-jobs/job/8129029?gh_jid=8129029
 elastic,greenhouse,"Sr. Director, Enterprise Data",United States,no,data / ml,212100,335600,273850,USD,212100,335600,2026-09-16,https://jobs.elastic.co/jobs?gh_jid=8207941&gh_jid=8207941
-plaid,ashby,Staff Software Engineer - AI & Intelligent Tooling,San Francisco HQ,no,engineering,207600,339600,273600,USD,207600,339600,2026-08-12,https://jobs.ashbyhq.com/plaid/41448609-24d6-44ea-a5ba-c87cf3dc3f0d
+plaid,ashby,Staff Software Engineer - AI & Intelligent Tooling,San Francisco HQ · Seattle Office / New York City Office,no,engineering,207600,339600,273600,USD,207600,339600,2026-08-12,https://jobs.ashbyhq.com/plaid/41448609-24d6-44ea-a5ba-c87cf3dc3f0d
 plaid,ashby,Staff Product Manager - Data Supply Expansion,New York City Office,no,data / ml,207600,339600,273600,USD,207600,339600,2026-09-28,https://jobs.ashbyhq.com/plaid/d085d50f-c375-4977-84c7-a387023ae42c
 plaid,ashby,Staff Product Manager - AI & Data Foundations,San Francisco HQ · New York City Office,no,data / ml,207600,339600,273600,USD,207600,339600,2026-09-29,https://jobs.ashbyhq.com/plaid/f1e8a2ca-d4cc-4b00-9548-c73bce9cf069
 databricks,greenhouse,Senior Engineering Manager - Enzyme,"Mountain View, California",no,engineering,228600,317233,272916,USD,228600,317233,2025-08-07,https://databricks.com/company/careers/open-positions/job?gh_jid=8109902002
@@ -1636,7 +1636,6 @@ openai,ashby,"Trust & Safety Ads Operations Analyst, Programs",San Francisco,no,
 openai,ashby,"Counsel, Commercial",San Francisco,no,finance / legal,252000,280000,266000,USD,252000,280000,2026-09-17,https://jobs.ashbyhq.com/openai/35f99494-1700-4b81-9363-aaead13ea477
 openai,ashby,Platform Operations Program Manager,San Francisco,no,support / ops,252000,280000,266000,USD,252000,280000,2026-10-15,https://jobs.ashbyhq.com/openai/616ef2ce-3790-432d-9a6d-32abb2f52ff9
 openai,ashby,"Operations Analyst, User Safety & Risk Operations",San Francisco,no,support / ops,252000,280000,266000,USD,252000,280000,2026-08-17,https://jobs.ashbyhq.com/openai/daabc150-f22c-421e-b30d-1a50fb4cede3
-openai,ashby,"US Congressional Lead, Global Affairs","Washington, DC",no,other,252000,280000,266000,USD,252000,280000,2026-10-15,https://jobs.ashbyhq.com/openai/98064a4f-5c20-4a68-8197-555f7e21d088
 openai,ashby,Safety Response Operations Lead,San Francisco,no,support / ops,252000,280000,266000,USD,252000,280000,2026-08-28,https://jobs.ashbyhq.com/openai/91653d95-27fc-44bd-bbb3-7078fd6a5718
 openai,ashby,"Regulatory Operations Analyst, User Safety & Risk Operations",San Francisco,no,support / ops,252000,280000,266000,USD,252000,280000,2026-09-22,https://jobs.ashbyhq.com/openai/bc059a72-8ff3-4a80-a499-5b82ccca1f05
 openai,ashby,US Congressional Lead,"Washington, DC",no,other,252000,280000,266000,USD,252000,280000,2026-10-01,https://jobs.ashbyhq.com/openai/58b8ac53-8be9-4120-a9f6-a8811cb7f5a9
@@ -1710,6 +1709,8 @@ vercel,greenhouse,Solutions Architect,"Hybrid - San Francisco, New York City, Au
 databricks,greenhouse,Principal Brand Content & AI Search Visibility,"San Francisco, California",no,data / ml,223100,306800,264950,USD,223100,306800,2026-10-08,https://databricks.com/company/careers/open-positions/job?gh_jid=8860653002
 databricks,greenhouse,Senior Engineering Manager for Workspace Platform,"San Francisco, California",no,engineering,217000,312200,264600,USD,217000,312200,2025-06-12,https://databricks.com/company/careers/open-positions/job?gh_jid=7987658002
 databricks,greenhouse,Sr. Staff Software Engineer - Unity Catalog Data Governance,"Bellevue, Washington",no,engineering,217000,312200,264600,USD,217000,312200,2025-05-12,https://databricks.com/company/careers/open-positions/job?gh_jid=7993609002
+scaleai,greenhouse,"Machine Learning Engineer, Public Sector","Denver, CO; Honolulu, HI; Washington, DC",no,engineering,235200,294000,264600,USD,235200,294000,2025-11-18,https://job-boards.greenhouse.io/scaleai/jobs/4631848005
+scaleai,greenhouse,"Senior Machine Learning Engineer, Public Sector","Denver, CO; Honolulu, HI; Washington, DC",no,engineering,235200,294000,264600,USD,235200,294000,2026-09-10,https://job-boards.greenhouse.io/scaleai/jobs/4732798005
 anthropic,greenhouse,Technical Deployment Lead,"London, UK",no,other,220984,308038,264511,GBP,165000,230000,2026-08-19,https://job-boards.greenhouse.io/anthropic/jobs/5391108008
 figma,greenhouse,AI Applied Scientist,"San Francisco, CA • New York, NY • United States",no,data / ml,153000,376000,264500,USD,153000,376000,2025-12-17,https://boards.greenhouse.io/figma/jobs/5707966004?gh_jid=5707966004
 figma,greenhouse,Data Platform Engineer,"San Francisco, CA • New York, NY • United States",no,engineering,153000,376000,264500,USD,153000,376000,2026-09-21,https://boards.greenhouse.io/figma/jobs/6201407004?gh_jid=6201407004
@@ -2203,6 +2204,7 @@ openai,ashby,"Pricing Strategist, GTM",San Francisco,no,other,234000,260000,2470
 openai,ashby,"Partner Solutions Engineer, Ads Solutions - San Francisco",San Francisco,no,engineering,234000,260000,247000,USD,234000,260000,2026-09-21,https://jobs.ashbyhq.com/openai/6628eb95-ede3-49ab-a11f-3d5c44b16bbb
 openai,ashby,"Strategic Finance, Ads",San Francisco · New York City,no,finance / legal,234000,260000,247000,USD,234000,260000,2026-09-24,https://jobs.ashbyhq.com/openai/04c7b3d3-8523-41a2-8f84-39a739ebf207
 openai,ashby,Pricing Operations Lead,San Francisco,no,support / ops,234000,260000,247000,USD,234000,260000,2026-10-01,https://jobs.ashbyhq.com/openai/9911c8fc-4cff-4d6b-9a11-07114ef0f6bf
+openai,ashby,Strategic Finance Generalist,San Francisco,no,finance / legal,234000,260000,247000,USD,234000,260000,2026-10-23,https://jobs.ashbyhq.com/openai/f93ed20a-4a1c-43b4-895f-0830cdac6737
 hex,ashby,Cloud Security Engineer,Remote - US · San Francisco / New York,yes,engineering,198750,295000,246875,USD,198750,295000,2026-02-06,https://jobs.ashbyhq.com/hex/3f3c943c-7d46-46a7-bc58-5a66785c1e87
 hex,ashby,"Software Engineer, AI Agent",San Francisco · New York,no,engineering,198750,295000,246875,USD,198750,295000,2026-02-19,https://jobs.ashbyhq.com/hex/f5e3e677-5fdb-4012-badb-1b709ed37e11
 hex,ashby,"Software Engineer, Backend (Product)",Remote - US · San Francisco / New York,yes,engineering,198750,295000,246875,USD,198750,295000,2026-02-19,https://jobs.ashbyhq.com/hex/9fdd996d-b844-4844-9958-eb2482de2c4c
@@ -2470,6 +2472,7 @@ scaleai,greenhouse,"Solutions Architect, Enterprise","San Francisco, CA; New Yor
 scaleai,greenhouse,"Staff Solutions Architect, Enterprise","New York, NY; San Francisco, CA",no,engineering,212000,265000,238500,USD,212000,265000,2026-04-28,https://job-boards.greenhouse.io/scaleai/jobs/4689909005
 scaleai,greenhouse,"Forward Deployed Software Engineer, Public Sector","Austin, TX; Colorado Springs, CO; Honolulu, HI; Omaha, NE; St. Louis, MO; Washington, DC",no,engineering,184000,292560,238280,USD,184000,292560,2024-10-09,https://job-boards.greenhouse.io/scaleai/jobs/4481921005
 stripe,greenhouse,"Senior Software Engineer, Docs Product","New York, NY",no,engineering,190400,285600,238000,USD,190400,285600,2026-09-03,https://stripe.com/jobs/search?gh_jid=8177860
+stripe,greenhouse,Software Engineer,"Seattle, WA",no,engineering,190400,285600,238000,USD,190400,285600,2026-10-09,https://stripe.com/jobs/search?gh_jid=8267736
 fivetran,greenhouse,Manager Software Engineering,"Oakland, California, United States, AMER",no,engineering,211513,264391,237952,USD,211513,264391,2026-10-16,https://www.fivetran.com/careers/job?gh_jid=8017412003
 elastic,greenhouse,Principal AI Ecosystem Architect - OpenAI/Anthropic,"Washington, United States",no,engineering,184200,291400,237800,USD,184200,291400,2026-07-14,https://jobs.elastic.co/jobs?gh_jid=8065489&gh_jid=8065489
 elastic,greenhouse,Principal AI Ecosystem Architect - OpenAI/Anthropic,"San Francisco, CA",no,engineering,184200,291400,237800,USD,184200,291400,2026-07-14,https://jobs.elastic.co/jobs?gh_jid=8047165&gh_jid=8047165
@@ -2573,12 +2576,12 @@ anthropic,greenhouse,Executive Escalations Manager,"San Francisco, CA | New York
 anthropic,greenhouse,"Recruiter, AI Research","San Francisco, CA | Seattle, WA",no,data / ml,175000,295000,235000,USD,175000,295000,2025-10-02,https://job-boards.greenhouse.io/anthropic/jobs/4935314008
 anthropic,greenhouse,"Research Operations, Reinforcement Learning","San Francisco, CA",no,support / ops,210000,260000,235000,USD,210000,260000,2026-09-22,https://job-boards.greenhouse.io/anthropic/jobs/5422117008
 anthropic,greenhouse,Social Escalations Manager,"San Francisco, CA | New York City, NY | Seattle, WA",no,other,210000,260000,235000,USD,210000,260000,2026-09-10,https://job-boards.greenhouse.io/anthropic/jobs/5418858008
+buildkite,greenhouse,Forward Deployed Engineer,United States - Pacific Time,no,engineering,223000,247000,235000,USD,223000,247000,2026-10-23,https://job-boards.greenhouse.io/buildkite/jobs/5462954008
 clickhouse,ashby,"Director, Partner Programs & Operations",United States,yes,support / ops,200000,270000,235000,USD,200000,270000,2026-09-15,https://jobs.ashbyhq.com/clickhouse/54d24ce1-3ebc-41d7-9792-5bd49fe3dc20
 instacart,greenhouse,"Staff Software Engineer, Developer Experience","Canada - Remote (ON, AB, BC, or NS Only)",yes,engineering,229000,241000,235000,USD,229000,241000,2026-09-14,https://instacart.careers/job/?gh_jid=8202247
 mesh,greenhouse,"Director, Strategic Finance & Operations",United States - Remote,yes,support / ops,220000,250000,235000,USD,220000,250000,2026-10-21,https://job-boards.greenhouse.io/mesh/jobs/5460501008
 mixpanel,greenhouse,"Senior Data Scientist, AI Product Insights","San Francisco, US (Hybrid)",no,data / ml,216000,254000,235000,USD,216000,254000,2026-08-10,https://job-boards.greenhouse.io/mixpanel/jobs/8115028
 omni,ashby,Mid-Market Account Executive,"San Francisco, CA · Denver, CO / Remote - US",yes,sales,220000,250000,235000,USD,220000,250000,2026-09-08,https://jobs.ashbyhq.com/omni/e9fabee1-1634-4922-b2ad-30adcc9e44d4
-openai,ashby,"Motion Designer, Business Marketing",San Francisco,no,design,223000,247000,235000,USD,223000,247000,2026-10-14,https://jobs.ashbyhq.com/openai/c1d765b3-182e-4874-8316-12ce509a7f9f
 ramp,ashby,"Chief Compliance Officer, Ramp Advisory LLC","New York, NY (HQ) · Remote (US or Canada) / San Francisco, CA / Miami, FL",yes,security,170000,300000,235000,USD,170000,300000,2026-10-16,https://jobs.ashbyhq.com/ramp/abd1360f-bd9d-4649-ac02-9af2a437ff98
 sentry,ashby,"Manager, Design Engineering","San Francisco, California · Toronto, Ontario, Canada",no,engineering,200000,270000,235000,USD,200000,270000,2026-10-01,https://jobs.ashbyhq.com/sentry/9405b1d7-9a4e-424d-b5b2-4bc3cb2ba5cb
 snowflake,ashby,Staff Applied AI Engineer (FDE),US-CA-Menlo Park · US-WA-Bellevue,no,engineering,200000,270000,235000,USD,200000,270000,2026-09-24,https://jobs.ashbyhq.com/snowflake/12455179-f3ff-4739-b8c0-c21f3c116b87
@@ -2737,7 +2740,6 @@ openai,ashby,"Datacenter Networking Technician, AI Compute Deployment - Stargate
 openai,ashby,Hardware Operations Engineer,San Francisco · Seattle / US - Remote,yes,engineering,157000,302000,229500,USD,157000,302000,2026-06-20,https://jobs.ashbyhq.com/openai/b9a4a809-a965-4dbe-aeef-6ce1593903dd
 openai,ashby,"Network Operations Engineer, AI Networking",San Francisco,no,engineering,157000,302000,229500,USD,157000,302000,2026-09-15,https://jobs.ashbyhq.com/openai/bbad4315-1f13-4b2f-b595-cf1287274f2f
 tailscale,greenhouse,"Analytics Engineer, Data",Remote (Canada),yes,engineering,203680,254600,229140,USD,203680,254600,2026-08-04,https://job-boards.greenhouse.io/tailscale/jobs/4721252005
-flexport,greenhouse,Forward Deployed Engineer - Supply Chain Solutions,"San Francisco, California, United States",no,engineering,206181,252000,229090,USD,206181,252000,2026-08-06,https://job-boards.greenhouse.io/flexport/jobs/8110413
 flexport,greenhouse,"Senior Security Engineer, Detection & Response","San Francisco, California, United States",no,engineering,206181,252000,229090,USD,206181,252000,2026-08-27,https://job-boards.greenhouse.io/flexport/jobs/8160833
 flexport,greenhouse,"Senior Software Engineer, Autonomous Freight Systems","San Francisco, California, United States",no,engineering,206181,252000,229090,USD,206181,252000,2026-06-03,https://job-boards.greenhouse.io/flexport/jobs/7975365
 adyen,greenhouse,"Governance Lead, Scheme Compliance",San Francisco,no,security,195000,263000,229000,USD,195000,263000,2026-10-20,https://job-boards.greenhouse.io/adyen/jobs/8188021
@@ -2749,8 +2751,6 @@ vanta,ashby,"Senior Fullstack Software Engineer, Risk",Remote U.S.,yes,engineeri
 brex,greenhouse,"Senior Finance Manager, Marketing","New York, New York, United States",no,marketing,203400,254250,228825,USD,203400,254250,2026-10-19,https://www.brex.com/careers/8900330002?gh_jid=8900330002
 n8n,ashby,"Field Marketing Lead, US",Boston · Florida / New York / Massachusetts,yes,marketing,205900,251700,228800,USD,205900,251700,2026-09-28,https://jobs.ashbyhq.com/n8n/569612ef-9772-4351-9ea7-56c359225301
 scaleai,greenhouse,"Deployment Strategist, Space Systems Command","Los Angeles, CA",no,other,203200,254000,228600,USD,203200,254000,2026-07-09,https://job-boards.greenhouse.io/scaleai/jobs/4713532005
-scaleai,greenhouse,"Machine Learning Engineer, Public Sector","Denver, CO; Honolulu, HI; Washington, DC",no,engineering,203200,254000,228600,USD,203200,254000,2025-11-18,https://job-boards.greenhouse.io/scaleai/jobs/4631848005
-scaleai,greenhouse,"Senior Machine Learning Engineer, Public Sector","Denver, CO; Honolulu, HI; Washington, DC",no,engineering,203200,254000,228600,USD,203200,254000,2026-09-10,https://job-boards.greenhouse.io/scaleai/jobs/4732798005
 mongodb,greenhouse,"VP, Corporate Controller",Palo Alto; San Francisco,no,finance / legal,154000,303000,228500,USD,154000,303000,2026-10-06,https://www.mongodb.com/careers/job/?gh_jid=8256571
 vanta,ashby,"Senior Software Engineer, Vanta for Government",Remote U.S.,yes,engineering,194000,263000,228500,USD,194000,263000,2026-08-27,https://jobs.ashbyhq.com/vanta/b01ad813-3dd3-4603-ab81-75b14772b43b
 writer,ashby,AI engineer,"San Francisco, CA · New York City, NY",no,engineering,198000,259000,228500,USD,198000,259000,2026-09-22,https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d
@@ -2766,7 +2766,6 @@ fivetran,greenhouse,"Senior Staff Systems Engineer, GTM","Oakland, California, U
 databricks,greenhouse,"Manager, Field Engineering - MFG","Chicago, Illinois",no,engineering,192100,264100,228100,USD,192100,264100,2026-07-02,https://databricks.com/company/careers/open-positions/job?gh_jid=8612964002
 brex,greenhouse,"AI Engineer, Workbench","San Francisco, California, United States",no,engineering,216000,240000,228000,USD,216000,240000,2026-06-24,https://www.brex.com/careers/8606845002?gh_jid=8606845002
 mongodb,greenhouse,"Senior Engineering Manager, Storage Execution",Ontario,no,engineering,191000,265000,228000,USD,191000,265000,2026-09-10,https://www.mongodb.com/careers/job/?gh_jid=8163002
-openai,ashby,"Senior Manager, Extended Workforce Program",San Francisco,no,other,216000,240000,228000,USD,216000,240000,2026-07-23,https://jobs.ashbyhq.com/openai/194a69ed-d7a2-4af8-9bec-67a4b7b58451
 openai,ashby,Support Vendor Manager,San Francisco,no,support / ops,216000,240000,228000,USD,216000,240000,2026-08-06,https://jobs.ashbyhq.com/openai/d4084bb6-f9fa-46df-87ef-da6caed88455
 openai,ashby,"Senior Manager, Financial Reporting",San Francisco,no,other,216000,240000,228000,USD,216000,240000,2026-09-21,https://jobs.ashbyhq.com/openai/201224fb-6d5f-4e3a-b183-25931d5c776d
 openai,ashby,"Technical Program Manager, Support Delivery",San Francisco,no,support / ops,216000,240000,228000,USD,216000,240000,2026-05-22,https://jobs.ashbyhq.com/openai/b8a1293b-bf5b-488d-8257-869584db6496
@@ -2785,6 +2784,8 @@ openai,ashby,"Internal Communications Lead, Enterprise & Growth",San Francisco �
 openai,ashby,"Technical Accounting Lead, Ads Revenue",San Francisco · New York City,no,sales,216000,240000,228000,USD,216000,240000,2026-10-08,https://jobs.ashbyhq.com/openai/539aa9e9-76e0-4408-b47b-3bd569a81f91
 openai,ashby,Global Candidate Experience Manager,San Francisco,no,other,216000,240000,228000,USD,216000,240000,2026-10-19,https://jobs.ashbyhq.com/openai/6224a72e-16cc-49c2-8b8c-b87b001e6c61
 openai,ashby,Compliance Program Manager — Regulatory Compliance,San Francisco,no,security,216000,240000,228000,USD,216000,240000,2026-10-20,https://jobs.ashbyhq.com/openai/5f094405-1b54-419b-88b2-df1d7eb16af0
+openai,ashby,"Senior Manager, Supplier MDM Operations",San Francisco,no,support / ops,216000,240000,228000,USD,216000,240000,2026-10-24,https://jobs.ashbyhq.com/openai/395e9fe2-4d78-42dd-b3f7-603884915a59
+launchdarkly,greenhouse,"Director of People Programs, Systems & Analytics",Remote - US,yes,data / ml,191800,263670,227735,USD,191800,263670,2026-10-20,https://job-boards.greenhouse.io/launchdarkly/jobs/8039686003
 launchdarkly,greenhouse,"Director, People Operations",Remote - US,yes,support / ops,191800,263670,227735,USD,191800,263670,2026-10-08,https://job-boards.greenhouse.io/launchdarkly/jobs/8017033003
 launchdarkly,greenhouse,"Engineering Manager, Cloud Engineering",Remote - US,yes,engineering,191800,263670,227735,USD,191800,263670,2026-09-24,https://job-boards.greenhouse.io/launchdarkly/jobs/8004607003
 launchdarkly,greenhouse,"Senior Backend Engineer, Billing",Remote - US,yes,engineering,191800,263670,227735,USD,191800,263670,2026-08-12,https://job-boards.greenhouse.io/launchdarkly/jobs/7860525003
@@ -2848,7 +2849,7 @@ plaid,ashby,"Senior Software Engineer, Backend",Seattle Office,no,engineering,19
 plaid,ashby,"Senior Software Engineer, Full Stack",San Francisco HQ,no,engineering,190800,262800,226800,USD,190800,262800,2026-05-04,https://jobs.ashbyhq.com/plaid/a4a868a6-555a-4119-bbd7-6300f16d9045
 plaid,ashby,"Senior Software Engineer, Full Stack",New York City Office,no,engineering,190800,262800,226800,USD,190800,262800,2026-05-04,https://jobs.ashbyhq.com/plaid/24f357ee-b2fc-4f86-bab9-d10ecfb99003
 plaid,ashby,"Senior Software Engineer, Full Stack",Seattle Office,no,engineering,190800,262800,226800,USD,190800,262800,2026-09-01,https://jobs.ashbyhq.com/plaid/d7cfe5b0-211a-41aa-a3c8-ea2844799a68
-plaid,ashby,Senior Software Engineer - AI Tooling,San Francisco HQ,no,engineering,190800,262800,226800,USD,190800,262800,2026-07-10,https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893
+plaid,ashby,Senior Software Engineer - AI Tooling,San Francisco HQ · New York City Office,no,engineering,190800,262800,226800,USD,190800,262800,2026-07-10,https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893
 plaid,ashby,"Product Manager, Financial Management",New York City Office · San Francisco HQ,no,product,190800,262800,226800,USD,190800,262800,2026-09-21,https://jobs.ashbyhq.com/plaid/8b5aa324-bbb5-472b-8536-76b705c80829
 plaid,ashby,"Product Manager, Growth",New York City Office,no,product,190800,262800,226800,USD,190800,262800,2026-09-21,https://jobs.ashbyhq.com/plaid/542d46b1-1032-49c8-b96f-806ace7b3a8b
 plaid,ashby,Senior Data Scientist - Network Value (Credit),San Francisco HQ · Seattle Office / New York City Office,no,data / ml,190800,262800,226800,USD,190800,262800,2026-08-28,https://jobs.ashbyhq.com/plaid/172bb8e8-7dc8-4fdc-ae20-525456989ff4
@@ -3436,7 +3437,7 @@ stripe,greenhouse,Offensive Security Engineer,US - Remote,yes,engineering,170400
 robinhood,greenhouse,"Senior Android Engineer, Crypto Expansion","Menlo Park, CA; New York, NY",no,engineering,196000,230000,213000,USD,196000,230000,2026-07-31,https://boards.greenhouse.io/robinhood/jobs/8100160?t=gh_src=&gh_jid=8100160
 robinhood,greenhouse,"Senior Android Engineer, iRAD","Menlo Park, CA; New York, NY",no,engineering,196000,230000,213000,USD,196000,230000,2026-07-07,https://boards.greenhouse.io/robinhood/jobs/8049885?t=gh_src=&gh_jid=8049885
 robinhood,greenhouse,"Senior Android Engineer, Trading Products","Menlo Park, CA",no,engineering,196000,230000,213000,USD,196000,230000,2026-07-07,https://boards.greenhouse.io/robinhood/jobs/8049809?t=gh_src=&gh_jid=8049809
-robinhood,greenhouse,"Senior iOS Engineer, Crypto Perpetuals","Menlo Park, CA; New York, NY; Toronto, Canada",no,engineering,196000,230000,213000,USD,196000,230000,2026-10-16,https://boards.greenhouse.io/robinhood/jobs/8289388?t=gh_src=&gh_jid=8289388
+robinhood,greenhouse,"Senior iOS Engineer, Crypto Perpetuals","Menlo Park, CA; New York, NY",no,engineering,196000,230000,213000,USD,196000,230000,2026-10-16,https://boards.greenhouse.io/robinhood/jobs/8289388?t=gh_src=&gh_jid=8289388
 robinhood,greenhouse,"Senior iOS Engineer, Crypto Trading","New York, NY",no,engineering,196000,230000,213000,USD,196000,230000,2026-06-24,https://boards.greenhouse.io/robinhood/jobs/8027506?t=gh_src=&gh_jid=8027506
 robinhood,greenhouse,"Senior Software Engineer, Backend","Menlo Park, CA; New York, NY",no,engineering,196000,230000,213000,USD,196000,230000,2025-09-27,https://boards.greenhouse.io/robinhood/jobs/7264931?t=gh_src=&gh_jid=7264931
 robinhood,greenhouse,"Senior Software Engineer, Data Engineering","Menlo Park, CA",no,engineering,196000,230000,213000,USD,196000,230000,2022-12-08,https://boards.greenhouse.io/robinhood/jobs/4738660?t=gh_src=&gh_jid=4738660
@@ -3501,7 +3502,6 @@ adyen,greenhouse,Senior System Administrator (Storage Engineer),Chicago,no,engin
 airwallex,ashby,"Account Manager, SME & Growth",US - San Francisco · US - New York,no,marketing,174000,249000,211500,USD,174000,249000,2026-10-20,https://jobs.ashbyhq.com/airwallex/e8a5fd8f-3f9e-49ed-aff2-053839e2e699
 chime,greenhouse,"Senior Software Engineer, Lending","New York, NY, USA; San Francisco, CA, USA",no,engineering,164000,259000,211500,USD,164000,259000,2026-07-29,https://boards.greenhouse.io/chime/jobs/8656937002?gh_jid=8656937002
 chime,greenhouse,"Senior Software Engineer, Trust & Safety","Chicago, IL, USA; San Francisco, CA, USA",no,engineering,164000,259000,211500,USD,164000,259000,2026-10-07,https://boards.greenhouse.io/chime/jobs/8875820002?gh_jid=8875820002
-figma,greenhouse,Marketing Engineer,"San Francisco, CA • New York, NY • United States",no,engineering,127000,296000,211500,USD,127000,296000,2026-06-05,https://boards.greenhouse.io/figma/jobs/6013495004?gh_jid=6013495004
 writer,ashby,"Staff security engineer, application security","New York City, NY · Seattle, WA / San Francisco, CA",no,engineering,183000,240000,211500,USD,183000,240000,2026-09-24,https://jobs.ashbyhq.com/writer/36aef3b1-ded0-4aed-9943-01bbf6568fe4
 databricks,greenhouse,"Manager, Field Engineering - Financial Services Industry","Toronto, Canada",no,engineering,178100,244850,211475,USD,178100,244850,2026-06-02,https://databricks.com/company/careers/open-positions/job?gh_jid=8557075002
 smartsheet,greenhouse,Group Product Manager – Corporate Systems,"-REMOTE, USA-",yes,product,182500,240000,211250,USD,182500,240000,2026-09-25,https://job-boards.greenhouse.io/smartsheet/jobs/8233818
@@ -3778,7 +3778,6 @@ klaviyo,greenhouse,Senior Lead Go-To-Market Architect,"San Francisco, CA",no,eng
 klaviyo,greenhouse,Senior Lead Go-To-Market Architect,"Boston, MA",no,engineering,164000,246000,205000,USD,164000,246000,2026-09-18,https://www.klaviyo.com/careers/jobs/7999545003?gh_jid=7999545003
 mintlify,ashby,Head of Technical Support,San Francisco,no,support / ops,185000,225000,205000,USD,185000,225000,2026-10-01,https://jobs.ashbyhq.com/mintlify/e0176b0a-53d5-42cf-a4e8-50476c77c191
 omni,ashby,Product Engineer,United States,yes,engineering,160000,250000,205000,USD,160000,250000,2026-09-08,https://jobs.ashbyhq.com/omni/f2e510bf-82dd-4a86-94cf-d0a3b29b5889
-omni,ashby,"Product Marketing, Enterprise",Remote - US,yes,marketing,165000,245000,205000,USD,165000,245000,2026-09-08,https://jobs.ashbyhq.com/omni/d42d9a91-6c6a-480a-b1ad-04ee5550c827
 omni,ashby,Frontend Engineer,"San Francisco, CA · Santa Cruz, CA / Denver, CO / Philadelphia, PA",no,engineering,160000,250000,205000,USD,160000,250000,2026-09-30,https://jobs.ashbyhq.com/omni/b0e476d5-b222-46df-9250-b02c08562809
 omni,ashby,"Frontend Engineer, Data Visualization","San Francisco, CA · Santa Cruz, CA / Denver, CO / Philadelphia, PA",no,engineering,160000,250000,205000,USD,160000,250000,2026-10-05,https://jobs.ashbyhq.com/omni/40c5ad19-2fa1-4787-b654-4f274989aa77
 openai,ashby,"Customer Success Manager, Ads Solutions (New York City)",New York City,no,support / ops,176000,234000,205000,USD,176000,234000,2026-05-11,https://jobs.ashbyhq.com/openai/99f4a8ea-6bd0-49a3-b90a-5004c8923523
@@ -3806,8 +3805,8 @@ openai,ashby,"Account Director, Digital Natives Growth",San Francisco,no,marketi
 databricks,greenhouse,"Manager, Developer Relations - Open Source","San Francisco, California",no,engineering,172300,236950,204625,USD,172300,236950,2026-08-14,https://databricks.com/company/careers/open-positions/job?gh_jid=8716189002
 databricks,greenhouse,"Staff Product Manager, Agentic AI Applications","Mountain View, California; San Francisco, California",no,data / ml,172200,236850,204525,USD,172200,236850,2026-06-23,https://databricks.com/company/careers/open-positions/job?gh_jid=8560772002
 databricks,greenhouse,"Staff Product Manager, SAP","Mountain View, California; San Francisco, California",no,product,172200,236850,204525,USD,172200,236850,2026-08-07,https://databricks.com/company/careers/open-positions/job?gh_jid=8679974002
-block,greenhouse,"Manager, SMB Sales","Bay Area, CA, United States of America",no,sales,163600,245400,204500,USD,163600,245400,2026-06-17,http://block.xyz/careers/jobs/5267747008?gh_jid=5267747008
 block,greenhouse,"Manager, SMB Sales","New York, NY, United States of America",no,sales,163600,245400,204500,USD,163600,245400,2026-06-17,http://block.xyz/careers/jobs/5267743008?gh_jid=5267743008
+block,greenhouse,"Manager, SMB Sales","Bay Area, CA, United States of America",no,sales,163600,245400,204500,USD,163600,245400,2026-06-17,http://block.xyz/careers/jobs/5267747008?gh_jid=5267747008
 snowflake,ashby,"Sr. Manager, Technical Delivery",US-IL-Chicago-MSO,no,other,177000,232000,204500,USD,177000,232000,2026-08-28,https://jobs.ashbyhq.com/snowflake/49fd7a30-f0e6-484e-bf44-3d4d2561c4f3
 writer,ashby,Senior AI transformation lead (Central),"Chicago, IL · Austin, TX",no,data / ml,184000,225000,204500,USD,184000,225000,2026-10-08,https://jobs.ashbyhq.com/writer/eaa203c7-1bc5-41ca-952c-50e019effa36
 databricks,greenhouse,"Sr. Manager, Order to Revenue Process Compliance",Central - United States; West Coast - United States,no,sales,171800,236300,204050,USD,171800,236300,2026-09-16,https://databricks.com/company/careers/open-positions/job?gh_jid=8756150002
@@ -3944,7 +3943,6 @@ openai,ashby,"Program Manager, Government Trusted Access","Washington, DC",no,se
 openai,ashby,Compute & Infrastructure Accounting,San Francisco,no,finance / legal,162000,240000,201000,USD,162000,240000,2026-10-22,https://jobs.ashbyhq.com/openai/4b7246e7-0eaf-4e35-865b-1ef693527ff4
 tailscale,greenhouse,Senior Customer Account Executive,"Hybrid (Toronto, Ontario)",no,sales,201000,201000,201000,USD,201000,201000,2026-10-15,https://job-boards.greenhouse.io/tailscale/jobs/4724120005
 tailscale,greenhouse,Senior Customer Account Executive,"Hybrid (Vancouver, British Columbia)",no,sales,201000,201000,201000,USD,201000,201000,2026-10-15,https://job-boards.greenhouse.io/tailscale/jobs/4744215005
-tailscale,greenhouse,Senior New Business Account Executive,"Hybrid (Toronto, Ontario)",no,sales,201000,201000,201000,USD,201000,201000,2026-10-05,https://job-boards.greenhouse.io/tailscale/jobs/4740660005
 chargepoint,greenhouse,"Senior Manager, Corporate FP&A",US-CA-Campbell-242,no,other,173050,228850,200950,USD,173050,228850,2026-09-14,https://www.chargepoint.com/about/opportunities/job/?gh_jid=8806166002
 pagerduty,greenhouse,Senior Security Engineer - Cloud Security,Atlanta,no,engineering,150000,251900,200950,USD,150000,251900,2026-09-17,https://job-boards.greenhouse.io/pagerduty/jobs/6173952004
 coinbase,greenhouse,Regulatory Compliance Manager,Remote - Singapore,yes,security,200900,200900,200900,USD,200900,200900,2026-08-26,https://www.coinbase.com/careers/positions/8152576?gh_jid=8152576
@@ -3958,6 +3956,7 @@ kong,ashby,"Senior Software Engineering Manager, Managed Gateways SREs","Washing
 vercel,greenhouse,Partner Solutions Engineer,Hybrid - San Francisco,no,engineering,176000,225000,200500,USD,176000,225000,2026-09-22,https://job-boards.greenhouse.io/vercel/jobs/6201179004
 ripple,greenhouse,"Senior Software Engineer,","San Francisco, CA, United States",no,engineering,200340,200540,200440,USD,200340,200540,2026-10-20,https://ripple.com/careers/all-jobs/job/8301128?gh_jid=8301128
 plaid,ashby,Product Marketing Manager - Payments,San Francisco HQ · New York City Office,no,marketing,160800,240000,200400,USD,160800,240000,2026-09-14,https://jobs.ashbyhq.com/plaid/2482391e-a6c0-433f-9f6d-5221ee296d22
+plaid,ashby,Product Marketing Manager - Credit,San Francisco HQ · San Francisco HQ / New York City Office,no,marketing,160800,240000,200400,USD,160800,240000,2026-10-23,https://jobs.ashbyhq.com/plaid/5b5ff8c1-f0c2-41b6-958a-dad63a71d784
 fivetran,greenhouse,Senior Technical Product Marketing Manager,"Oakland, California, United States, AMER",no,marketing,178069,222586,200328,USD,178069,222586,2026-09-22,https://www.fivetran.com/careers/job?gh_jid=8002744003
 squarespace,greenhouse,"Senior Product Manager, Acuity Scheduling, Payments",New York City,no,product,153500,247000,200250,USD,153500,247000,2026-09-25,http://www.squarespace.com/about/careers?gh_jid=8205239
 databricks,greenhouse,Scaled Engagement Manager,United States,no,other,168590,231898,200244,USD,168590,231898,2026-09-30,https://databricks.com/company/careers/open-positions/job?gh_jid=8856932002
@@ -4132,7 +4131,6 @@ fivetran,greenhouse,Senior UX Researcher,"Denver, Colorado, United States, AMER;
 clickhouse,ashby,Full Stack Software Engineer - SQL Console,Europe or US,no,engineering,142000,250000,196000,USD,142000,250000,2026-10-19,https://jobs.ashbyhq.com/clickhouse/1176ec78-e10d-4acd-8af8-47406af929ee
 gitlab,greenhouse,"Senior Backend Engineer, Platform Enablement","Remote, United States",yes,engineering,156800,235200,196000,USD,156800,235200,2026-09-18,https://job-boards.greenhouse.io/gitlab/jobs/8750842002
 stripe,greenhouse,Software Engineer,"South San Francisco, CA",no,engineering,156800,235200,196000,USD,156800,235200,2026-10-22,https://stripe.com/jobs/search?gh_jid=8314283
-stripe,greenhouse,Software Engineer,"Seattle, WA",no,engineering,156800,235200,196000,USD,156800,235200,2026-10-02,https://stripe.com/jobs/search?gh_jid=8249901
 stripe,greenhouse,"Software Engineer, Payins Card Networks","Seattle, WA",no,engineering,156800,235200,196000,USD,156800,235200,2026-09-14,https://stripe.com/jobs/search?gh_jid=8198207
 stripe,greenhouse,"Software Engineer, Resource Automation","South San Francisco, CA",no,engineering,156800,235200,196000,USD,156800,235200,2026-10-22,https://stripe.com/jobs/search?gh_jid=8314235
 sofi,greenhouse,Staff Enterprise Security Engineer,WA - Seattle; CA - San Francisco; UT - Cottonwood Heights; NY - New York City; TX - Frisco,no,engineering,144000,247500,195750,USD,144000,247500,2026-10-08,https://sofi.com/careers/job/8017077003?gh_jid=8017077003
@@ -4166,6 +4164,7 @@ coinbase,greenhouse,Deputy Chief Regulatory Officer,Remote - USA,yes,other,17952
 fivetran,greenhouse,Web Strategy & Optimization Lead,USA - New York (dbt),no,other,173624,217030,195327,USD,173624,217030,2026-10-06,https://www.fivetran.com/careers/job?gh_jid=8015059003
 fivetran,greenhouse,"Principal, Marketing Insights","Denver, Colorado, United States, AMER",no,marketing,173574,216967,195270,USD,173574,216967,2026-10-22,https://www.fivetran.com/careers/job?gh_jid=8026985003
 brex,greenhouse,"Lead, Social Media","New York, New York, United States; San Francisco, California, United States",no,other,173568,216960,195264,USD,173568,216960,2026-06-12,https://www.brex.com/careers/8590271002?gh_jid=8590271002
+headway,ashby,"Principal, Business Development - Payer",Remote,yes,sales,152320,238000,195160,USD,152320,238000,2026-10-23,https://jobs.ashbyhq.com/headway/52f9fa56-966f-4da4-95ff-7c75a8fc4b78
 flexport,greenhouse,"Senior Security Engineer, Detection & Response",U.S. Remote,yes,engineering,138196,252000,195098,USD,138196,252000,2026-08-28,https://job-boards.greenhouse.io/flexport/jobs/8164847
 adyen,greenhouse,"Payments & Product Partnerships Counsel, Americas",New York,no,finance / legal,160000,230000,195000,USD,160000,230000,2026-09-25,https://job-boards.greenhouse.io/adyen/jobs/8227268
 adyen,greenhouse,"Payments & Product Partnerships Counsel, Americas",Chicago,no,finance / legal,160000,230000,195000,USD,160000,230000,2026-10-01,https://job-boards.greenhouse.io/adyen/jobs/8243422
@@ -4245,8 +4244,8 @@ faire,greenhouse,Strategy & Analytics Lead - Multiple Openings,"New York City, N
 headway,ashby,"Senior Counsel, Corporate & Risk",Remote,yes,finance / legal,152000,237500,194750,USD,152000,237500,2026-10-02,https://jobs.ashbyhq.com/headway/e12149d6-3e8b-4a96-a7c3-b8d09e95e392
 stripe,greenhouse,GTM Strategy & Operations Analyst,"New York, NY",no,support / ops,155800,233600,194700,USD,155800,233600,2026-08-20,https://stripe.com/jobs/search?gh_jid=8145119
 asana,greenhouse,Corporate Strategy and Planning Lead,San Francisco,no,other,182000,207000,194500,USD,182000,207000,2026-10-15,https://www.asana.com/jobs/apply/8244205?gh_jid=8244205
-asana,greenhouse,Developer Advocate,New York City,no,engineering,182000,207000,194500,USD,182000,207000,2026-10-05,https://www.asana.com/jobs/apply/8257456?gh_jid=8257456
 asana,greenhouse,Developer Advocate,San Francisco,no,engineering,182000,207000,194500,USD,182000,207000,2026-10-01,https://www.asana.com/jobs/apply/8095543?gh_jid=8095543
+asana,greenhouse,Developer Advocate,New York City,no,engineering,182000,207000,194500,USD,182000,207000,2026-10-05,https://www.asana.com/jobs/apply/8257456?gh_jid=8257456
 asana,greenhouse,Product Designer,San Francisco,no,design,182000,207000,194500,USD,182000,207000,2026-06-11,https://www.asana.com/jobs/apply/7952123?gh_jid=7952123
 openai,ashby,"Account Director, Financial Services",New York City,no,other,189000,200000,194500,USD,189000,200000,2026-09-21,https://jobs.ashbyhq.com/openai/24ade569-b2eb-4879-b6d3-82407ac0efe7
 openai,ashby,"Account Director, Large Enterprise",San Francisco · New York City / Seattle,no,other,189000,200000,194500,USD,189000,200000,2026-09-21,https://jobs.ashbyhq.com/openai/8c95db0d-982e-43cf-95e4-e30cb09e6c9c
@@ -4506,6 +4505,7 @@ intercom,greenhouse,Solutions Architect -Spanish Speaking,"Chicago, Illinois",no
 databricks,greenhouse,Senior Applied ML Engineer - ML4Sys,"San Francisco, California",no,engineering,166000,210250,188125,USD,166000,210250,2026-08-03,https://databricks.com/company/careers/open-positions/job?gh_jid=8656900002
 writer,ashby,AI transformation lead (West),"San Francisco, CA · Seattle, WA",no,data / ml,156000,220100,188050,USD,156000,220100,2026-10-08,https://jobs.ashbyhq.com/writer/3a372b34-db7c-4364-8f1a-71ab4482318c
 asana,greenhouse,People Partner,San Francisco,no,support / ops,176000,200000,188000,USD,176000,200000,2026-10-23,https://www.asana.com/jobs/apply/8318046?gh_jid=8318046
+asana,greenhouse,"Senior Software Engineer, AI","Vancouver, BC",no,engineering,176000,200000,188000,USD,176000,200000,2026-10-23,https://www.asana.com/jobs/apply/8319678?gh_jid=8319678
 instacart,greenhouse,Senior Contracts Procurement Manager,United States - Remote,yes,other,183000,193000,188000,USD,183000,193000,2026-10-13,https://instacart.careers/job/?gh_jid=8275263
 instacart,greenhouse,"Senior Manager, Technical Account Management (Enterprise)",United States - Remote,yes,other,183000,193000,188000,USD,183000,193000,2026-07-31,https://instacart.careers/job/?gh_jid=8077677
 mongodb,greenhouse,"Senior Site Reliability Engineer, Fleet Management",Austin; Boston; Chicago; Denver; Miami; New York City; San Francisco; Seattle; United States,no,engineering,127000,249000,188000,USD,127000,249000,2026-03-19,https://www.mongodb.com/careers/job/?gh_jid=7727873
@@ -4644,7 +4644,6 @@ airwallex,ashby,"Founding GTM, T:0",US - San Francisco,no,other,150000,220000,18
 airwallex,ashby,"Regulatory Counsel, Americas",US - New York · US - San Francisco,no,finance / legal,150000,220000,185000,USD,150000,220000,2026-08-26,https://jobs.ashbyhq.com/airwallex/2afd32cc-953e-401d-9bc5-d19847e9f212
 airwallex,ashby,"Counsel, Product Legal (Yield)",US - San Francisco · US - New York,no,finance / legal,150000,220000,185000,USD,150000,220000,2026-10-15,https://jobs.ashbyhq.com/airwallex/b3cdeab8-f711-4b8d-ac42-c59c5c4eaf12
 airwallex,ashby,"Senior Manager, Product Success, T:0",US - San Francisco,no,support / ops,150000,220000,185000,USD,150000,220000,2026-10-21,https://jobs.ashbyhq.com/airwallex/4dd7b61b-bb2a-4163-95cb-7a63cd5cc70d
-asana,greenhouse,Corporate Account Executive,Chicago,no,sales,185000,185000,185000,USD,185000,185000,2025-06-13,https://www.asana.com/jobs/apply/6981655?gh_jid=6981655
 assemblyai,greenhouse,"Software Engineer, Agent Experience",North America,no,engineering,160000,210000,185000,USD,160000,210000,2026-10-16,https://job-boards.greenhouse.io/assemblyai/jobs/4744387005
 assemblyai,greenhouse,Sr. Technical Recruiter,Remote,yes,support / ops,170000,200000,185000,USD,170000,200000,2026-10-14,https://job-boards.greenhouse.io/assemblyai/jobs/4743939005
 circleci,greenhouse,Senior Software Engineer,"Canada (Remote), United States (Remote), United Kingdom (Remote) Mexico City, Mexico - Hybrid",yes,engineering,155000,215000,185000,USD,155000,215000,2026-03-24,http://www.circleci.com/careers/jobs/8475304002/?gh_jid=8475304002
@@ -4792,7 +4791,6 @@ pagerduty,greenhouse,Forward Deployed Engineer (SDEV),"Remote (USA - New York Ci
 pagerduty,greenhouse,Forward Deployed Engineer (SDEV),San Francisco,no,engineering,145000,218900,181950,USD,145000,218900,2026-10-16,https://job-boards.greenhouse.io/pagerduty/jobs/6216876004
 asana,greenhouse,Corporate Account Executive - Dutch Speaking,Dublin,no,sales,181710,181710,181710,EUR,162000,162000,2026-08-10,https://www.asana.com/jobs/apply/8119581?gh_jid=8119581
 temporal,ashby,"Senior Product Manager, Hybrid Platform & Deployment Models",United States (Remote) · Canada (Remote),yes,product,137600,225750,181675,USD,137600,225750,2026-09-02,https://jobs.ashbyhq.com/temporal/01e59346-2cf2-4123-8df1-c8a486eced72
-launchdarkly,greenhouse,"Director of People Programs, Systems & Analytics",Remote - US,yes,data / ml,152900,210210,181555,USD,152900,210210,2026-10-20,https://job-boards.greenhouse.io/launchdarkly/jobs/8039686003
 launchdarkly,greenhouse,GTM Data Governance Manager (MDM),Remote - US,yes,data / ml,152900,210210,181555,USD,152900,210210,2026-10-21,https://job-boards.greenhouse.io/launchdarkly/jobs/8040653003
 databricks,greenhouse,Forward Deployed Engineer (FDE) - Public Sector,United States,no,engineering,152900,210155,181528,USD,152900,210155,2026-07-23,https://databricks.com/company/careers/open-positions/job?gh_jid=8611108002
 commercetools,greenhouse,"Director, Demand Generation","Boston, Massachusetts, United States (Hybrid)",no,other,163000,200000,181500,USD,163000,200000,2026-10-15,https://job-boards.greenhouse.io/commercetools/jobs/8034373003
@@ -4836,6 +4834,7 @@ robinhood,greenhouse,Employee Relations Business Partner,"Chicago, IL; Westlake,
 robinhood,greenhouse,"Full Stack Software Engineer, Credit Cards & Banking","Bellevue, WA; Menlo Park, CA; New York, NY",no,engineering,166000,195000,180500,USD,166000,195000,2026-06-17,https://boards.greenhouse.io/robinhood/jobs/8008723?t=gh_src=&gh_jid=8008723
 robinhood,greenhouse,"iOS Engineer, Government Products","New York, NY",no,engineering,166000,195000,180500,USD,166000,195000,2025-05-06,https://boards.greenhouse.io/robinhood/jobs/6674980?t=gh_src=&gh_jid=6674980
 robinhood,greenhouse,"iOS Engineer, Money Experience","Menlo Park, CA",no,engineering,166000,195000,180500,USD,166000,195000,2026-04-09,https://boards.greenhouse.io/robinhood/jobs/7794027?t=gh_src=&gh_jid=7794027
+robinhood,greenhouse,"Senior iOS Engineer, Crypto Perpetuals","Toronto, Canada",no,engineering,166000,195000,180500,USD,166000,195000,2026-10-23,https://boards.greenhouse.io/robinhood/jobs/8319701?t=gh_src=&gh_jid=8319701
 robinhood,greenhouse,Senior Physical Security Operations Manager,"Menlo Park, CA; New York, NY",no,support / ops,166000,195000,180500,USD,166000,195000,2026-10-07,https://boards.greenhouse.io/robinhood/jobs/8259652?t=gh_src=&gh_jid=8259652
 robinhood,greenhouse,"Senior Product Designer, Core Experience","Menlo Park, CA; New York, NY",no,design,166000,195000,180500,USD,166000,195000,2025-02-03,https://boards.greenhouse.io/robinhood/jobs/6494244?t=gh_src=&gh_jid=6494244
 robinhood,greenhouse,"Senior Product Designer, Crypto","Menlo Park, CA; New York, NY",no,design,166000,195000,180500,USD,166000,195000,2026-10-09,https://boards.greenhouse.io/robinhood/jobs/8262776?t=gh_src=&gh_jid=8262776
@@ -5179,7 +5178,6 @@ ramp,ashby,"GTM Senior Business Systems Analyst, Marketing & Pre-Sales","New Yor
 chargepoint,greenhouse,Technical Marketing Manager,US Remote,yes,marketing,147825,195500,171662,USD,147825,195500,2026-10-14,https://www.chargepoint.com/about/opportunities/job/?gh_jid=8889103002
 swordhealth,greenhouse,Director RevOps,Remote - Europe,yes,other,133479,209752,171615,EUR,119000,187000,2026-10-23,https://job-boards.greenhouse.io/swordhealth/jobs/4465239009
 databricks,greenhouse,"Global Workplace Services Manager, Events & Experiences","San Francisco, California",no,other,144500,198650,171575,USD,144500,198650,2026-09-03,https://databricks.com/company/careers/open-positions/job?gh_jid=8603392002
-algolia,greenhouse,Solutions Engineer - Portuguese Speaker,Remote - United States,yes,engineering,149500,193500,171500,USD,149500,193500,2026-06-17,https://job-boards.greenhouse.io/algolia/jobs/6008431004
 instacart,greenhouse,Senior Design Program Manager II,United States - Remote,yes,other,167000,176000,171500,USD,167000,176000,2026-10-02,https://instacart.careers/job/?gh_jid=8249751
 ramp,ashby,"Systems Engineer, Corporate Security","New York, NY (HQ)",no,engineering,144000,199000,171500,USD,144000,199000,2026-09-11,https://jobs.ashbyhq.com/ramp/b3b0875d-cbf2-41ed-bda3-2714c82c4b57
 span,ashby,Staff Reliability Engineer,San Francisco,no,engineering,147000,196000,171500,USD,147000,196000,2026-09-25,https://jobs.ashbyhq.com/span/d0d89d86-2fdd-483c-9b5b-0a282e4d05cd
@@ -5207,6 +5205,7 @@ openai,ashby,"Manager, Revenue Accounting",San Francisco,no,sales,162000,180000,
 openai,ashby,"Manager, Technical & Operational Accounting",San Francisco,no,finance / legal,162000,180000,171000,USD,162000,180000,2026-09-02,https://jobs.ashbyhq.com/openai/9d4df58d-3afe-4076-a4f2-9f4301020392
 openai,ashby,"Manager, Revenue Accounting, Technical (Strategic Commercial Deals)",San Francisco,no,sales,162000,180000,171000,USD,162000,180000,2026-09-22,https://jobs.ashbyhq.com/openai/d49e09b0-9ebe-4ed6-bc0a-8b6a394a9756
 openai,ashby,Accounting Manager,San Francisco,no,finance / legal,162000,180000,171000,USD,162000,180000,2026-10-08,https://jobs.ashbyhq.com/openai/848c5e55-422c-4797-add4-22e0e6511a47
+openai,ashby,Procurement Operations Specialist,San Francisco,no,support / ops,162000,180000,171000,USD,162000,180000,2026-10-24,https://jobs.ashbyhq.com/openai/c9832989-edc1-4f2f-8a79-8fa29f5623e2
 ripple,greenhouse,"Treasury Manager, Global Treasury Operations","San Francisco, CA, United States",no,support / ops,152000,190000,171000,USD,152000,190000,2026-10-19,https://ripple.com/careers/all-jobs/job/8267588?gh_jid=8267588
 swordhealth,greenhouse,Deal Desk & Contracts Manager,Remote - US,yes,other,133000,209000,171000,USD,133000,209000,2026-10-22,https://job-boards.greenhouse.io/swordhealth/jobs/4458942009
 swordhealth,greenhouse,Senior Security Operations Engineer,Remote - US,yes,engineering,133000,209000,171000,USD,133000,209000,2026-09-09,https://job-boards.greenhouse.io/swordhealth/jobs/4396082009
@@ -5340,8 +5339,8 @@ sardine,ashby,Procurement Manager,North America · United States / Canada,yes,ot
 snowflake,ashby,"Senior Social Media Manager, Developer Community",US-CA-Menlo Park,no,engineering,145000,190000,167500,USD,145000,190000,2026-09-18,https://jobs.ashbyhq.com/snowflake/ccefa621-7c3c-4908-a7ce-380033415bd8
 span,ashby,Senior Software Product Manager - Homeowner,San Francisco,no,product,145000,190000,167500,USD,145000,190000,2026-10-19,https://jobs.ashbyhq.com/span/f0910d04-d0b8-40d5-882e-0e09e1bfb445
 starburst,greenhouse,Sr Resident Solution Architect,"US, Central, US, East",no,engineering,150000,185000,167500,USD,150000,185000,2026-10-21,https://job-boards.greenhouse.io/starburst/jobs/5455335008
-tailscale,greenhouse,Customer Account Executive,"Hybrid (Toronto, Ontario)",no,sales,167500,167500,167500,USD,167500,167500,2026-09-15,https://job-boards.greenhouse.io/tailscale/jobs/4724118005
 tailscale,greenhouse,Customer Account Executive,"Hybrid (Vancouver, British Columbia)",no,sales,167500,167500,167500,USD,167500,167500,2026-10-05,https://job-boards.greenhouse.io/tailscale/jobs/4740468005
+tailscale,greenhouse,Customer Account Executive,"Hybrid (Toronto, Ontario)",no,sales,167500,167500,167500,USD,167500,167500,2026-09-15,https://job-boards.greenhouse.io/tailscale/jobs/4724118005
 tripadvisor,greenhouse,"Senior Marketing Manager, Loyalty","Needham, MA",no,marketing,160000,175000,167500,USD,160000,175000,2026-09-02,https://job-boards.greenhouse.io/tripadvisor/jobs/8119560
 fivetran,greenhouse,Web Strategy & Optimization Lead,USA - Austin (dbt),no,other,148850,186063,167457,USD,148850,186063,2026-10-06,https://www.fivetran.com/careers/job?gh_jid=8015055003
 fivetran,greenhouse,Web Strategy & Optimization Lead,USA - Philadelphia (dbt),no,other,148850,186063,167457,USD,148850,186063,2026-10-06,https://www.fivetran.com/careers/job?gh_jid=8015058003
@@ -5529,13 +5528,13 @@ databricks,greenhouse,"Customer Marketing Manager, Americas","San Francisco, Cal
 coinbase,greenhouse,"Legal Operations Manager, Vendor & Spend Management",Remote - USA,yes,support / ops,148835,175500,162168,USD,148835,175500,2026-08-14,https://www.coinbase.com/careers/positions/8129321?gh_jid=8129321
 elastic,greenhouse,Senior Site Reliability Engineer (Observability & Analytics) – Platform Infra,Canada,no,engineering,138300,185900,162100,USD,138300,185900,2026-09-18,https://jobs.elastic.co/jobs?gh_jid=8053903&gh_jid=8053903
 launchdarkly,greenhouse,Senior Growth Marketing Analyst,Remote - US,yes,marketing,136500,187660,162080,USD,136500,187660,2026-09-11,https://job-boards.greenhouse.io/launchdarkly/jobs/7992914003
+asana,greenhouse,Corporate Account Executive,Chicago,no,sales,162000,162000,162000,USD,162000,162000,2026-02-06,https://www.asana.com/jobs/apply/7594694?gh_jid=7594694
 mongodb,greenhouse,Senior Engagement Manager,Atlanta; New York City,no,other,109000,215000,162000,USD,109000,215000,2026-09-15,https://www.mongodb.com/careers/job/?gh_jid=8172986
 ripple,greenhouse,Treasury Manager,"New York, NY, United States",no,other,144000,180000,162000,USD,144000,180000,2026-10-02,https://ripple.com/careers/all-jobs/job/8233618?gh_jid=8233618
 ripple,greenhouse,"Treasury Manager, Global Treasury Operations","Chicago, Illinois, United States",no,support / ops,144000,180000,162000,USD,144000,180000,2026-10-19,https://ripple.com/careers/all-jobs/job/8267621?gh_jid=8267621
 ripple,greenhouse,"Treasury Manager, Global Treasury Operations","New York, NY, United States",no,support / ops,144000,180000,162000,USD,144000,180000,2026-10-19,https://ripple.com/careers/all-jobs/job/8267600?gh_jid=8267600
 robinhood,greenhouse,Government Affairs Associate,"Washington, DC",no,other,149000,175000,162000,USD,149000,175000,2026-10-16,https://boards.greenhouse.io/robinhood/jobs/8205083?t=gh_src=&gh_jid=8205083
 robinhood,greenhouse,Senior Underwriting Associate,"Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",no,other,149000,175000,162000,USD,149000,175000,2026-06-08,https://boards.greenhouse.io/robinhood/jobs/7979657?t=gh_src=&gh_jid=7979657
-robinhood,greenhouse,"Technical Accounting Manager, New Product","Menlo Park, CA; New York, NY",no,finance / legal,149000,175000,162000,USD,149000,175000,2026-07-25,https://boards.greenhouse.io/robinhood/jobs/8076097?t=gh_src=&gh_jid=8076097
 coinbase,greenhouse,"Business Operations, Senior Associate",Remote - USA,yes,support / ops,148835,175100,161968,USD,148835,175100,2026-07-07,https://www.coinbase.com/careers/positions/7980600?gh_jid=7980600
 coinbase,greenhouse,"Sr. Systems Analyst, Finance, Enterprise Apps",Remote - USA,yes,finance / legal,148835,175100,161968,USD,148835,175100,2026-08-25,https://www.coinbase.com/careers/positions/8154856?gh_jid=8154856
 coinbase,greenhouse,"Technical Program Manager, Knowledge Systems",Remote - USA,yes,other,148835,175100,161968,USD,148835,175100,2026-06-17,https://www.coinbase.com/careers/positions/8013892?gh_jid=8013892
@@ -5844,6 +5843,7 @@ databricks,greenhouse,Senior Support Engineer (GovOps),"McLean, Virginia",no,eng
 databricks,greenhouse,Sr Technical Solutions Engineering,"McLean, Virginia",no,engineering,130200,178950,154575,USD,130200,178950,2026-06-12,https://databricks.com/company/careers/open-positions/job?gh_jid=8589172002
 gitlab,greenhouse,Cloud Platform Engineer,"Remote, Canada; Remote, United States",yes,engineering,115000,194000,154500,USD,115000,194000,2026-10-14,https://job-boards.greenhouse.io/gitlab/jobs/8889193002
 attio,ashby,Senior Platform Engineer,London · United Kingdom,no,engineering,140626,167412,154019,GBP,105000,125000,2026-08-27,https://jobs.ashbyhq.com/attio/c05a61a4-ae7c-4d93-a920-08d60c7448ad
+asana,greenhouse,"Software Engineer, AI","Vancouver, BC",no,engineering,146000,162000,154000,USD,146000,162000,2026-10-23,https://www.asana.com/jobs/apply/7962306?gh_jid=7962306
 asana,greenhouse,"Software Engineer, Product","Vancouver, BC",no,engineering,146000,162000,154000,USD,146000,162000,2026-05-29,https://www.asana.com/jobs/apply/7961454?gh_jid=7961454
 coinbase,greenhouse,"Offensive Security Engineer, AI",Remote - Canada,yes,engineering,154000,154000,154000,USD,154000,154000,2026-10-23,https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599
 coinbase,greenhouse,Product Security Engineer,Remote - Canada,yes,engineering,154000,154000,154000,USD,154000,154000,2026-08-28,https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389
@@ -5898,7 +5898,6 @@ poshmark,ashby,"Manager, Art & Design Direction",US California (Redwood City) - 
 adyen,greenhouse,Implementation Engineer,Chicago,no,engineering,130000,175000,152500,USD,130000,175000,2026-08-20,https://job-boards.greenhouse.io/adyen/jobs/8142106
 adyen,greenhouse,Legal Innovation Specialist,San Francisco,no,finance / legal,135000,170000,152500,USD,135000,170000,2026-10-20,https://job-boards.greenhouse.io/adyen/jobs/8289282
 airwallex,ashby,Senior GRC Specialist,MX - Mexico City,no,other,120000,185000,152500,USD,120000,185000,2026-07-23,https://jobs.ashbyhq.com/airwallex/99c4eea2-a2b4-41cd-af4f-3b87230bdae9
-algolia,greenhouse,Senior Marketing Operations Manager,Remote - United States,yes,marketing,140000,165000,152500,USD,140000,165000,2026-10-05,https://job-boards.greenhouse.io/algolia/jobs/6210792004
 alloy,greenhouse,Senior Technical Success Manager,New York City,no,support / ops,140000,165000,152500,USD,140000,165000,2026-09-21,https://www.alloy.com/about/jobs/detail?gh_jid=8828020002&gh_jid=8828020002
 baseten,ashby,Revenue Accounting Manager,San Francisco,no,sales,145000,160000,152500,USD,145000,160000,2026-08-18,https://jobs.ashbyhq.com/baseten/9eb05eb7-75a8-415c-8370-a10005c0d2cc
 circleci,greenhouse,Software Engineer,"Canada (Remote), United States (Remote)",yes,engineering,130000,175000,152500,USD,130000,175000,2026-02-24,http://www.circleci.com/careers/jobs/8420901002/?gh_jid=8420901002
@@ -6038,6 +6037,7 @@ samsara,greenhouse,Litigation and E-Discovery Counsel,Remote - US,yes,finance / 
 airwallex,ashby,"GTM Partnerships Manager, Canada",CA - Toronto,no,other,139151,160559,149855,CAD,195000,225000,2026-07-14,https://jobs.ashbyhq.com/airwallex/ca79dd32-6757-478d-8c60-598c7cbf3bce
 koho,ashby,Director - Privacy Office (Deputy Chief Privacy Officer); Head of Advisory and RCM,KOHO (CAN),yes,other,135583,164127,149855,CAD,190000,230000,2026-09-08,https://jobs.ashbyhq.com/koho/d8829b4a-254e-4171-b0f1-9d1c23f5a6f6
 koho,ashby,Director - Financial Crime Office (Deputy AML Officer); Head of Regulatory Relations and Testing,KOHO (CAN),yes,data / ml,135583,164127,149855,CAD,190000,230000,2026-09-08,https://jobs.ashbyhq.com/koho/6def9ccd-3382-4854-8b23-beae27da9183
+mercury,greenhouse,Frontend Engineer - Design Systems,"San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",yes,engineering,140800,158400,149600,USD,140800,158400,2026-10-23,https://job-boards.greenhouse.io/mercury/jobs/6233910004
 chargepoint,greenhouse,Senior Global Sourcing Manager,US-CA-Campbell-254,no,other,119000,180000,149500,USD,119000,180000,2026-07-15,https://www.chargepoint.com/about/opportunities/job/?gh_jid=8633510002
 circleci,greenhouse,"Strategic Account Executive, NAMER",Remote,yes,sales,133000,166000,149500,USD,133000,166000,2025-11-10,http://www.circleci.com/careers/jobs/8284360002/?gh_jid=8284360002
 circleci,greenhouse,"Strategic Account Executive, NAMER",San Francisco,no,sales,133000,166000,149500,USD,133000,166000,2025-10-23,http://www.circleci.com/careers/jobs/8185740002/?gh_jid=8185740002
@@ -6360,6 +6360,7 @@ elastic,greenhouse,"Senior Solutions Architect, Mid-Market East (Presales)",Unit
 elastic,greenhouse,"Sr. Solutions Architect, Enterprise East (Presales)",United States,no,engineering,107500,170100,138800,USD,107500,170100,2026-10-01,https://jobs.elastic.co/jobs?gh_jid=8239266&gh_jid=8239266
 elastic,greenhouse,Sr. Solutions Architect - Strategic Central/East (Presales),United States,no,engineering,107500,170100,138800,USD,107500,170100,2026-10-23,https://jobs.elastic.co/jobs?gh_jid=8267984&gh_jid=8267984
 flexport,greenhouse,Integration Support Engineer,"San Francisco, California, United States",no,engineering,118800,158400,138600,USD,118800,158400,2026-10-19,https://job-boards.greenhouse.io/flexport/jobs/8260171
+gitlab,greenhouse,"Backend Engineer, Knowledge Graph (Rust)","Remote, Canada; Remote, United States",yes,engineering,115200,162000,138600,USD,115200,162000,2026-10-23,https://job-boards.greenhouse.io/gitlab/jobs/8771512002
 plaid,ashby,"Financial Analyst, Corporate FP&A",San Francisco HQ,no,other,130000,147000,138500,USD,130000,147000,2026-09-24,https://jobs.ashbyhq.com/plaid/4d2f0d16-863d-46c5-bc86-2780a34eff44
 sofi,greenhouse,Design Systems Designer (Contract),CA - San Francisco,no,design,128960,147680,138320,USD,128960,147680,2026-10-22,https://sofi.com/careers/job/8039536003?gh_jid=8039536003
 sofi,greenhouse,Interactive Designer (Contract),CA - San Francisco HQ,no,design,128960,147680,138320,USD,128960,147680,2026-10-23,https://sofi.com/careers/job/8042213003?gh_jid=8042213003
@@ -6451,7 +6452,6 @@ secureframe,lever,"Implementation Specialist, CMMC",United States,no,other,12000
 secureframe,lever,Partner Account Manager,"Washington D.C, New York",no,other,100000,170000,135000,USD,100000,170000,2025-08-08,https://jobs.lever.co/secureframe/6fcc8cf3-f481-463c-b76f-a68bfb5ef1a8
 secureframe,lever,Product Marketing Manager,"New York, San Francisco, Washington DC",no,marketing,110000,160000,135000,USD,110000,160000,2022-03-14,https://jobs.lever.co/secureframe/b585f876-ac0c-4800-9a96-4b61cd34e020
 starburst,greenhouse,Resident Solution Architect,"US, Central",no,engineering,115000,155000,135000,USD,115000,155000,2026-09-25,https://job-boards.greenhouse.io/starburst/jobs/5428825008
-tailscale,greenhouse,Senior New Business Account Executive,"Hybrid (Denver, Colorado, United States)",no,sales,120000,150000,135000,USD,120000,150000,2026-08-07,https://job-boards.greenhouse.io/tailscale/jobs/4722225005
 dnb,lever,"Account Executive III, Tier 2 Banking Vertical, NYC/Boston (R-20081)",Remote - United States,yes,sales,100700,169200,134950,USD,100700,169200,2026-10-15,https://jobs.lever.co/dnb/1620f951-51f0-4d91-9d4f-71b0e798d7ca
 kong,ashby,Enterprise Account Executive - Italy,Italy,no,sales,120655,149045,134850,EUR,107568,132878,2025-11-24,https://jobs.ashbyhq.com/kong/27114f82-26d1-4e42-94c6-2659eea9fea2
 sardine,ashby,"Fullstack Engineer, Investigator Tools",United Kingdom / Europe,yes,engineering,125627,143574,134600,EUR,112000,128000,2026-10-14,https://jobs.ashbyhq.com/sardine/8e9d4ba5-92f9-48f4-925d-090fd5d6e303
@@ -6657,7 +6657,7 @@ affirm,greenhouse,Visual Designer II,Remote Canada,yes,design,101000,151000,1260
 brex,greenhouse,Senior Technical Sourcer,"Salt Lake City, Utah, United States",no,other,112000,140000,126000,USD,112000,140000,2026-09-18,https://www.brex.com/careers/8818969002?gh_jid=8818969002
 lyrahealth,lever,Market Activation Analyst (Health Plans / Health Systems),United States,yes,other,106000,146000,126000,USD,106000,146000,2026-10-15,https://jobs.lever.co/lyrahealth/dae012b1-071d-4fab-bccc-607477621439
 coinbase,greenhouse,Senior Compliance Associate,Hybrid - Luxembourg,no,security,125851,125851,125851,EUR,112200,112200,2026-02-18,https://www.coinbase.com/careers/positions/7611263?gh_jid=7611263
-kapitus,greenhouse,QE Automation Engineer,"Virginia - Remote, Maryland - Hybrid, Washington DC- Hybrid",yes,engineering,96300,154400,125350,USD,96300,154400,2026-10-22,https://job-boards.greenhouse.io/kapitus/jobs/4464626009
+kapitus,greenhouse,QE Automation Engineer,"Virginia - Remote, Maryland - Hybrid, Washington DC- Hybrid",yes,engineering,96300,154400,125350,USD,96300,154400,2026-10-23,https://job-boards.greenhouse.io/kapitus/jobs/4464756009
 braze,greenhouse,Software Engineer II,Toronto,no,engineering,125280,125280,125280,USD,125280,125280,2026-09-23,https://job-boards.greenhouse.io/braze/jobs/8220764
 braze,greenhouse,"Software Engineer II, Data Lakehouse",Toronto,no,engineering,125280,125280,125280,USD,125280,125280,2026-09-25,https://job-boards.greenhouse.io/braze/jobs/8222294
 braze,greenhouse,"Software Engineer II, User Targeting",Toronto,no,engineering,125280,125280,125280,USD,125280,125280,2026-10-16,https://job-boards.greenhouse.io/braze/jobs/8262966
@@ -6726,7 +6726,6 @@ braze,greenhouse,"Senior Account Executive, Strategic Enterprise MEGS",San Franc
 braze,greenhouse,Technology Partners Product Marketing Manager,San Francisco,no,marketing,123000,123000,123000,USD,123000,123000,2026-07-28,https://job-boards.greenhouse.io/braze/jobs/8089842
 brex,greenhouse,ERM Compliance Lead,"New York, New York, United States",no,security,111000,135000,123000,USD,111000,135000,2026-09-15,https://www.brex.com/careers/8812016002?gh_jid=8812016002
 brex,greenhouse,ERM Compliance Lead,"San Francisco, California, United States",no,security,111000,135000,123000,USD,111000,135000,2026-09-15,https://www.brex.com/careers/8812021002?gh_jid=8812021002
-harnessinc,greenhouse,"Project Manager, Professional Services","Chicago, Illinois, United States; Dallas, Texas, United States",no,other,123000,123000,123000,USD,123000,123000,2026-08-03,https://www.harness.io/company/jobs/apply?gh_jid=5193999007&gh_jid=5193999007
 samsara,greenhouse,Enterprise Customer Success Manager,Remote - US,yes,support / ops,97878,148050,122964,USD,97878,148050,2026-09-02,https://www.samsara.com/company/careers/roles/8141688?gh_jid=8141688
 coinbase,greenhouse,"Specialist, Market Operations",Remote - USA,yes,support / ops,112965,132900,122932,USD,112965,132900,2026-09-22,https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259
 gitlab,greenhouse,"Commercial Account Executive, Named - West","Remote, United States",yes,sales,91600,154200,122900,USD,91600,154200,2026-08-03,https://job-boards.greenhouse.io/gitlab/jobs/8592555002
@@ -6897,6 +6896,7 @@ elastic,greenhouse,Principal Software Engineer - Performance Tuning - Elasticsea
 elastic,greenhouse,Principal Software Engineer - Search Algorithms - Elasticsearch,Spain,no,engineering,90182,142676,116429,EUR,80400,127200,2026-08-27,https://jobs.elastic.co/jobs?gh_jid=8162474&gh_jid=8162474
 elastic,greenhouse,Principal Software Engineer - Search Infra - Elasticsearch,Spain,no,engineering,90182,142676,116429,EUR,80400,127200,2026-09-21,https://jobs.elastic.co/jobs?gh_jid=8220111&gh_jid=8220111
 elastic,greenhouse,Principal Software Engineer - Vector Search - Elasticsearch,Spain,no,engineering,90182,142676,116429,EUR,80400,127200,2026-08-27,https://jobs.elastic.co/jobs?gh_jid=8162407&gh_jid=8162407
+gitlab,greenhouse,Ecosystem Operations Specialist,"Remote, Canada; Remote, United States",yes,support / ops,86400,146400,116400,USD,86400,146400,2026-10-23,https://job-boards.greenhouse.io/gitlab/jobs/8907694002
 gitlab,greenhouse,"Recruiter, GTM","Remote Ireland; Remote, Australia; Remote, Canada; Remote, India; Remote, Mexico; Remote, Poland; Remote, United Kingdom; Remote, United States",yes,support / ops,86400,146400,116400,USD,86400,146400,2026-10-08,https://job-boards.greenhouse.io/gitlab/jobs/8869149002
 monzo,greenhouse,Credit Risk Manager,Dublin,no,other,104876,127870,116373,EUR,93500,114000,2026-10-08,https://job-boards.greenhouse.io/monzo/jobs/8264501
 algolia,greenhouse,Sales Engineer - Italian Speaking,"London, England",no,engineering,103126,129577,116351,GBP,77000,96750,2026-07-01,https://job-boards.greenhouse.io/algolia/jobs/6009000004
@@ -7135,7 +7135,7 @@ elastic,greenhouse,Software Engineer II - EDR Workflows - Security,Ireland,no,en
 gorgias,ashby,Senior Lifecycle Growth Manager,Toronto,no,marketing,101424,109218,105321,CAD,142130,153053,2026-07-25,https://jobs.ashbyhq.com/gorgias/eab6c7be-e864-4598-b4bd-cfd13d257422
 brex,greenhouse,Data Analyst II,"San Francisco, California, United States",no,data / ml,93600,117000,105300,USD,93600,117000,2026-03-14,https://www.brex.com/careers/8463696002?gh_jid=8463696002
 brex,greenhouse,Data Analyst II,"New York, New York, United States",no,data / ml,93600,117000,105300,USD,93600,117000,2026-03-14,https://www.brex.com/careers/8463702002?gh_jid=8463702002
-mongodb,greenhouse,"2027 - Software Engineering Intern, AMER",Austin; New York City; Palo Alto; San Francisco; Seattle,no,engineering,86528,123552,105040,USD,86528,123552,2026-10-23,https://www.mongodb.com/careers/job/?gh_jid=8209134
+mongodb,greenhouse,"2027 - Software Engineering Intern, AMER",Austin; New York City; San Francisco,no,engineering,86528,123552,105040,USD,86528,123552,2026-10-23,https://www.mongodb.com/careers/job/?gh_jid=8209134
 braze,greenhouse,"Senior Account Executive, Emerging Enterprise",New York City,no,sales,105000,105000,105000,USD,105000,105000,2026-07-20,https://job-boards.greenhouse.io/braze/jobs/8074838
 braze,greenhouse,"Senior Account Executive, Emerging Enterprise",Chicago,no,sales,105000,105000,105000,USD,105000,105000,2026-07-20,https://job-boards.greenhouse.io/braze/jobs/8069434
 clickhouse,ashby,Senior Accounts Receivables Analyst,United States,yes,other,85000,125000,105000,USD,85000,125000,2026-10-22,https://jobs.ashbyhq.com/clickhouse/512881ed-777f-4696-bcf9-cda2269aee70
@@ -7379,8 +7379,8 @@ braze,greenhouse,"Lead Solutions Engineer, POC Operations",San Francisco,no,engi
 braze,greenhouse,Sales Operations Systems and Data Lead,New York City,no,data / ml,94000,94000,94000,USD,94000,94000,2026-10-09,https://job-boards.greenhouse.io/braze/jobs/8267729
 braze,greenhouse,Senior Technical Architect,New York City,no,engineering,94000,94000,94000,USD,94000,94000,2026-10-20,https://job-boards.greenhouse.io/braze/jobs/8304482
 braze,greenhouse,Senior Technical Architect,San Francisco,no,engineering,94000,94000,94000,USD,94000,94000,2026-10-20,https://job-boards.greenhouse.io/braze/jobs/8304484
-flexport,greenhouse,Enterprise Account Executive,"Chicago, Illinois, United States",no,sales,83000,105000,94000,USD,83000,105000,2026-09-24,https://job-boards.greenhouse.io/flexport/jobs/8136587
 flexport,greenhouse,Enterprise Account Executive,"Los Angeles, California, United States",no,sales,83000,105000,94000,USD,83000,105000,2026-07-15,https://job-boards.greenhouse.io/flexport/jobs/8044066
+flexport,greenhouse,Enterprise Account Executive,"Chicago, Illinois, United States",no,sales,83000,105000,94000,USD,83000,105000,2026-09-24,https://job-boards.greenhouse.io/flexport/jobs/8136587
 salesloft,greenhouse,Enterprise Account Executive,"United States, Remote",yes,sales,88000,100000,94000,USD,88000,100000,2026-10-16,https://www.salesloft.com/company/careers?gh_jid=8261172
 elastic,greenhouse,Senior Developer Advocate,Spain,no,engineering,72796,115195,93996,EUR,64900,102700,2026-10-15,https://jobs.elastic.co/jobs?gh_jid=8283666&gh_jid=8283666
 asana,greenhouse,Workday Integration Developer,"Vancouver, BC",no,engineering,87772,99904,93838,CAD,123000,140000,2026-10-07,https://www.asana.com/jobs/apply/8214792?gh_jid=8214792
@@ -7696,7 +7696,6 @@ talkspace,greenhouse,Clinical Quality Specialist,"New York, NY (Remote)",yes,oth
 coinbase,greenhouse,Concierge Specialist IV,"Hybrid - London, UK",no,other,70876,78751,74813,GBP,52920,58800,2026-06-26,https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308
 swordhealth,greenhouse,Clinical Sales Manager,Hybrid - Lisbon,no,sales,58102,91304,74703,EUR,51800,81400,2026-09-25,https://job-boards.greenhouse.io/swordhealth/jobs/4420795009
 mongodb,greenhouse,Enablement Delivery Specialist,Austin; Chicago,no,other,50000,99000,74500,USD,50000,99000,2026-07-01,https://www.mongodb.com/careers/job/?gh_jid=8013287
-netlify,greenhouse,"Customer Success Associate (Denver, CO)",Remote,yes,support / ops,69000,80000,74500,USD,69000,80000,2026-09-25,https://job-boards.greenhouse.io/netlify/jobs/8806100002
 gorgias,ashby,GTM Engineer - Growth,Belgrade,no,engineering,65214,83651,74432,EUR,58140,74577,2026-10-23,https://jobs.ashbyhq.com/gorgias/d9e8e70f-ad5a-4575-8bfc-7fe2f4a59c1e
 asana,greenhouse,Designated Support Engineer,Dublin,no,engineering,63935,84125,74030,EUR,57000,75000,2026-10-05,https://www.asana.com/jobs/apply/8250168?gh_jid=8250168
 gocardless,greenhouse,Product Manager,"Riga, Latvia",no,product,59224,88836,74030,EUR,52800,79200,2026-10-21,https://job-boards.greenhouse.io/gocardless/jobs/8305788
