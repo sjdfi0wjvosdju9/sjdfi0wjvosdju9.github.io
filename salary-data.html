@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Published salary ranges from 266 companies — free dataset</title>
-<meta name="description" content="8,041 job postings with a published annual salary range, normalised to USD, from 266 companies. Free CSV, no signup.">
+<meta name="description" content="8,042 job postings with a published annual salary range, normalised to USD, from 266 companies. Free CSV, no signup.">
 <style>
   :root { color-scheme: light dark; }
   body { font: 15px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; max-width: 900px; margin: 42px auto; padding: 0 18px; }
@@ -31,7 +31,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Published salary ranges from 266 companies",
-  "description": "8,041 job postings with a published annual salary range, normalised to USD, from 266 companies across Greenhouse, Ashby, Lever and Workable. Free CSV, CC BY 4.0.",
+  "description": "8,042 job postings with a published annual salary range, normalised to USD, from 266 companies across Greenhouse, Ashby, Lever and Workable. Free CSV, CC BY 4.0.",
   "url": "https://sjdfi0wjvosdju9.github.io/salary-data.html",
   "sameAs": "https://sjdfi0wjvosdju9.github.io/data/salary-stats.json",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -55,18 +55,18 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Radar Labs">
 <meta property="og:title" content="Published salary ranges from 266 companies — free dataset">
-<meta property="og:description" content="8,041 job postings with a published annual salary range, normalised to USD, from 266 companies. Free CSV, no signup.">
+<meta property="og:description" content="8,042 job postings with a published annual salary range, normalised to USD, from 266 companies. Free CSV, no signup.">
 <meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/salary-data.html">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Published salary ranges from 266 companies — free dataset">
-<meta name="twitter:description" content="8,041 job postings with a published annual salary range, normalised to USD, from 266 companies. Free CSV, no signup.">
+<meta name="twitter:description" content="8,042 job postings with a published annual salary range, normalised to USD, from 266 companies. Free CSV, no signup.">
 </head>
 <body>
 <h1>Published salary ranges from 266 companies</h1>
-<p class="meta">8,041 job postings that actually state an annual pay range · normalised to USD · captured 2026-10-24 09:36 (UTC+8) · free CSV, no signup</p>
+<p class="meta">8,042 job postings that actually state an annual pay range · normalised to USD · captured 2026-10-24 11:00 (UTC+8) · free CSV, no signup</p>
 
 <div class="kpi">
-  <div><b>8,041</b>postings with pay</div>
+  <div><b>8,042</b>postings with pay</div>
   <div><b>43.1%</b>of all postings</div>
   <div><b>$200,000</b>median midpoint</div>
   <div><b>$150,000 – $253,000</b>p25 – p75</div>
@@ -81,15 +81,57 @@ dropped rather than “fixed”. Currencies are converted to USD. Postings witho
 <em>not</em> a survey of what everyone pays, it is a census of what companies chose to publish.</p>
 
 <h2>Download</h2>
+<p>Weekly snapshots are also published as dated releases with the CSV attached: <a href="https://github.com/sjdfi0wjvosdju9/job-salary-open-data/releases">github.com/sjdfi0wjvosdju9/job-salary-open-data/releases</a> — one tag per snapshot date, so you can diff two weeks without keeping your own copies.</p>
+
 <p><a href="/data/salary-ranges.csv"><strong>salary-ranges.csv</strong></a> — 1,522 rows, one per posting:
 company, ats, title, location, remote, role_family, salary_usd_low / high / mid, posted_at, url. Stratified so that every
 company in the pool appears at least once. CC BY 4.0 — use it, just link back here.</p>
 <p><a href="/data/salary-ranges-full.csv"><strong>salary-ranges-full.csv</strong></a> — every single row
-(8,041), same columns, 1.3 MB. <strong>Use this one if you are computing statistics</strong>:
+(8,042), same columns, 1.3 MB. <strong>Use this one if you are computing statistics</strong>:
 the sample above is deliberately biased towards each company's best-paid roles, so its median is higher than the real one.</p>
 <p>From Python, no key needed &mdash; install the wheel straight from this site (the PyPI listing is still pending):</p>
 <pre><code>pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.2-py3-none-any.whl</code></pre>
 <p>Then <code>salaryranges.fetch()</code> returns every row and <code>salaryranges.stats()</code> prints the same numbers as this page. Direct download: <a href="/packages/salaryranges-0.1.2-py3-none-any.whl">salaryranges-0.1.2-py3-none-any.whl</a>.</p>
+<p class="muted">Numbers move when the market moves and also when <em>we</em> were wrong. Every revision that
+changed a published value is listed in the <a href="/changes.html">change log</a>, with the before/after numbers.</p>
+
+<h2>Median midpoint by company (30 highest of 166)</h2>
+<table>
+<thead><tr><th>Company</th><th class="n">Postings</th><th class="n">p25</th><th class="n">Median</th><th class="n">p75</th></tr></thead>
+<tbody>
+<tr><td>anthropic</td><td class="n">589</td><td class="n">$282,500</td><td class="n"><strong>$347,500</strong></td><td class="n">$402,500</td></tr>
+<tr><td>galileo</td><td class="n">3</td><td class="n">$312,500</td><td class="n"><strong>$315,000</strong></td><td class="n">$520,000</td></tr>
+<tr><td>openai</td><td class="n">632</td><td class="n">$248,000</td><td class="n"><strong>$307,500</strong></td><td class="n">$366,000</td></tr>
+<tr><td>pika</td><td class="n">6</td><td class="n">$215,000</td><td class="n"><strong>$292,500</strong></td><td class="n">$300,000</td></tr>
+<tr><td>cohere</td><td class="n">78</td><td class="n">$199,807</td><td class="n"><strong>$257,500</strong></td><td class="n">$280,087</td></tr>
+<tr><td>character</td><td class="n">13</td><td class="n">$240,000</td><td class="n"><strong>$250,000</strong></td><td class="n">$275,000</td></tr>
+<tr><td>vercel</td><td class="n">71</td><td class="n">$195,500</td><td class="n"><strong>$245,000</strong></td><td class="n">$260,000</td></tr>
+<tr><td>perplexity</td><td class="n">110</td><td class="n">$195,000</td><td class="n"><strong>$245,000</strong></td><td class="n">$312,500</td></tr>
+<tr><td>render</td><td class="n">34</td><td class="n">$230,000</td><td class="n"><strong>$242,000</strong></td><td class="n">$259,000</td></tr>
+<tr><td>figma</td><td class="n">79</td><td class="n">$207,000</td><td class="n"><strong>$236,000</strong></td><td class="n">$264,500</td></tr>
+<tr><td>faire</td><td class="n">69</td><td class="n">$190,000</td><td class="n"><strong>$232,750</strong></td><td class="n">$256,500</td></tr>
+<tr><td>togetherai</td><td class="n">41</td><td class="n">$195,000</td><td class="n"><strong>$230,000</strong></td><td class="n">$250,000</td></tr>
+<tr><td>scaleai</td><td class="n">116</td><td class="n">$187,200</td><td class="n"><strong>$229,800</strong></td><td class="n">$255,600</td></tr>
+<tr><td>vanta</td><td class="n">47</td><td class="n">$212,000</td><td class="n"><strong>$229,000</strong></td><td class="n">$264,500</td></tr>
+<tr><td>baseten</td><td class="n">100</td><td class="n">$195,000</td><td class="n"><strong>$228,250</strong></td><td class="n">$247,500</td></tr>
+<tr><td>launchdarkly</td><td class="n">35</td><td class="n">$203,300</td><td class="n"><strong>$227,735</strong></td><td class="n">$285,650</td></tr>
+<tr><td>mintlify</td><td class="n">15</td><td class="n">$165,000</td><td class="n"><strong>$227,500</strong></td><td class="n">$227,500</td></tr>
+<tr><td>modal</td><td class="n">42</td><td class="n">$200,000</td><td class="n"><strong>$225,000</strong></td><td class="n">$275,000</td></tr>
+<tr><td>roboflow</td><td class="n">7</td><td class="n">$225,000</td><td class="n"><strong>$225,000</strong></td><td class="n">$225,000</td></tr>
+<tr><td>latitude</td><td class="n">17</td><td class="n">$200,000</td><td class="n"><strong>$224,000</strong></td><td class="n">$224,000</td></tr>
+<tr><td>demandbase</td><td class="n">3</td><td class="n">$178,000</td><td class="n"><strong>$223,000</strong></td><td class="n">$258,000</td></tr>
+<tr><td>gridmaticinc</td><td class="n">10</td><td class="n">$190,000</td><td class="n"><strong>$222,500</strong></td><td class="n">$225,000</td></tr>
+<tr><td>hex</td><td class="n">37</td><td class="n">$180,000</td><td class="n"><strong>$220,000</strong></td><td class="n">$247,500</td></tr>
+<tr><td>elliptic</td><td class="n">8</td><td class="n">$202,000</td><td class="n"><strong>$218,750</strong></td><td class="n">$230,500</td></tr>
+<tr><td>stripe</td><td class="n">22</td><td class="n">$196,000</td><td class="n"><strong>$218,105</strong></td><td class="n">$245,843</td></tr>
+<tr><td>wrike</td><td class="n">6</td><td class="n">$137,000</td><td class="n"><strong>$217,500</strong></td><td class="n">$277,500</td></tr>
+<tr><td>databricks</td><td class="n">473</td><td class="n">$195,500</td><td class="n"><strong>$216,104</strong></td><td class="n">$246,525</td></tr>
+<tr><td>labelbox</td><td class="n">7</td><td class="n">$170,000</td><td class="n"><strong>$215,000</strong></td><td class="n">$220,000</td></tr>
+<tr><td>llamaindex</td><td class="n">4</td><td class="n">$215,000</td><td class="n"><strong>$215,000</strong></td><td class="n">$215,000</td></tr>
+<tr><td>plaid</td><td class="n">129</td><td class="n">$175,200</td><td class="n"><strong>$214,800</strong></td><td class="n">$251,400</td></tr>
+</tbody>
+</table>
+<p class="meta">Only companies with at least 3 salary-bearing postings are included. Medians mix seniority levels — a company hiring mostly staff engineers will look expensive.</p>
 
 <h2>Median midpoint by role family</h2>
 <table>
@@ -97,12 +139,12 @@ the sample above is deliberately biased towards each company's best-paid roles, 
 <tbody>
 <tr><td>data / ml</td><td class="n">367</td><td class="n">$237,500</td></tr>
 <tr><td>product</td><td class="n">547</td><td class="n">$225,000</td></tr>
-<tr><td>engineering</td><td class="n">2201</td><td class="n">$223,000</td></tr>
+<tr><td>engineering</td><td class="n">2202</td><td class="n">$223,025</td></tr>
 <tr><td>security</td><td class="n">331</td><td class="n">$204,000</td></tr>
 <tr><td>design</td><td class="n">219</td><td class="n">$195,000</td></tr>
 <tr><td>finance / legal</td><td class="n">728</td><td class="n">$193,568</td></tr>
-<tr><td>marketing</td><td class="n">512</td><td class="n">$186,424</td></tr>
-<tr><td>other</td><td class="n">681</td><td class="n">$180,500</td></tr>
+<tr><td>marketing</td><td class="n">513</td><td class="n">$186,948</td></tr>
+<tr><td>other</td><td class="n">680</td><td class="n">$180,250</td></tr>
 <tr><td>sales</td><td class="n">1238</td><td class="n">$164,000</td></tr>
 <tr><td>support / ops</td><td class="n">1217</td><td class="n">$162,000</td></tr>
 </tbody>
@@ -113,7 +155,7 @@ the sample above is deliberately biased towards each company's best-paid roles, 
 <thead><tr><th>Board</th><th class="n">Postings</th><th class="n">With a range</th><th class="n">Rate</th></tr></thead>
 <tbody>
 <tr><td>greenhouse</td><td class="n">11,561</td><td class="n">5,134</td><td class="n"><strong>44.4%</strong></td></tr>
-<tr><td>ashby</td><td class="n">5,358</td><td class="n">2,743</td><td class="n"><strong>51.2%</strong></td></tr>
+<tr><td>ashby</td><td class="n">5,359</td><td class="n">2,744</td><td class="n"><strong>51.2%</strong></td></tr>
 <tr><td>lever</td><td class="n">1,751</td><td class="n">164</td><td class="n"><strong>9.4%</strong></td></tr>
 </tbody>
 </table>
@@ -124,7 +166,7 @@ the sample above is deliberately biased towards each company's best-paid roles, 
 <table>
 <thead><tr><th>Company</th><th class="n">Board</th><th class="n">With pay / postings</th><th class="n">Rate</th></tr></thead>
 <tbody>
-<tr><td><a href="/pay/sentry.html">sentry</a></td><td class="n">ashby</td><td class="n">42/42</td><td class="n"><strong>100.0%</strong></td></tr>
+<tr><td><a href="/pay/sentry.html">sentry</a></td><td class="n">ashby</td><td class="n">43/43</td><td class="n"><strong>100.0%</strong></td></tr>
 <tr><td><a href="/pay/rain.html">rain</a></td><td class="n">ashby</td><td class="n">37/37</td><td class="n"><strong>100.0%</strong></td></tr>
 <tr><td><a href="/pay/algolia.html">algolia</a></td><td class="n">greenhouse</td><td class="n">28/28</td><td class="n"><strong>100.0%</strong></td></tr>
 <tr><td><a href="/pay/mercury.html">mercury</a></td><td class="n">greenhouse</td><td class="n">76/77</td><td class="n"><strong>98.7%</strong></td></tr>
@@ -153,17 +195,17 @@ the sample above is deliberately biased towards each company's best-paid roles, 
 </tbody>
 </table>
 
-<p>Across all families: remote postings median <strong>$190,781</strong> (n=2,255) vs on-site <strong>$204,000</strong> (n=5,786) — a -6.5% gap.</p>
+<p>Across all families: remote postings median <strong>$190,781</strong> (n=2,255) vs on-site <strong>$204,000</strong> (n=5,787) — a -6.5% gap.</p>
 <h2>Remote vs on-site, within the same role family</h2>
 <table>
 <thead><tr><th>Role family</th><th class="n">Remote n</th><th class="n">Remote median</th><th class="n">On-site n</th><th class="n">On-site median</th><th class="n">Gap</th></tr></thead>
 <tbody>
-<tr><td>other</td><td class="n">235</td><td class="n">$150,800</td><td class="n">446</td><td class="n">$200,000</td><td class="n"><strong>-24.6%</strong></td></tr>
+<tr><td>other</td><td class="n">235</td><td class="n">$150,800</td><td class="n">445</td><td class="n">$200,000</td><td class="n"><strong>-24.6%</strong></td></tr>
 <tr><td>data / ml</td><td class="n">88</td><td class="n">$206,000</td><td class="n">279</td><td class="n">$250,000</td><td class="n"><strong>-17.6%</strong></td></tr>
 <tr><td>finance / legal</td><td class="n">183</td><td class="n">$181,022</td><td class="n">545</td><td class="n">$200,950</td><td class="n"><strong>-9.9%</strong></td></tr>
 <tr><td>support / ops</td><td class="n">386</td><td class="n">$153,318</td><td class="n">831</td><td class="n">$167,575</td><td class="n"><strong>-8.5%</strong></td></tr>
-<tr><td>marketing</td><td class="n">135</td><td class="n">$180,000</td><td class="n">377</td><td class="n">$192,500</td><td class="n"><strong>-6.5%</strong></td></tr>
-<tr><td>engineering</td><td class="n">563</td><td class="n">$212,000</td><td class="n">1638</td><td class="n">$226,000</td><td class="n"><strong>-6.2%</strong></td></tr>
+<tr><td>marketing</td><td class="n">135</td><td class="n">$180,000</td><td class="n">378</td><td class="n">$192,500</td><td class="n"><strong>-6.5%</strong></td></tr>
+<tr><td>engineering</td><td class="n">563</td><td class="n">$212,000</td><td class="n">1639</td><td class="n">$226,000</td><td class="n"><strong>-6.2%</strong></td></tr>
 <tr><td>product</td><td class="n">165</td><td class="n">$222,500</td><td class="n">382</td><td class="n">$225,425</td><td class="n"><strong>-1.3%</strong></td></tr>
 <tr><td>design</td><td class="n">60</td><td class="n">$195,642</td><td class="n">159</td><td class="n">$195,000</td><td class="n"><strong>+0.3%</strong></td></tr>
 <tr><td>sales</td><td class="n">340</td><td class="n">$175,000</td><td class="n">898</td><td class="n">$160,000</td><td class="n"><strong>+9.4%</strong></td></tr>
