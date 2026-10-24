@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Run the job + salary API in 60 seconds — Radar Labs</title>
+<meta name="description" content="One curl command returns 8,039 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
+<link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/run.html">
+<link rel="icon" href="/favicon.ico">
+<style>
+ body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:860px;margin:2rem auto;padding:0 1.2rem;color:#111}
+ h1{font-size:1.7rem;line-height:1.25} h2{margin-top:2rem;font-size:1.2rem}
+ table{border-collapse:collapse;width:100%;margin:1rem 0} th,td{border-bottom:1px solid #e5e5e5;padding:.45rem .5rem;text-align:left}
+ .n{text-align:right;font-variant-numeric:tabular-nums} pre{background:#f6f8fa;padding:.9rem;overflow:auto;border-radius:6px;font-size:.86rem}
+ code{font-size:.9em} .meta{color:#666;font-size:.9rem}
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Run the job + salary API in 60 seconds — Radar Labs">
+<meta property="og:description" content="One curl command returns 8,039 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
+<meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/run.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Run the job + salary API in 60 seconds — Radar Labs">
+<meta name="twitter:description" content="One curl command returns 8,039 salaried job postings from 266 companies as JSON. $0.3005 for 200 rows, no signup wall on the dataset itself.">
+</head>
+<body>
+<p class="meta"><a href="/">Radar Labs</a> · <a href="/salary-data.html">free dataset</a> · <a href="/lookup.html">look up a company</a> · <a href="/how-we-choose.html">method</a></p>
+<h1>Run the job + salary API in 60 seconds</h1>
+<p>One call returns rows like this — 8,039 postings across 266 companies already carry a published annual range; the median is <strong>$200,000</strong>:</p>
+<pre>{"company":"anthropic","ats":"ashby","title":"Software Engineer, Inference",
+ "location":"San Francisco, CA","remote":false,"salaryLow":280000,"salaryHigh":420000,
+ "salaryCurrency":"USD","salaryUsdLow":280000,"salaryUsdHigh":420000,
+ "postedAt":"2026-10-21T18:04:00+00:00","url":"https://job-boards.greenhouse.io/..."}</pre>
+
+<h2>1. Get a token</h2>
+<p>Free Apify account → <em>Settings → Integrations → API token</em>. The dataset CSV needs no account at all; the API does.</p>
+
+<h2>2. Call it</h2>
+<pre>curl -s -X POST \
+  &quot;https://api.apify.com/v2/acts/zqBGjpzG8z3UZxN51/runs?token=$APIFY_TOKEN&amp;waitForFinish=300&quot; \
+  -H &quot;Content-Type: application/json&quot; \
+  -d &#x27;{&quot;useVerifiedPool&quot;: true, &quot;salaryOnly&quot;: true, &quot;maxJobs&quot;: 50, &quot;maxPerCompany&quot;: 2, &quot;maxWorkers&quot;: 6}&#x27;</pre>
+<p class="meta">Prefer the console? <a href="https://apify.com/contributory_garnet_hyz/ats-job-feed">https://apify.com/contributory_garnet_hyz/ats-job-feed</a></p>
+
+<h2>3. What it costs</h2>
+<p><strong>$0.0005</strong> per run start plus <strong>$0.0015</strong> per row returned. Rows you do not get are not charged, and postings without a salary are never returned when <code>salaryOnly</code> is on — so filtering is free.</p>
+<table>
+<thead><tr><th class="n">Rows</th><th class="n">You pay</th><th>What that buys</th></tr></thead>
+<tbody>
+<tr><td class="n">50</td><td class="n">$0.0755</td><td>fast: descriptions off, no salary parsing</td></tr>
+<tr><td class="n">200</td><td class="n">$0.3005</td><td>reads job descriptions to recover pay ranges</td></tr>
+<tr><td class="n">1,000</td><td class="n">$1.50</td><td>reads job descriptions to recover pay ranges</td></tr>
+</tbody>
+</table>
+<p class="meta">Platform compute is billed separately and is roughly $0.006 per full-pool run with descriptions on, $0.0008 with them off.</p>
+
+<h2>4. Why the numbers can be trusted</h2>
+<ul>
+<li><strong>Salaries are normalised, not guessed.</strong> Structured fields first (Ashby <code>summaryComponents</code>, Lever <code>salaryRange</code>); only then a text window around pay-cue phrases.</li>
+<li><strong>Implausible values are dropped, not clamped.</strong> Anything outside $5k–$5M a year after normalisation is removed entirely, so the tail is missing rather than wrong.</li>
+<li><strong>Currency uses a daily rate</strong> and the original local range is kept in <code>salaryLocal*</code>, so you can re-derive it yourself.</li>
+<li><strong>Ranges are ranges.</strong> These are published bands, not what anyone was actually paid — 43% of the 18,668 postings we read publish nothing at all.</li>
+</ul>
+
+<h2>5. If you would rather not pay</h2>
+<p>The same rows are a free CSV, CC BY 4.0: <a href="/data/salary-ranges-full.csv">8,039 rows, 1.7 MB</a> · <a href="/salary-data.html">method and distributions</a> · <a href="https://github.com/sjdfi0wjvosdju9/job-salary-open-data">mirror on GitHub</a>. The paid version exists for the things a CSV cannot do: filters, incremental runs, and being a stable endpoint.</p>
+
+<footer class="meta">Data CC BY 4.0 · code MIT · no cookies, no tracking.</footer>
+</body>
+</html>
