@@ -87,7 +87,9 @@ company in the pool appears at least once. CC BY 4.0 — use it, just link back 
 <p><a href="/data/salary-ranges-full.csv"><strong>salary-ranges-full.csv</strong></a> — every single row
 (8,041), same columns, 1.3 MB. <strong>Use this one if you are computing statistics</strong>:
 the sample above is deliberately biased towards each company's best-paid roles, so its median is higher than the real one.</p>
-<p>From Python, no key needed: <code>pip install salaryranges</code> → <code>salaryranges.fetch()</code>.</p>
+<p>From Python, no key needed &mdash; install the wheel straight from this site (the PyPI listing is still pending):</p>
+<pre><code>pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.1-py3-none-any.whl</code></pre>
+<p>Then <code>salaryranges.fetch()</code> returns every row and <code>salaryranges.stats()</code> prints the same numbers as this page. Direct download: <a href="/packages/salaryranges-0.1.1-py3-none-any.whl">salaryranges-0.1.1-py3-none-any.whl</a>.</p>
 <p class="muted">Numbers move when the market moves and also when <em>we</em> were wrong. Every revision that
 changed a published value is listed in the <a href="/changes.html">change log</a>, with the before/after numbers.</p>
 
