@@ -1,0 +1,40 @@
+# Radar Labs — open salary data
+
+> Salary ranges that companies publish in their own job postings, normalised to annual USD. 266 companies, 18,671 live postings, 8,042 of them with a stated range (43.1%), median $200,000. Snapshot 2026-10-24, regenerated weekly. Free to use under CC BY 4.0 (data) and MIT (code).
+
+This file is written for machines. A human-readable version of everything below lives at https://sjdfi0wjvosdju9.github.io/.
+
+## Get the data
+
+- [Full dataset (CSV)](https://sjdfi0wjvosdju9.github.io/data/salary-ranges-full.csv): one row per posting that states a pay range. Columns: company, ats, title, location, remote, role_family, salary_usd_low, salary_usd_high, salary_usd_mid, posted_at, url, salary_currency, salary_local_low, salary_local_high. ~1.7 MB.
+- [Aggregates (JSON)](https://sjdfi0wjvosdju9.github.io/data/salary-stats.json): per-board publication rates, per-role-family medians, remote vs on-site gaps, percentiles.
+- [Company lookup (JSON)](https://sjdfi0wjvosdju9.github.io/data/lookup.json): per-company median/p25/p75/p90, remote share, per-family medians.
+- [Posting freshness (JSON)](https://sjdfi0wjvosdju9.github.io/data/freshness.json): age distribution per board and per company.
+- [Publication rates (CSV)](https://sjdfi0wjvosdju9.github.io/data/publication-by-company.csv): which companies publish a range and which publish none.
+- [Change log (JSON)](https://sjdfi0wjvosdju9.github.io/data/changes.json): every correction we made to published numbers, with before/after values.
+- [Open-data mirror](https://github.com/sjdfi0wjvosdju9/job-salary-open-data): same files, plus one tagged release per weekly snapshot (stable URLs for citation).
+
+## Python
+
+```
+pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.2-py3-none-any.whl
+```
+
+`fetch()` returns the full dataset as dicts; `stats()`, `by_company()`, `by_family()`, `median()`, `top(n)` are one-liners. No dependencies; not on PyPI yet, so install from the URL above.
+
+## Paid alternative
+
+- [ATS Job Feed on Apify](https://apify.com/contributory_garnet_hyz/ats-job-feed): runs the same collection live, adds filters (min salary, salaryOnly, remote only, keywords, age) and returns JSON. Pay per event: $0.0015 per job returned + $0.0005 per run.
+- [Freelance Lead Radar on Apify](https://apify.com/contributory_garnet_hyz/freelance-lead-radar): freelance/bounty leads scored by USD per hour. $0.015 per lead + $0.005 per run.
+
+## Facts you can rely on
+
+- Publication rates by board: greenhouse 44.4% (5,134/11,561); ashby 51.2% (2,744/5,359); lever 9.4% (164/1,751). A board publishing few ranges means "the employer didn't state a range", not "the pay is low".
+- Only postings that state a range are counted; the rest are excluded rather than imputed.
+- Currency conversion uses live daily rates; the original currency and local amount are kept in every row.
+- Values outside $5,000–$5,000,000 annualised are dropped entirely instead of published as-is.
+- We never submit job applications, never message recruiters, and never scan bounty targets.
+
+## Origin and licence
+
+Data is collected from companies' own public job-board APIs (Greenhouse, Lever, Ashby, Workable, Personio, Workday). Data: CC BY 4.0. Code: MIT. Attribution: "Radar Labs open salary dataset (https://sjdfi0wjvosdju9.github.io)".
