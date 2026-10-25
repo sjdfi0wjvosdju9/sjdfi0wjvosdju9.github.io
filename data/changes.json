@@ -169,6 +169,22 @@
       "kind": "infrastructure",
       "what_broke": "The static host served a platform-injected robots.txt with Disallow: / on the bare path while our own file appeared under any query string. Every URL answered 200, so nothing looked wrong, but crawlers that respect robots.txt never entered.",
       "fix": "Moved to GitHub Pages under a path that serves our own robots.txt, and added an automated crawlability check that compares the bare path against a cache-busted one and fails if a sitemap entry points at another host."
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Four salary deep dives published under /topics/",
+      "kind": "content",
+      "what_broke": "The site only answered 'what does company X pay'. Questions like 'does remote pay less' or 'how much does seniority matter' had no page, so every visit was a dead end for a reader who did not already have a company in mind.",
+      "fix": "Built /topics/ with an index and four analysis pages computed from the same published ranges (remote vs office, role family, job-title seniority, location bands). Each page states its own sample size and links back to the underlying data and to the other dives.",
+      "numbers": "4 pages | 8,049 paid ranges | remote $190,781 vs office $204,000 | data/ML $237,500 vs support $162,000"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Topic pages wired into the site graph and submitted",
+      "kind": "seo",
+      "what_broke": "New pages with no inbound links are invisible: crawlers only followed company pages, and the sitemap did not list /topics/ yet.",
+      "fix": "Linked the dives from the data page, the changes page and llms.txt, added them to the sitemap, and pushed the URLs through IndexNow.",
+      "numbers": "165+ URLs submitted | 5 topic pages in sitemap | sitemap rebuilt"
     }
   ]
 }
