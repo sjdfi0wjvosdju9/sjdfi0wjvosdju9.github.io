@@ -185,6 +185,14 @@
       "what_broke": "New pages with no inbound links are invisible: crawlers only followed company pages, and the sitemap did not list /topics/ yet.",
       "fix": "Linked the dives from the data page, the changes page and llms.txt, added them to the sitemap, and pushed the URLs through IndexNow.",
       "numbers": "165+ URLs submitted | 5 topic pages in sitemap | sitemap rebuilt"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Two dev.to write-ups syndicate the deep dives",
+      "kind": "distribution",
+      "what_broke": "Every argument the data supports was trapped on our own domain: a reader who never lands on the site never sees the analysis, and the deep dives had no external discussion pointing back at them.",
+      "fix": "Rewrote two findings as long-form posts for an engineering audience on dev.to (canonical points home), then linked those posts back from the dive pages so the two sides reference each other instead of one-way.",
+      "numbers": "2 posts | $75,500 role-family gap | remote $190,781 vs $204,000 | both HTTP 200"
     }
   ]
 }
