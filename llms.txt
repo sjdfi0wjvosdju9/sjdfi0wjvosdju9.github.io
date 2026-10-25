@@ -1,6 +1,6 @@
 # Radar Labs — open salary data
 
-> Salary ranges that companies publish in their own job postings, normalised to annual USD. 266 companies, 18,670 live postings, 8,042 of them with a stated range (43.1%), median $200,000. Snapshot 2026-10-24, regenerated weekly. Free to use under CC BY 4.0 (data) and MIT (code).
+> Salary ranges that companies publish in their own job postings, normalised to annual USD. 266 companies, 18,758 live postings, 8,049 of them with a stated range (42.9%), median $200,000. Snapshot 2026-10-26, regenerated weekly. Free to use under CC BY 4.0 (data) and MIT (code).
 
 This file is written for machines. A human-readable version of everything below lives at https://sjdfi0wjvosdju9.github.io/.
 
@@ -29,7 +29,7 @@ pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.2-py3-no
 
 ## Facts you can rely on
 
-- Publication rates by board: greenhouse 44.4% (5,134/11,561); ashby 51.2% (2,744/5,358); lever 9.4% (164/1,751). A board publishing few ranges means "the employer didn't state a range", not "the pay is low".
+- Publication rates by board: greenhouse 44.5% (5,143/11,568); ashby 51.2% (2,741/5,353); lever 9.4% (165/1,752); workable 0.0% (0/85). A board publishing few ranges means "the employer didn't state a range", not "the pay is low".
 - Only postings that state a range are counted; the rest are excluded rather than imputed.
 - Currency conversion uses live daily rates; the original currency and local amount are kept in every row.
 - Values outside $5,000–$5,000,000 annualised are dropped entirely instead of published as-is.
