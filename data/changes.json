@@ -2,15 +2,60 @@
   "note": "Every revision that changed a published number. Newest first. Dates are the day the corrected data went live.",
   "entries": [
     {
+      "date": "2026-10-26",
+      "title": "The homepage kept advertising yesterday's data while every other page was current",
+      "kind": "infrastructure",
+      "what_broke": "The line \"last measured …\" (and the pricing note under it) on /index.html was written by hand. Every refresh rebuilt data/, /freshness.html, /salary-data.html, /llms.txt and the sitemap, and all of them moved to the new date — but the first page a visitor reads stayed two days behind. The one page whose whole job is to say how fresh this data is was the only page that could go stale, and a reader comparing the homepage against the dataset could only conclude the numbers were abandoned.",
+      "fix": "tools/stamp_homepage.py reads generated_at from site/data/freshness.json and rewrites exactly those two phrases; it is idempotent and refuses to touch the dated entries on /changes.html, where an older date is the point. Wired into scripts/refresh_dataset.ps1 as step 9b/13, before the deploy step, so the two can no longer drift apart.",
+      "numbers": [
+        [
+          "days the homepage lagged the dataset",
+          "2",
+          "0"
+        ]
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Weekly snapshot: 8,049 postings with a stated pay range, 42.9% of everything scanned",
+      "kind": "data",
+      "what_broke": "Nothing broke this week — this is the scheduled recompute. Recording it anyway, because a dashboard that only ever logs failures teaches readers that silence means success, and there is no way to tell a quiet week from a stalled pipeline.",
+      "fix": "19,039 rows scraped across 259 company boards, 18,758 after de-duplication on company + title + location, 8,049 of them stating an annual range (42.9%). Median $200,000; p25 $150,000, p75 $253,000, p90 $323,000. 152 company pages rebuilt, 154 /pay/ URLs in the sitemap, 165 URLs submitted through IndexNow (HTTP 200). The open-data mirror got release snapshot-2026-10-26 with the same CSV.",
+      "numbers": [
+        [
+          "postings with a salary",
+          "8,004",
+          "8,049"
+        ],
+        [
+          "median salary",
+          "$200,000",
+          "$200,000"
+        ]
+      ]
+    },
+    {
       "date": "2026-10-24",
       "title": "Role families: a single-tier classifier was sorting 21.5% of rows into \"other\"",
       "kind": "classification",
       "what_broke": "The role-family bucket came from one rule list that tested `engineer` first. Sales Engineer, Solutions Engineer and Support Engineer were therefore counted as engineering, and the bare word `data` pulled data-center technicians into data/ML.",
       "fix": "Four tiers: disambiguation, then specific titles, then generic words, then broad engineering words. 21 unit tests cover the traps (Technical Account Manager must not become sales; Senior Accountant must not become sales).",
       "numbers": [
-        ["engineering share", "39.7%", "27.4%"],
-        ["other share", "21.5%", "8.5%"],
-        ["remote vs on-site gap, engineering", "-11.5%", "-6.2%"]
+        [
+          "engineering share",
+          "39.7%",
+          "27.4%"
+        ],
+        [
+          "other share",
+          "21.5%",
+          "8.5%"
+        ],
+        [
+          "remote vs on-site gap, engineering",
+          "-11.5%",
+          "-6.2%"
+        ]
       ]
     },
     {
@@ -20,8 +65,16 @@
       "what_broke": "The rate was computed as paid rows in the CSV divided by open postings on the board. Those are different populations, and the CSV is sampled, so one company reported a 105.9% publication rate.",
       "fix": "Numerator and denominator now come from the same de-duplicated population. Companies with fewer than 25 open postings are left out of the table instead of producing a meaningless percentage.",
       "numbers": [
-        ["companies in the table", "n/a", "146"],
-        ["companies with 40+ postings publishing no salary", "n/a", "11"]
+        [
+          "companies in the table",
+          "n/a",
+          "146"
+        ],
+        [
+          "companies with 40+ postings publishing no salary",
+          "n/a",
+          "11"
+        ]
       ]
     },
     {
@@ -31,8 +84,16 @@
       "what_broke": "Anything outside USD/EUR/GBP/CNY and six more came back as \"no salary\". Filtering by salary then deleted those postings, so the filter reported \"this job has no pay\" when the truth was \"we could not convert it\".",
       "fix": "Live rates for 166 currencies from open.er-api.com, cached 24 hours, with the snapshot timestamp stored in every row and in the run summary. Unconvertible currencies stay null instead of being guessed.",
       "numbers": [
-        ["postings with a salary", "7,984", "8,004"],
-        ["rows hidden by the salary filter", "~1,170", "0"]
+        [
+          "postings with a salary",
+          "7,984",
+          "8,004"
+        ],
+        [
+          "rows hidden by the salary filter",
+          "~1,170",
+          "0"
+        ]
       ]
     },
     {
@@ -42,8 +103,16 @@
       "what_broke": "The pipeline read updated_at because created_at does not exist in Greenhouse responses. A 2024 evergreen role edited for a typo looked like it was posted today, which also broke the \"only new jobs\" mode.",
       "fix": "Read first_published, fall back to created_at, then updated_at. Documented per board on the freshness page, because each board exposes a different date field.",
       "numbers": [
-        ["postings older than 180 days, Greenhouse", "0.0%", "14.5%"],
-        ["median posting age, all boards", "22 days", "51 days"]
+        [
+          "postings older than 180 days, Greenhouse",
+          "0.0%",
+          "14.5%"
+        ],
+        [
+          "median posting age, all boards",
+          "22 days",
+          "51 days"
+        ]
       ]
     },
     {
@@ -53,9 +122,21 @@
       "what_broke": "Rows were merged on company + title. The same title in Dublin, Singapore and Chicago is three different jobs, so about 17% of the dataset disappeared. A normal de-duplication rate on a multi-board scrape is 1-3%.",
       "fix": "The key is company + normalized title + normalized location. Hyphens are normalized too, otherwise US-Chicago and us chicago stay apart.",
       "numbers": [
-        ["share removed by de-duplication", "17.4%", "1.4%"],
-        ["postings with a salary", "6,833", "7,984"],
-        ["median salary", "$204,750", "$200,000"]
+        [
+          "share removed by de-duplication",
+          "17.4%",
+          "1.4%"
+        ],
+        [
+          "postings with a salary",
+          "6,833",
+          "7,984"
+        ],
+        [
+          "median salary",
+          "$204,750",
+          "$200,000"
+        ]
       ]
     },
     {
