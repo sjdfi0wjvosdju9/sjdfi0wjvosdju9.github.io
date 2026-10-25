@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Location bands and the multi-metro premium — Radar Labs</title>
+<meta name="description" content="San Francisco postings median $252,500; multi-city postings $345,000 vs $195,000 single-location. What location fields do to published pay.">
+<link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/topics/location-pay.html">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; max-width: 900px; margin: 42px auto; padding: 0 18px; }
+  h1 { font-size: 26px; line-height: 1.25; margin-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 34px; }
+  h3 { font-size: 15px; margin-top: 24px; }
+  p.meta { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 4px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #ddd; }
+  th { background: #f6f6f6; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .kpi { display: flex; gap: 22px; flex-wrap: wrap; margin: 18px 0; }
+  .kpi div { background: #f7f7f7; padding: 12px 16px; border-radius: 8px; }
+  .kpi b { display: block; font-size: 22px; }
+  .note { background: #f7f7f7; border-left: 3px solid #0b5fff; padding: 11px 14px; font-size: 14px; margin: 18px 0; }
+  a { color: #0b5fff; }
+  footer { color: #666; font-size: 13px; margin-top: 30px; }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Location bands and the multi-metro premium — Radar Labs">
+<meta property="og:description" content="San Francisco postings median $252,500; multi-city postings $345,000 vs $195,000 single-location. What location fields do to published pay.">
+<meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/topics/location-pay.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Location bands and the multi-metro premium — Radar Labs">
+<meta name="twitter:description" content="San Francisco postings median $252,500; multi-city postings $345,000 vs $195,000 single-location. What location fields do to published pay.">
+</head>
+<body>
+<h1>Location bands, and the multi-metro premium</h1>
+<p class="meta">Median midpoint by posted location · snapshot 2026-10-26 · 8,049 postings with a range</p>
+<div class="kpi"><div><b>2,158</b>San Francisco postings</div><div><b>$249,625</b>their median</div><div><b>380</b>multi-city postings</div><div><b>$345,000</b>their median</div></div>
+<p>Salary ranges in this dataset are attached to a location, and the location field is
+messier than it looks: "San Francisco" and "San Francisco, CA" are separate strings that
+mean the same market, while "San Francisco, CA | New York City, NY" is a different thing
+entirely — a posting that pays one band for several metros.</p>
+<table><thead><tr><th>Posted location</th><th class="n">Postings</th><th class="n">Median</th><th class="n">p25</th><th class="n">p75</th></tr></thead><tbody><tr><td>san francisco</td><td class="n">743</td><td class="n">$252,500</td><td class="n">$197,500</td><td class="n">$337,500</td></tr><tr><td>united states</td><td class="n">328</td><td class="n">$173,737</td><td class="n">$138,800</td><td class="n">$213,750</td></tr><tr><td>san francisco, ca</td><td class="n">188</td><td class="n">$247,875</td><td class="n">$185,000</td><td class="n">$345,000</td></tr><tr><td>remote</td><td class="n">177</td><td class="n">$156,000</td><td class="n">$117,600</td><td class="n">$208,708</td></tr><tr><td>new york city</td><td class="n">160</td><td class="n">$162,250</td><td class="n">$120,000</td><td class="n">$216,000</td></tr><tr><td>san francisco, ca | new york city, ny</td><td class="n">156</td><td class="n">$347,500</td><td class="n">$287,500</td><td class="n">$415,000</td></tr><tr><td>remote - usa</td><td class="n">143</td><td class="n">$202,482</td><td class="n">$181,022</td><td class="n">$237,262</td></tr><tr><td>new york, new york, united states</td><td class="n">136</td><td class="n">$189,560</td><td class="n">$142,375</td><td class="n">$229,770</td></tr><tr><td>san francisco, california</td><td class="n">122</td><td class="n">$210,938</td><td class="n">$179,000</td><td class="n">$261,500</td></tr></tbody></table>
+<p>The multi-metro effect is the largest single structure in the location data:
+postings that list several cities have a median of $345,000 against
+$195,000 for single-location postings — +77%. This is
+mostly not a premium for flexibility; it is a marker of seniority. Companies list three
+metros for the roles they have been trying to fill longest, and those are the senior and
+staff roles with the widest bands.</p>
+<div class="note">Read the location table as <em>pay bands attached to postings</em>, not as
+local cost of living. A "$252,500 in San Francisco" posting means the company put that band
+on a San Francisco requisition. It does not mean every San Francisco engineer earns it, and
+it does not adjust for what the same role pays in Austin — most of these companies publish
+one national band and let the location list signal where they expect to hire.</div>
+<p>Related: <a href="/topics/role-pay.html">role families</a> ·
+<a href="/topics/remote-pay.html">remote pay</a> · <a href="/salary-data.html">the dataset</a>.</p>
+
+<footer>
+  <p>Radar Labs · snapshot 2026-10-26 · every figure on this page is computed from
+  the published salary ranges we collect from company job boards.
+  Data: <a href="/salary-data.html">free CSV, CC BY 4.0</a> ·
+  <a href="/how-we-choose.html">how we choose sources</a> ·
+  <a href="/topics/">all deep dives</a> · <a href="/changes.html">what changed</a>.</p>
+</footer>
+</body>
+</html>
