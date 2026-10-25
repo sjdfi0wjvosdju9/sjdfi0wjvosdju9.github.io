@@ -3,6 +3,30 @@
   "entries": [
     {
       "date": "2026-10-26",
+      "title": "Company pages answered 'what does X pay' — nothing answered 'is remote cheaper'",
+      "kind": "content",
+      "what_broke": "Not a break — a hole. All 165 crawlable pages answered one shape of question (what does this company pay) which means the site only ever earned the company-name queries. The comparative questions people actually type into a search box had no page to land on, and no internal links pointed anywhere except back to the company index.",
+      "fix": "Built a four-page deep-dive cluster under /topics/ from the same CSV, each page printing its own sample size: remote pay vs office pay (n=2,254 vs 5,795, medians $190,781 / $204,000, with the per-family split showing security +9.8% and sales +9.4% but data/ML -17.6%); role families ranked (data/ML $237,500 down to support/ops $162,000, spread $75,500); title words vs level ('senior' $185,791 vs unlabelled $193,500 — the inversion is a labelling problem, not a data bug); location bands (SF $252,500; multi-metro postings $345,000 vs $195,000 single-location). Sitemap 165 → 170 URLs, hub linked from the homepage and the dataset page, llms.txt given the same entry points.",
+      "numbers": [
+        [
+          "crawlable urls",
+          "165",
+          "170"
+        ],
+        [
+          "deep-dive pages",
+          "0",
+          "4"
+        ],
+        [
+          "pages answering a comparative query",
+          "0",
+          "5"
+        ]
+      ]
+    },
+    {
+      "date": "2026-10-26",
       "title": "The homepage kept advertising yesterday's data while every other page was current",
       "kind": "infrastructure",
       "what_broke": "The line \"last measured …\" (and the pricing note under it) on /index.html was written by hand. Every refresh rebuilt data/, /freshness.html, /salary-data.html, /llms.txt and the sitemap, and all of them moved to the new date — but the first page a visitor reads stayed two days behind. The one page whose whole job is to say how fresh this data is was the only page that could go stale, and a reader comparing the homepage against the dataset could only conclude the numbers were abandoned.",

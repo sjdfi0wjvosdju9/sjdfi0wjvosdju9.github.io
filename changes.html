@@ -63,6 +63,20 @@
 <h1>Change log</h1>
 <p class="lede">The dataset is rebuilt weekly from live job boards. When a number moves because the pipeline was wrong rather than because the market moved, it belongs here.</p>
 <p class="note">Every revision that changed a published number. Newest first. Dates are the day the corrected data went live.<br>Current build: 266 companies, 18,758 de-duplicated postings, 8,049 with a published salary, median $200,000.</p>
+<article id="2026-10-26-content">
+<div class="meta"><time datetime="2026-10-26">2026-10-26</time><span class="kind">content</span></div>
+<h2>Company pages answered &#x27;what does X pay&#x27; — nothing answered &#x27;is remote cheaper&#x27;</h2>
+<dl>
+<dt>What was wrong</dt><dd>Not a break — a hole. All 165 crawlable pages answered one shape of question (what does this company pay) which means the site only ever earned the company-name queries. The comparative questions people actually type into a search box had no page to land on, and no internal links pointed anywhere except back to the company index.</dd>
+<dt>What changed</dt><dd>Built a four-page deep-dive cluster under /topics/ from the same CSV, each page printing its own sample size: remote pay vs office pay (n=2,254 vs 5,795, medians $190,781 / $204,000, with the per-family split showing security +9.8% and sales +9.4% but data/ML -17.6%); role families ranked (data/ML $237,500 down to support/ops $162,000, spread $75,500); title words vs level (&#x27;senior&#x27; $185,791 vs unlabelled $193,500 — the inversion is a labelling problem, not a data bug); location bands (SF $252,500; multi-metro postings $345,000 vs $195,000 single-location). Sitemap 165 → 170 URLs, hub linked from the homepage and the dataset page, llms.txt given the same entry points.</dd>
+</dl>
+
+<table><thead><tr><th>measure</th><th>before</th><th>after</th></tr></thead><tbody>
+<tr><td>crawlable urls</td><td class="n before">165</td><td class="n after">170</td></tr>
+<tr><td>deep-dive pages</td><td class="n before">0</td><td class="n after">4</td></tr>
+<tr><td>pages answering a comparative query</td><td class="n before">0</td><td class="n after">5</td></tr>
+</tbody></table>
+</article>
 <article id="2026-10-26-infrastructure">
 <div class="meta"><time datetime="2026-10-26">2026-10-26</time><span class="kind">infrastructure</span></div>
 <h2>The homepage kept advertising yesterday&#x27;s data while every other page was current</h2>

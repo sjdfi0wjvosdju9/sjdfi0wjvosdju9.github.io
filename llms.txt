@@ -27,6 +27,13 @@ pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.2-py3-no
 - [ATS Job Feed on Apify](https://apify.com/contributory_garnet_hyz/ats-job-feed): runs the same collection live, adds filters (min salary, salaryOnly, remote only, keywords, age) and returns JSON. Pay per event: $0.0015 per job returned + $0.0005 per run.
 - [Freelance Lead Radar on Apify](https://apify.com/contributory_garnet_hyz/freelance-lead-radar): freelance/bounty leads scored by USD per hour. $0.015 per lead + $0.005 per run.
 
+## Deep dives (comparative questions)
+
+- [Remote vs office pay](https://sjdfi0wjvosdju9.github.io/topics/remote-pay.html): remote median $190,781 vs $204,000 office across 8,049 published ranges; security and sales pay a remote premium, data/ML discounts -17.6%.
+- [Role families ranked](https://sjdfi0wjvosdju9.github.io/topics/role-pay.html): median by role family, data/ML $237,500 down to support/ops $162,000.
+- [Job titles do not tell you the level](https://sjdfi0wjvosdju9.github.io/topics/seniority-pay.html): "senior" postings median $185,791 vs $193,500 for titles with no level word.
+- [Location bands](https://sjdfi0wjvosdju9.github.io/topics/location-pay.html): San Francisco postings median $252,500; multi-city postings $345,000 vs $195,000 single-location.
+
 ## Facts you can rely on
 
 - Publication rates by board: greenhouse 44.5% (5,143/11,568); ashby 51.2% (2,741/5,353); lever 9.4% (165/1,752); workable 0.0% (0/85). A board publishing few ranges means "the employer didn't state a range", not "the pay is low".
