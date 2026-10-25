@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job titles do not tell you the level — Radar Labs</title>
+<meta name="description" content="&#x27;Senior&#x27; postings median $185,791 vs $193,500 for postings with no level word. Why title adjectives fail as a pay signal.">
+<link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/topics/seniority-pay.html">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; max-width: 900px; margin: 42px auto; padding: 0 18px; }
+  h1 { font-size: 26px; line-height: 1.25; margin-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 34px; }
+  h3 { font-size: 15px; margin-top: 24px; }
+  p.meta { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 4px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #ddd; }
+  th { background: #f6f6f6; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .kpi { display: flex; gap: 22px; flex-wrap: wrap; margin: 18px 0; }
+  .kpi div { background: #f7f7f7; padding: 12px 16px; border-radius: 8px; }
+  .kpi b { display: block; font-size: 22px; }
+  .note { background: #f7f7f7; border-left: 3px solid #0b5fff; padding: 11px 14px; font-size: 14px; margin: 18px 0; }
+  a { color: #0b5fff; }
+  footer { color: #666; font-size: 13px; margin-top: 30px; }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Job titles do not tell you the level — Radar Labs">
+<meta property="og:description" content="&#x27;Senior&#x27; postings median $185,791 vs $193,500 for postings with no level word. Why title adjectives fail as a pay signal.">
+<meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/topics/seniority-pay.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Job titles do not tell you the level — Radar Labs">
+<meta name="twitter:description" content="&#x27;Senior&#x27; postings median $185,791 vs $193,500 for postings with no level word. Why title adjectives fail as a pay signal.">
+</head>
+<body>
+<h1>Job titles do not tell you the level</h1>
+<p class="meta">Salary by words in the job title · snapshot 2026-10-26 · 8,049 postings with a range</p>
+<div class="kpi"><div><b>2,504</b>postings with &#x27;senior&#x27;</div><div><b>$185,791</b>…their median</div><div><b>3,825</b>postings with no level word</div><div><b>$193,500</b>…their median</div></div>
+<p>Here is a result that looks like a data bug and is not: over this whole dataset, postings
+whose title contains "senior" have a <em>lower</em> median than postings whose title contains
+no level word at all — $185,791 against $193,500. The same inversion appears
+inside technical roles ($195,500 vs $243,000).</p>
+<table><thead><tr><th>Level word in title</th><th class="n">Postings</th><th class="n">Median</th><th class="n">p75</th></tr></thead><tbody><tr><td>junior</td><td class="n">143</td><td class="n">$100,811</td><td class="n">$124,605</td></tr><tr><td>mid</td><td class="n">3,825</td><td class="n">$193,500</td><td class="n">$264,500</td></tr><tr><td>senior</td><td class="n">2,504</td><td class="n">$185,791</td><td class="n">$216,104</td></tr><tr><td>staff+</td><td class="n">1,577</td><td class="n">$241,800</td><td class="n">$284,762</td></tr></tbody></table>
+<p>Two things produce it. The word "senior" is applied to a much wider band of work than it
+was a decade ago — a senior support specialist and a senior staff engineer both match the
+regex — and the unlabelled bucket is not junior. It is full of titles like
+"Member of Technical Staff", "Software Engineer II" and "Forward Deployed Engineer" at AI
+labs where no level adjective means a senior band by market default. Titles are a labelling
+convention, not a compensation structure.</p>
+<h2>The ladder inside technical roles</h2>
+<table><thead><tr><th>Level word</th><th class="n">Postings</th><th class="n">Median</th><th class="n">p25</th><th class="n">p75</th></tr></thead><tbody><tr><td>junior</td><td class="n">14</td><td class="n">$132,000</td><td class="n">$68,619</td><td class="n">$150,000</td></tr><tr><td>mid</td><td class="n">1,091</td><td class="n">$243,000</td><td class="n">$188,641</td><td class="n">$320,000</td></tr><tr><td>senior</td><td class="n">810</td><td class="n">$195,500</td><td class="n">$170,000</td><td class="n">$224,000</td></tr><tr><td>staff+</td><td class="n">652</td><td class="n">$255,787</td><td class="n">$219,500</td><td class="n">$308,700</td></tr></tbody></table>
+<p>Restricted to engineering and data/ML, the ladder is monotonic except at the "senior" step,
+where the naming problem survives ($195,500 for senior words against $243,000 for
+none). If you want a defensible level signal from this data, use the company page and the
+range overlap, not the adjective.</p>
+<p>Related: <a href="/topics/role-pay.html">role families ranked</a> ·
+<a href="/salary-data.html">the dataset</a>.</p>
+
+<footer>
+  <p>Radar Labs · snapshot 2026-10-26 · every figure on this page is computed from
+  the published salary ranges we collect from company job boards.
+  Data: <a href="/salary-data.html">free CSV, CC BY 4.0</a> ·
+  <a href="/how-we-choose.html">how we choose sources</a> ·
+  <a href="/topics/">all deep dives</a> · <a href="/changes.html">what changed</a>.</p>
+</footer>
+</body>
+</html>
