@@ -1,44 +1,45 @@
 {
-  "generated_at": "2026-10-24 12:28 (UTC+8)",
+  "generated_at": "2026-10-26 06:15 (UTC+8)",
   "companies_in_pool": 266,
-  "postings_scanned": 18670,
-  "postings_with_salary": 8042,
-  "share_with_salary": 43.1,
+  "postings_scanned": 18758,
+  "postings_with_salary": 8049,
+  "share_with_salary": 42.9,
   "remote_share": 28.0,
   "median_mid": 200000,
   "p25_mid": 150000,
   "p75_mid": 253000,
-  "p90_mid": 323500,
+  "p90_mid": 323000,
   "sample_rows": 1522,
-  "failed_companies": [
-    "robusta",
-    "callsign",
-    "yapily",
-    "vouched"
-  ],
+  "failed_companies": [],
   "salary_by_ats": {
-    "greenhouse": 5134,
-    "ashby": 2744,
-    "lever": 164
+    "greenhouse": 5143,
+    "ashby": 2741,
+    "lever": 165
   },
   "publication_by_ats": [
     {
       "ats": "greenhouse",
-      "postings": 11561,
-      "with_salary": 5134,
-      "rate": 44.4
+      "postings": 11568,
+      "with_salary": 5143,
+      "rate": 44.5
     },
     {
       "ats": "ashby",
-      "postings": 5358,
-      "with_salary": 2744,
+      "postings": 5353,
+      "with_salary": 2741,
       "rate": 51.2
     },
     {
       "ats": "lever",
-      "postings": 1751,
-      "with_salary": 164,
+      "postings": 1752,
+      "with_salary": 165,
       "rate": 9.4
+    },
+    {
+      "ats": "workable",
+      "postings": 85,
+      "with_salary": 0,
+      "rate": 0.0
     }
   ],
   "publication_by_company": [
@@ -122,9 +123,9 @@
     {
       "slug": "plaid",
       "ats": "ashby",
-      "postings": 135,
-      "with_salary": 129,
-      "rate": 95.6
+      "postings": 134,
+      "with_salary": 128,
+      "rate": 95.5
     },
     {
       "slug": "baseten",
@@ -162,6 +163,13 @@
       "rate": 93.0
     },
     {
+      "slug": "squarespace",
+      "ats": "greenhouse",
+      "postings": 28,
+      "with_salary": 26,
+      "rate": 92.9
+    },
+    {
       "slug": "swordhealth",
       "ats": "greenhouse",
       "postings": 54,
@@ -169,25 +177,18 @@
       "rate": 92.6
     },
     {
-      "slug": "squarespace",
-      "ats": "greenhouse",
-      "postings": 27,
-      "with_salary": 25,
-      "rate": 92.6
-    },
-    {
-      "slug": "instacart",
-      "ats": "greenhouse",
-      "postings": 112,
-      "with_salary": 103,
-      "rate": 92.0
-    },
-    {
       "slug": "render",
       "ats": "ashby",
       "postings": 37,
       "with_salary": 34,
       "rate": 91.9
+    },
+    {
+      "slug": "instacart",
+      "ats": "greenhouse",
+      "postings": 110,
+      "with_salary": 101,
+      "rate": 91.8
     },
     {
       "slug": "headway",
@@ -206,9 +207,9 @@
     {
       "slug": "tailscale",
       "ats": "greenhouse",
-      "postings": 57,
-      "with_salary": 51,
-      "rate": 89.5
+      "postings": 59,
+      "with_salary": 53,
+      "rate": 89.8
     },
     {
       "slug": "gocardless",
@@ -248,9 +249,9 @@
     {
       "slug": "anthropic",
       "ats": "greenhouse",
-      "postings": 678,
-      "with_salary": 589,
-      "rate": 86.9
+      "postings": 681,
+      "with_salary": 591,
+      "rate": 86.8
     },
     {
       "slug": "snyk",
@@ -262,9 +263,9 @@
     {
       "slug": "perplexity",
       "ats": "ashby",
-      "postings": 131,
-      "with_salary": 110,
-      "rate": 84.0
+      "postings": 132,
+      "with_salary": 111,
+      "rate": 84.1
     },
     {
       "slug": "pagerduty",
@@ -290,9 +291,9 @@
     {
       "slug": "openai",
       "ats": "ashby",
-      "postings": 796,
-      "with_salary": 632,
-      "rate": 79.4
+      "postings": 793,
+      "with_salary": 629,
+      "rate": 79.3
     },
     {
       "slug": "zocdoc",
@@ -311,9 +312,9 @@
     {
       "slug": "brex",
       "ats": "greenhouse",
-      "postings": 254,
-      "with_salary": 195,
-      "rate": 76.8
+      "postings": 259,
+      "with_salary": 200,
+      "rate": 77.2
     },
     {
       "slug": "wealthsimple",
@@ -381,9 +382,9 @@
     {
       "slug": "snowflake",
       "ats": "ashby",
-      "postings": 351,
+      "postings": 352,
       "with_salary": 239,
-      "rate": 68.1
+      "rate": 67.9
     },
     {
       "slug": "scaleai",
@@ -395,9 +396,9 @@
     {
       "slug": "asana",
       "ats": "greenhouse",
-      "postings": 107,
-      "with_salary": 72,
-      "rate": 67.3
+      "postings": 108,
+      "with_salary": 73,
+      "rate": 67.6
     },
     {
       "slug": "cohere",
@@ -465,9 +466,9 @@
     {
       "slug": "figma",
       "ats": "greenhouse",
-      "postings": 138,
+      "postings": 139,
       "with_salary": 79,
-      "rate": 57.2
+      "rate": 56.8
     },
     {
       "slug": "vanta",
@@ -479,9 +480,9 @@
     {
       "slug": "databricks",
       "ats": "greenhouse",
-      "postings": 881,
+      "postings": 880,
       "with_salary": 473,
-      "rate": 53.7
+      "rate": 53.8
     },
     {
       "slug": "6sense",
@@ -633,9 +634,9 @@
     {
       "slug": "mongodb",
       "ats": "greenhouse",
-      "postings": 371,
+      "postings": 369,
       "with_salary": 121,
-      "rate": 32.6
+      "rate": 32.8
     },
     {
       "slug": "bloomreach",
@@ -645,17 +646,17 @@
       "rate": 31.9
     },
     {
+      "slug": "adyen",
+      "ats": "greenhouse",
+      "postings": 247,
+      "with_salary": 77,
+      "rate": 31.2
+    },
+    {
       "slug": "airwallex",
       "ats": "ashby",
       "postings": 507,
       "with_salary": 157,
-      "rate": 31.0
-    },
-    {
-      "slug": "adyen",
-      "ats": "greenhouse",
-      "postings": 248,
-      "with_salary": 77,
       "rate": 31.0
     },
     {
@@ -668,16 +669,16 @@
     {
       "slug": "elliptic",
       "ats": "ashby",
-      "postings": 29,
+      "postings": 30,
       "with_salary": 8,
-      "rate": 27.6
+      "rate": 26.7
     },
     {
       "slug": "n8n",
       "ats": "ashby",
-      "postings": 41,
+      "postings": 39,
       "with_salary": 10,
-      "rate": 24.4
+      "rate": 25.6
     },
     {
       "slug": "shipbobinc",
@@ -717,9 +718,9 @@
     {
       "slug": "zoominfo",
       "ats": "greenhouse",
-      "postings": 92,
+      "postings": 91,
       "with_salary": 15,
-      "rate": 16.3
+      "rate": 16.5
     },
     {
       "slug": "amplitude",
@@ -738,9 +739,9 @@
     {
       "slug": "samsara",
       "ats": "greenhouse",
-      "postings": 270,
+      "postings": 272,
       "with_salary": 39,
-      "rate": 14.4
+      "rate": 14.3
     },
     {
       "slug": "monzo",
@@ -752,9 +753,16 @@
     {
       "slug": "lyrahealth",
       "ats": "lever",
-      "postings": 471,
-      "with_salary": 62,
-      "rate": 13.2
+      "postings": 472,
+      "with_salary": 63,
+      "rate": 13.3
+    },
+    {
+      "slug": "siteminder",
+      "ats": "ashby",
+      "postings": 26,
+      "with_salary": 3,
+      "rate": 11.5
     },
     {
       "slug": "harnessinc",
@@ -764,18 +772,18 @@
       "rate": 10.8
     },
     {
-      "slug": "siteminder",
-      "ats": "ashby",
-      "postings": 28,
-      "with_salary": 3,
-      "rate": 10.7
+      "slug": "deliveroo",
+      "ats": "greenhouse",
+      "postings": 202,
+      "with_salary": 20,
+      "rate": 9.9
     },
     {
       "slug": "dnb",
       "ats": "lever",
-      "postings": 96,
+      "postings": 97,
       "with_salary": 9,
-      "rate": 9.4
+      "rate": 9.3
     },
     {
       "slug": "wrike",
@@ -783,13 +791,6 @@
       "postings": 66,
       "with_salary": 6,
       "rate": 9.1
-    },
-    {
-      "slug": "deliveroo",
-      "ats": "greenhouse",
-      "postings": 201,
-      "with_salary": 18,
-      "rate": 9.0
     },
     {
       "slug": "cognition",
@@ -808,14 +809,14 @@
     {
       "slug": "tide",
       "ats": "greenhouse",
-      "postings": 100,
+      "postings": 102,
       "with_salary": 7,
-      "rate": 7.0
+      "rate": 6.9
     },
     {
       "slug": "toast",
       "ats": "greenhouse",
-      "postings": 319,
+      "postings": 318,
       "with_salary": 21,
       "rate": 6.6
     },
@@ -857,7 +858,7 @@
     {
       "slug": "stripe",
       "ats": "greenhouse",
-      "postings": 712,
+      "postings": 710,
       "with_salary": 22,
       "rate": 3.1
     },
@@ -878,9 +879,9 @@
     {
       "slug": "supabase",
       "ats": "ashby",
-      "postings": 59,
+      "postings": 61,
       "with_salary": 1,
-      "rate": 1.7
+      "rate": 1.6
     },
     {
       "slug": "justworks",
@@ -899,14 +900,14 @@
     {
       "slug": "sumup",
       "ats": "greenhouse",
-      "postings": 344,
+      "postings": 345,
       "with_salary": 3,
       "rate": 0.9
     },
     {
       "slug": "elevenlabs",
       "ats": "ashby",
-      "postings": 161,
+      "postings": 159,
       "with_salary": 1,
       "rate": 0.6
     },
@@ -956,6 +957,13 @@
       "slug": "getyourguide",
       "ats": "greenhouse",
       "postings": 74,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
+      "slug": "robusta",
+      "ats": "workable",
+      "postings": 73,
       "with_salary": 0,
       "rate": 0.0
     },
@@ -1109,6 +1117,13 @@
       "rate": 0.0
     },
     {
+      "slug": "robusta",
+      "ats": "workable",
+      "postings": 73,
+      "with_salary": 0,
+      "rate": 0.0
+    },
+    {
       "slug": "trading212",
       "ats": "ashby",
       "postings": 53,
@@ -1145,16 +1160,16 @@
     }
   ],
   "remote_median": 190781,
-  "remote_n": 2255,
+  "remote_n": 2254,
   "onsite_median": 204000,
-  "onsite_n": 5787,
+  "onsite_n": 5795,
   "companies_with_pay": 166,
   "family_remote": [
     {
       "family": "other",
-      "remote_n": 235,
+      "remote_n": 234,
       "remote_median": 150800,
-      "onsite_n": 445,
+      "onsite_n": 446,
       "onsite_median": 200000,
       "gap_pct": -24.6
     },
@@ -1162,7 +1177,7 @@
       "family": "data / ml",
       "remote_n": 88,
       "remote_median": 206000,
-      "onsite_n": 279,
+      "onsite_n": 278,
       "onsite_median": 250000,
       "gap_pct": -17.6
     },
@@ -1170,38 +1185,38 @@
       "family": "finance / legal",
       "remote_n": 183,
       "remote_median": 181022,
-      "onsite_n": 545,
-      "onsite_median": 200950,
+      "onsite_n": 548,
+      "onsite_median": 200975,
       "gap_pct": -9.9
     },
     {
       "family": "support / ops",
-      "remote_n": 386,
+      "remote_n": 385,
       "remote_median": 153318,
-      "onsite_n": 831,
-      "onsite_median": 167575,
-      "gap_pct": -8.5
+      "onsite_n": 830,
+      "onsite_median": 168301,
+      "gap_pct": -8.9
     },
     {
       "family": "marketing",
-      "remote_n": 135,
+      "remote_n": 137,
       "remote_median": 180000,
-      "onsite_n": 378,
-      "onsite_median": 192500,
-      "gap_pct": -6.5
+      "onsite_n": 382,
+      "onsite_median": 193675,
+      "gap_pct": -7.1
     },
     {
       "family": "engineering",
-      "remote_n": 563,
+      "remote_n": 561,
       "remote_median": 212000,
-      "onsite_n": 1639,
+      "onsite_n": 1640,
       "onsite_median": 226000,
       "gap_pct": -6.2
     },
     {
       "family": "product",
-      "remote_n": 165,
-      "remote_median": 222500,
+      "remote_n": 166,
+      "remote_median": 222465,
       "onsite_n": 382,
       "onsite_median": 225425,
       "gap_pct": -1.3
@@ -1218,8 +1233,8 @@
       "family": "sales",
       "remote_n": 340,
       "remote_median": 175000,
-      "onsite_n": 898,
-      "onsite_median": 160000,
+      "onsite_n": 899,
+      "onsite_median": 159950,
       "gap_pct": 9.4
     },
     {
@@ -1231,15 +1246,15 @@
       "gap_pct": 9.8
     }
   ],
-  "snapshot_date": "2026-10-24",
-  "history_points": 1,
+  "snapshot_date": "2026-10-26",
+  "history_points": 2,
   "momentum_baseline": null,
   "momentum": [],
   "companies": [
     {
       "company": "anthropic",
-      "n": 589,
-      "median": 347500,
+      "n": 591,
+      "median": 345000,
       "p25": 282500,
       "p75": 402500
     },
@@ -1252,7 +1267,7 @@
     },
     {
       "company": "openai",
-      "n": 632,
+      "n": 629,
       "median": 307500,
       "p25": 248000,
       "p75": 366000
@@ -1268,8 +1283,8 @@
       "company": "cohere",
       "n": 78,
       "median": 257500,
-      "p25": 199807,
-      "p75": 280087
+      "p25": 199944,
+      "p75": 280279
     },
     {
       "company": "character",
@@ -1287,7 +1302,7 @@
     },
     {
       "company": "perplexity",
-      "n": 110,
+      "n": 111,
       "median": 245000,
       "p25": 195000,
       "p75": 312500
@@ -1405,18 +1420,18 @@
       "p75": 230500
     },
     {
-      "company": "stripe",
-      "n": 22,
-      "median": 218105,
-      "p25": 196000,
-      "p75": 245843
-    },
-    {
       "company": "wrike",
       "n": 6,
       "median": 217500,
       "p25": 137000,
       "p75": 277500
+    },
+    {
+      "company": "stripe",
+      "n": 22,
+      "median": 216935,
+      "p25": 196000,
+      "p75": 245843
     },
     {
       "company": "databricks",
@@ -1440,17 +1455,10 @@
       "p75": 215000
     },
     {
-      "company": "plaid",
-      "n": 129,
-      "median": 214800,
-      "p25": 175200,
-      "p75": 251400
-    },
-    {
       "company": "ramp",
       "n": 160,
       "median": 214300,
-      "p25": 162700,
+      "p25": 162812,
       "p75": 257500
     },
     {
@@ -1468,11 +1476,25 @@
       "p75": 250650
     },
     {
+      "company": "plaid",
+      "n": 128,
+      "median": 212400,
+      "p25": 175200,
+      "p75": 251400
+    },
+    {
       "company": "ripple",
       "n": 63,
       "median": 211000,
       "p25": 162000,
       "p75": 243000
+    },
+    {
+      "company": "brex",
+      "n": 200,
+      "median": 210000,
+      "p25": 144900,
+      "p75": 262500
     },
     {
       "company": "pinecone",
@@ -1482,17 +1504,10 @@
       "p75": 230000
     },
     {
-      "company": "brex",
-      "n": 195,
-      "median": 208485,
-      "p25": 142375,
-      "p75": 262500
-    },
-    {
       "company": "airbyte",
       "n": 13,
       "median": 207188,
-      "p25": 145217,
+      "p25": 145317,
       "p75": 215500
     },
     {
@@ -1540,7 +1555,7 @@
     {
       "company": "sentry",
       "n": 43,
-      "median": 203018,
+      "median": 203158,
       "p25": 155000,
       "p75": 307500
     },
@@ -1553,9 +1568,9 @@
     },
     {
       "company": "tailscale",
-      "n": 51,
+      "n": 53,
       "median": 201000,
-      "p25": 172190,
+      "p25": 173530,
       "p75": 245890
     },
     {
@@ -1617,8 +1632,8 @@
     {
       "company": "assemblyai",
       "n": 12,
-      "median": 199643,
-      "p25": 177457,
+      "median": 199497,
+      "p25": 177215,
       "p75": 240000
     },
     {
@@ -1658,15 +1673,15 @@
     },
     {
       "company": "instacart",
-      "n": 103,
+      "n": 101,
       "median": 194250,
       "p25": 157250,
       "p75": 235000
     },
     {
       "company": "squarespace",
-      "n": 25,
-      "median": 193850,
+      "n": 26,
+      "median": 193862,
       "p25": 148000,
       "p75": 265625
     },
@@ -1713,13 +1728,6 @@
       "p75": 237000
     },
     {
-      "company": "asana",
-      "n": 72,
-      "median": 191250,
-      "p25": 155000,
-      "p75": 225500
-    },
-    {
       "company": "dave",
       "n": 6,
       "median": 190000,
@@ -1741,9 +1749,16 @@
       "p75": 228410
     },
     {
+      "company": "asana",
+      "n": 73,
+      "median": 188000,
+      "p25": 155000,
+      "p75": 225500
+    },
+    {
       "company": "affirm",
       "n": 196,
-      "median": 188171,
+      "median": 187914,
       "p25": 158000,
       "p75": 225000
     },
@@ -1793,7 +1808,7 @@
       "company": "attio",
       "n": 15,
       "median": 180000,
-      "p25": 147323,
+      "p25": 147122,
       "p75": 192500
     },
     {
@@ -1814,7 +1829,7 @@
       "company": "kong",
       "n": 41,
       "median": 175000,
-      "p25": 96755,
+      "p25": 96636,
       "p75": 260000
     },
     {
@@ -1856,8 +1871,8 @@
       "company": "hopper",
       "n": 9,
       "median": 165000,
-      "p25": 128447,
-      "p75": 214079
+      "p25": 128536,
+      "p75": 214226
     },
     {
       "company": "forter",
@@ -1940,7 +1955,7 @@
       "company": "fireblocks",
       "n": 10,
       "median": 158375,
-      "p25": 106559,
+      "p25": 106427,
       "p75": 236500
     },
     {
@@ -1989,7 +2004,7 @@
       "company": "smartsheet",
       "n": 41,
       "median": 156875,
-      "p25": 103754,
+      "p25": 103627,
       "p75": 170000
     },
     {
@@ -2002,7 +2017,7 @@
     {
       "company": "snyk",
       "n": 28,
-      "median": 155712,
+      "median": 155619,
       "p25": 116000,
       "p75": 216000
     },
@@ -2011,7 +2026,7 @@
       "n": 12,
       "median": 153750,
       "p25": 57200,
-      "p75": 200225
+      "p75": 199952
     },
     {
       "company": "harnessinc",
@@ -2023,7 +2038,7 @@
     {
       "company": "sardine",
       "n": 46,
-      "median": 149365,
+      "median": 149171,
       "p25": 117086,
       "p75": 190000
     },
@@ -2058,9 +2073,9 @@
     {
       "company": "n8n",
       "n": 10,
-      "median": 140180,
-      "p25": 135722,
-      "p75": 184571
+      "median": 140008,
+      "p25": 135555,
+      "p75": 184343
     },
     {
       "company": "persona",
@@ -2072,15 +2087,15 @@
     {
       "company": "koho",
       "n": 9,
-      "median": 139151,
-      "p25": 124879,
-      "p75": 139151
+      "median": 139247,
+      "p25": 124965,
+      "p75": 139247
     },
     {
       "company": "elastic",
       "n": 257,
       "median": 138800,
-      "p25": 97024,
+      "p25": 96905,
       "p75": 171850
     },
     {
@@ -2122,7 +2137,7 @@
       "company": "taxbit",
       "n": 12,
       "median": 136250,
-      "p25": 119392,
+      "p25": 119321,
       "p75": 140000
     },
     {
@@ -2149,16 +2164,16 @@
     {
       "company": "swordhealth",
       "n": 50,
-      "median": 128207,
-      "p25": 74703,
+      "median": 128049,
+      "p25": 74611,
       "p75": 175500
     },
     {
       "company": "algolia",
       "n": 28,
-      "median": 126317,
-      "p25": 90575,
-      "p75": 173298
+      "median": 126154,
+      "p25": 90463,
+      "p75": 173084
     },
     {
       "company": "stockx",
@@ -2225,10 +2240,10 @@
     },
     {
       "company": "lyrahealth",
-      "n": 62,
+      "n": 63,
       "median": 112000,
-      "p25": 80392,
-      "p75": 159000
+      "p25": 81000,
+      "p75": 158850
     },
     {
       "company": "flexport",
@@ -2240,16 +2255,16 @@
     {
       "company": "monzo",
       "n": 10,
-      "median": 105016,
-      "p25": 95342,
-      "p75": 116654
+      "median": 104887,
+      "p25": 95224,
+      "p75": 116510
     },
     {
       "company": "melio",
-      "n": 13,
+      "n": 11,
       "median": 100000,
-      "p25": 100000,
-      "p75": 147500
+      "p25": 77500,
+      "p75": 120000
     },
     {
       "company": "lightspeed",
@@ -2261,8 +2276,8 @@
     {
       "company": "paddle",
       "n": 3,
-      "median": 98526,
-      "p25": 64531,
+      "median": 98593,
+      "p25": 64576,
       "p75": 114000
     },
     {
@@ -2275,9 +2290,9 @@
     {
       "company": "tide",
       "n": 7,
-      "median": 95146,
-      "p25": 65393,
-      "p75": 97165
+      "median": 95028,
+      "p25": 65313,
+      "p75": 97045
     },
     {
       "company": "delfina",
@@ -2289,9 +2304,9 @@
     {
       "company": "wealthsimple",
       "n": 33,
-      "median": 93124,
-      "p25": 71717,
-      "p75": 121383
+      "median": 93188,
+      "p25": 71766,
+      "p75": 121466
     },
     {
       "company": "d2l",
@@ -2324,9 +2339,9 @@
     {
       "company": "gorgias",
       "n": 19,
-      "median": 83013,
-      "p25": 49759,
-      "p75": 98182
+      "median": 83070,
+      "p25": 49794,
+      "p75": 98062
     },
     {
       "company": "talkspace",
@@ -2338,15 +2353,15 @@
     {
       "company": "gocardless",
       "n": 23,
-      "median": 81697,
-      "p25": 65057,
-      "p75": 104465
+      "median": 81586,
+      "p25": 64977,
+      "p75": 104323
     },
     {
       "company": "riskified",
       "n": 18,
-      "median": 75712,
-      "p25": 70104,
+      "median": 75619,
+      "p25": 70018,
       "p75": 150000
     },
     {
@@ -2359,61 +2374,61 @@
     {
       "company": "alan",
       "n": 5,
-      "median": 73469,
-      "p25": 68983,
-      "p75": 85808
+      "median": 73379,
+      "p25": 68898,
+      "p75": 85702
     },
     {
       "company": "sumup",
       "n": 3,
-      "median": 51088,
-      "p25": 32506,
+      "median": 51025,
+      "p25": 32466,
       "p75": 78000
     },
     {
       "company": "siteminder",
       "n": 3,
-      "median": 50893,
-      "p25": 50893,
-      "p75": 52233
+      "median": 50824,
+      "p25": 50824,
+      "p75": 52161
     },
     {
       "company": "bloomreach",
       "n": 23,
-      "median": 50026,
-      "p25": 47487,
-      "p75": 63481
+      "median": 49965,
+      "p25": 47428,
+      "p75": 63403
     },
     {
       "company": "deliveroo",
-      "n": 18,
-      "median": 44418,
-      "p25": 44418,
-      "p75": 45428
+      "n": 20,
+      "median": 44363,
+      "p25": 44363,
+      "p75": 45372
     },
     {
       "company": "backmarket",
       "n": 16,
-      "median": 17498,
-      "p25": 17498,
-      "p75": 17498
+      "median": 17476,
+      "p25": 17476,
+      "p75": 17476
     }
   ],
   "role_families": [
     {
       "family": "data / ml",
-      "n": 367,
+      "n": 366,
       "median": 237500
     },
     {
       "family": "product",
-      "n": 547,
+      "n": 548,
       "median": 225000
     },
     {
       "family": "engineering",
-      "n": 2202,
-      "median": 223025
+      "n": 2201,
+      "median": 223050
     },
     {
       "family": "security",
@@ -2427,13 +2442,13 @@
     },
     {
       "family": "finance / legal",
-      "n": 728,
+      "n": 731,
       "median": 193568
     },
     {
       "family": "marketing",
-      "n": 513,
-      "median": 186948
+      "n": 519,
+      "median": 187625
     },
     {
       "family": "other",
@@ -2442,12 +2457,12 @@
     },
     {
       "family": "sales",
-      "n": 1238,
+      "n": 1239,
       "median": 164000
     },
     {
       "family": "support / ops",
-      "n": 1217,
+      "n": 1215,
       "median": 162000
     }
   ]
