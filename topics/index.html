@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salary data deep dives — Radar Labs</title>
+<meta name="description" content="Comparative salary analysis from published job-posting ranges: remote pay, role families, seniority labels and location bands.">
+<link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/topics/">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; max-width: 900px; margin: 42px auto; padding: 0 18px; }
+  h1 { font-size: 26px; line-height: 1.25; margin-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 34px; }
+  h3 { font-size: 15px; margin-top: 24px; }
+  p.meta { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 4px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #ddd; }
+  th { background: #f6f6f6; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .kpi { display: flex; gap: 22px; flex-wrap: wrap; margin: 18px 0; }
+  .kpi div { background: #f7f7f7; padding: 12px 16px; border-radius: 8px; }
+  .kpi b { display: block; font-size: 22px; }
+  .note { background: #f7f7f7; border-left: 3px solid #0b5fff; padding: 11px 14px; font-size: 14px; margin: 18px 0; }
+  a { color: #0b5fff; }
+  footer { color: #666; font-size: 13px; margin-top: 30px; }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Radar Labs">
+<meta property="og:title" content="Salary data deep dives — Radar Labs">
+<meta property="og:description" content="Comparative salary analysis from published job-posting ranges: remote pay, role families, seniority labels and location bands.">
+<meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/topics/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Salary data deep dives — Radar Labs">
+<meta name="twitter:description" content="Comparative salary analysis from published job-posting ranges: remote pay, role families, seniority labels and location bands.">
+</head>
+<body>
+<h1>Salary data deep dives</h1>
+<p class="meta">Comparative questions answered from 8,049 published salary ranges at 197 companies · snapshot 2026-10-26</p>
+<div class="kpi"><div><b>8,049</b>postings with a published range</div><div><b>197</b>companies</div><div><b>$200,000</b>median midpoint</div><div><b>$149,978 – $253,000</b>p25 – p75</div></div>
+<div class="note">The company pages answer "what does <em>this company</em> pay?".
+These pages answer the questions that come after: is remote discounted, which function pays,
+does a title predict a level, and what a location band does to the number.</div>
+<h3><a href="/topics/remote-pay.html">Is remote work still paid less?</a></h3><p>Remote roles at these companies sit $200,000 at the median against office roles — but the gap flips for security and sales.</p><h3><a href="/topics/role-pay.html">Which role family actually pays most</a></h3><p>Data and ML leads, support trails. The spread between the top and bottom family is bigger than most promotion jumps.</p><h3><a href="/topics/seniority-pay.html">Job titles do not tell you the level</a></h3><p>&quot;Senior&quot; in a title is worth less than no adjective at all at a frontier lab. We show the labelling problem with numbers.</p><h3><a href="/topics/location-pay.html">Location bands, and the multi-metro premium</a></h3><p>One city on a posting is a pay band. Three cities on a posting is a different job. The gap is large enough to be a data artefact worth knowing.</p>
+<h2>Most-covered companies</h2>
+<ul><li><a href="/pay/openai.html">openai</a> — median $307,500 (629 postings)</li><li><a href="/pay/anthropic.html">anthropic</a> — median $345,000 (591 postings)</li><li><a href="/pay/databricks.html">databricks</a> — median $216,104 (473 postings)</li><li><a href="/pay/elastic.html">elastic</a> — median $138,800 (257 postings)</li><li><a href="/pay/snowflake.html">snowflake</a> — median $203,500 (239 postings)</li><li><a href="/pay/braze.html">braze</a> — median $121,000 (235 postings)</li><li><a href="/pay/oscar.html">oscar</a> — median $157,010 (213 postings)</li><li><a href="/pay/brex.html">brex</a> — median $210,000 (200 postings)</li><li><a href="/pay/affirm.html">affirm</a> — median $187,914 (196 postings)</li><li><a href="/pay/coinbase.html">coinbase</a> — median $200,078 (181 postings)</li><li><a href="/pay/ramp.html">ramp</a> — median $214,300 (160 postings)</li><li><a href="/pay/airwallex.html">airwallex</a> — median $195,000 (157 postings)</li></ul>
+<h2>Where the numbers come from</h2>
+<p>We read salary ranges that companies publish in their own job postings (Greenhouse,
+Ashby, Lever, Workable), normalise them to annual USD, and take the midpoint of each
+posted range. If a posting has no salary, it is not in the dataset. Sample size is
+printed on every table because a median over 14 postings is not a median over 629.</p>
+<p>Full method and the raw CSV: <a href="/salary-data.html">salary data</a>.
+Refresh log: <a href="/changes.html">changes</a>.</p>
+
+<footer>
+  <p>Radar Labs · snapshot 2026-10-26 · every figure on this page is computed from
+  the published salary ranges we collect from company job boards.
+  Data: <a href="/salary-data.html">free CSV, CC BY 4.0</a> ·
+  <a href="/how-we-choose.html">how we choose sources</a> ·
+  <a href="/topics/">all deep dives</a> · <a href="/changes.html">what changed</a>.</p>
+</footer>
+</body>
+</html>
