@@ -59,7 +59,6 @@ singlestore,38,41,3,7.9,21
 stockx,28,31,3,10.7,15
 chargepoint,40,42,2,5.0,20
 cleo,6,8,2,33.3,3
-encord,39,41,2,5.1,8
 entrata,22,24,2,9.1,21
 everlywell,14,16,2,14.3,1
 flexport,186,188,2,1.1,62
@@ -81,6 +80,7 @@ betterment,25,26,1,4.0,0
 commercetools,30,31,1,3.3,11
 dataiku,13,14,1,7.7,4
 dialpad,14,15,1,7.1,1
+encord,39,40,1,2.6,8
 harnessinc,65,66,1,1.5,8
 humaans,11,12,1,9.1,0
 mercury,77,78,1,1.3,77
@@ -222,5 +222,5 @@ tide,102,82,-20,-19.6,8
 instacart,110,89,-21,-19.1,82
 elevenlabs,159,137,-22,-13.8,1
 oscar,229,205,-24,-10.5,188
-datadog,417,384,-33,-7.9,0
+datadog,417,385,-32,-7.7,0
 tripadvisor,85,7,-78,-91.8,0

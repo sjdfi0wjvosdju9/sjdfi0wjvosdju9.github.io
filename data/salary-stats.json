@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 07:38 (UTC+8)",
+  "generated_at": "2026-11-09 09:02 (UTC+8)",
   "companies_in_pool": 266,
   "postings_scanned": 18617,
   "postings_with_salary": 8048,
@@ -24,13 +24,13 @@
   "publication_by_ats": [
     {
       "ats": "greenhouse",
-      "postings": 11423,
+      "postings": 11424,
       "with_salary": 5080,
       "rate": 44.5
     },
     {
       "ats": "ashby",
-      "postings": 5413,
+      "postings": 5412,
       "with_salary": 2796,
       "rate": 51.7
     },
@@ -688,9 +688,9 @@
     {
       "slug": "encord",
       "ats": "ashby",
-      "postings": 41,
+      "postings": 40,
       "with_salary": 8,
-      "rate": 19.5
+      "rate": 20.0
     },
     {
       "slug": "zoominfo",
@@ -898,7 +898,7 @@
     {
       "slug": "datadog",
       "ats": "greenhouse",
-      "postings": 384,
+      "postings": 385,
       "with_salary": 0,
       "rate": 0.0
     },
@@ -1026,7 +1026,7 @@
     {
       "slug": "datadog",
       "ats": "greenhouse",
-      "postings": 384,
+      "postings": 385,
       "with_salary": 0,
       "rate": 0.0
     },
@@ -1088,9 +1088,9 @@
     }
   ],
   "remote_median": 191250,
-  "remote_n": 2319,
+  "remote_n": 2318,
   "onsite_median": 205000,
-  "onsite_n": 5729,
+  "onsite_n": 5730,
   "companies_with_pay": 167,
   "family_remote": [
     {
@@ -1119,11 +1119,11 @@
     },
     {
       "family": "support / ops",
-      "remote_n": 409,
-      "remote_median": 152500,
-      "onsite_n": 829,
-      "onsite_median": 169550,
-      "gap_pct": -10.1
+      "remote_n": 408,
+      "remote_median": 152300,
+      "onsite_n": 830,
+      "onsite_median": 169700,
+      "gap_pct": -10.3
     },
     {
       "family": "marketing",

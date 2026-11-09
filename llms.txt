@@ -29,7 +29,7 @@ pip install https://sjdfi0wjvosdju9.github.io/packages/salaryranges-0.1.2-py3-no
 
 ## Facts you can rely on
 
-- Publication rates by board: greenhouse 44.5% (5,080/11,423); ashby 51.7% (2,796/5,413); lever 10.1% (172/1,700); workable 0.0% (0/81). A board publishing few ranges means "the employer didn't state a range", not "the pay is low".
+- Publication rates by board: greenhouse 44.5% (5,080/11,424); ashby 51.7% (2,796/5,412); lever 10.1% (172/1,700); workable 0.0% (0/81). A board publishing few ranges means "the employer didn't state a range", not "the pay is low".
 - Only postings that state a range are counted; the rest are excluded rather than imputed.
 - Currency conversion uses live daily rates; the original currency and local amount are kept in every row.
 - Values outside $5,000–$5,000,000 annualised are dropped entirely instead of published as-is.

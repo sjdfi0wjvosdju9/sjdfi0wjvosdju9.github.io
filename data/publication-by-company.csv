@@ -90,7 +90,7 @@ intercom,greenhouse,108,30,27.8
 bloomreach,greenhouse,69,19,27.5
 n8n,ashby,49,10,20.4
 amplitude,ashby,50,10,20.0
-encord,ashby,41,8,19.5
+encord,ashby,40,8,20.0
 zoominfo,greenhouse,91,17,18.7
 roboflow,ashby,38,7,18.4
 shipbobinc,greenhouse,55,10,18.2
@@ -120,7 +120,7 @@ nubank,ashby,105,1,1.0
 elevenlabs,ashby,137,1,0.7
 sumup,greenhouse,339,2,0.6
 gopuff,lever,780,2,0.3
-datadog,greenhouse,384,0,0.0
+datadog,greenhouse,385,0,0.0
 betterhelp,greenhouse,163,0,0.0
 notion,ashby,154,0,0.0
 justworks,greenhouse,111,0,0.0
