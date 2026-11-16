@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How old are "open" job postings? 52 day median across 8,048 postings</title>
-<meta name="description" content="Age distribution of 8,048 live job postings read from company job boards: median 52 days old, 14.0% older than six months.">
+<title>How old are "open" job postings? 52 day median across 8,046 postings</title>
+<meta name="description" content="Age distribution of 8,046 live job postings read from company job boards: median 52 days old, 13.8% older than six months.">
 <link rel="canonical" href="https://sjdfi0wjvosdju9.github.io/freshness.html">
 <style>
   :root { color-scheme: light dark; }
@@ -27,63 +27,63 @@
 </style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Radar Labs">
-<meta property="og:title" content="How old are &quot;open&quot; job postings? 52 day median across 8,048 postings">
-<meta property="og:description" content="Age distribution of 8,048 live job postings read from company job boards: median 52 days old, 14.0% older than six months.">
+<meta property="og:title" content="How old are &quot;open&quot; job postings? 52 day median across 8,046 postings">
+<meta property="og:description" content="Age distribution of 8,046 live job postings read from company job boards: median 52 days old, 13.8% older than six months.">
 <meta property="og:url" content="https://sjdfi0wjvosdju9.github.io/freshness.html">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How old are &quot;open&quot; job postings? 52 day median across 8,048 postings">
-<meta name="twitter:description" content="Age distribution of 8,048 live job postings read from company job boards: median 52 days old, 14.0% older than six months.">
+<meta name="twitter:title" content="How old are &quot;open&quot; job postings? 52 day median across 8,046 postings">
+<meta name="twitter:description" content="Age distribution of 8,046 live job postings read from company job boards: median 52 days old, 13.8% older than six months.">
 </head>
 <body>
 <p class="meta"><a href="https://sjdfi0wjvosdju9.github.io/">Radar Labs</a> / <a href="https://sjdfi0wjvosdju9.github.io/salary-data.html">salary dataset</a> / freshness</p>
 <h1>How old are the postings that are still "open"?</h1>
-<p class="meta">8,048 live postings read on 2026-11-09 from 259 company boards, measured from each board's <em>first-published</em> field where it has one.</p>
+<p class="meta">8,046 live postings read on 2026-11-16 from 259 company boards, measured from each board's <em>first-published</em> field where it has one.</p>
 
 <div class="cards">
-  <div class="card"><span>Median age</span><div class="big">52d</div><span class="sub">p10 7d · p90 236d</span></div>
-  <div class="card"><span>Older than 30d</span><div class="big">67.4%</div><span class="sub">5,421 of 8,048</span></div><div class="card"><span>Older than 90d</span><div class="big">29.6%</div><span class="sub">2,385 of 8,048</span></div><div class="card"><span>Older than 180d</span><div class="big">14.0%</div><span class="sub">1,129 of 8,048</span></div><div class="card"><span>Older than 365d</span><div class="big">4.8%</div><span class="sub">389 of 8,048</span></div>
+  <div class="card"><span>Median age</span><div class="big">52d</div><span class="sub">p10 10d · p90 231d</span></div>
+  <div class="card"><span>Older than 30d</span><div class="big">66.7%</div><span class="sub">5,363 of 8,046</span></div><div class="card"><span>Older than 90d</span><div class="big">29.5%</div><span class="sub">2,372 of 8,046</span></div><div class="card"><span>Older than 180d</span><div class="big">13.8%</div><span class="sub">1,110 of 8,046</span></div><div class="card"><span>Older than 365d</span><div class="big">4.8%</div><span class="sub">386 of 8,046</span></div>
 </div>
 
 <h2>By board — and this is where it gets interesting</h2>
 <table>
 <thead><tr><th>Board</th><th class="n">Postings</th><th class="n">Median age (d)</th><th class="n">p90 (d)</th><th class="n">Oldest (d)</th><th class="n">&gt;180d</th><th>Date field</th></tr></thead>
 <tbody>
-<tr><td>greenhouse</td><td class="n">5,080</td><td class="n">52</td><td class="n">242</td><td class="n">2881</td><td class="n"><strong>14.0%</strong></td><td class="mono">first_published</td></tr>
-<tr><td>ashby</td><td class="n">2,796</td><td class="n">48</td><td class="n">217</td><td class="n">1264</td><td class="n"><strong>13.5%</strong></td><td class="mono">createdAt</td></tr>
-<tr><td>lever</td><td class="n">172</td><td class="n">68</td><td class="n">462</td><td class="n">2016</td><td class="n"><strong>25.0%</strong></td><td class="mono">publishedAt</td></tr>
+<tr><td>greenhouse</td><td class="n">5,079</td><td class="n">53</td><td class="n">242</td><td class="n">2888</td><td class="n"><strong>13.8%</strong></td><td class="mono">first_published</td></tr>
+<tr><td>ashby</td><td class="n">2,807</td><td class="n">46</td><td class="n">213</td><td class="n">1271</td><td class="n"><strong>13.1%</strong></td><td class="mono">createdAt</td></tr>
+<tr><td>lever</td><td class="n">160</td><td class="n">74</td><td class="n">469</td><td class="n">2023</td><td class="n"><strong>26.9%</strong></td><td class="mono">publishedAt</td></tr>
 </tbody>
 </table>
-<p class="meta">The date field column is the point. A scraper that reads <code>updated_at</code> on Greenhouse gets "last edited by a recruiter", not "posted": a requisition from 2024 shows up as a day old the moment someone fixes a typo. Our first pass did exactly that and reported 0% stale Greenhouse postings. Reading <code>first_published</code> instead changes the answer to 14.0%.</p>
+<p class="meta">The date field column is the point. A scraper that reads <code>updated_at</code> on Greenhouse gets "last edited by a recruiter", not "posted": a requisition from 2024 shows up as a day old the moment someone fixes a typo. Our first pass did exactly that and reported 0% stale Greenhouse postings. Reading <code>first_published</code> instead changes the answer to 13.8%.</p>
 
 <h2>Companies with the oldest open requisitions</h2>
 <table>
 <thead><tr><th>Company</th><th class="n">Postings</th><th class="n">Median age (d)</th><th class="n">Oldest (d)</th><th class="n">&gt;180d</th></tr></thead>
 <tbody>
-<tr><td>secureframe</td><td class="n">15</td><td class="n">458</td><td class="n">2,016</td><td class="n"><strong>93.3%</strong></td></tr>
-<tr><td>character</td><td class="n">13</td><td class="n">326</td><td class="n">1,020</td><td class="n"><strong>76.9%</strong></td></tr>
-<tr><td>zilliz</td><td class="n">7</td><td class="n">446</td><td class="n">1,264</td><td class="n"><strong>71.4%</strong></td></tr>
-<tr><td>wrike</td><td class="n">6</td><td class="n">514</td><td class="n">1,304</td><td class="n"><strong>66.7%</strong></td></tr>
-<tr><td>delfina</td><td class="n">27</td><td class="n">269</td><td class="n">531</td><td class="n"><strong>55.6%</strong></td></tr>
-<tr><td>honehealth</td><td class="n">8</td><td class="n">139</td><td class="n">570</td><td class="n"><strong>50.0%</strong></td></tr>
-<tr><td>doxel</td><td class="n">11</td><td class="n">146</td><td class="n">334</td><td class="n"><strong>45.5%</strong></td></tr>
-<tr><td>cognition</td><td class="n">9</td><td class="n">154</td><td class="n">382</td><td class="n"><strong>44.4%</strong></td></tr>
-<tr><td>databricks</td><td class="n">465</td><td class="n">117</td><td class="n">2,552</td><td class="n"><strong>39.4%</strong></td></tr>
-<tr><td>linear</td><td class="n">13</td><td class="n">153</td><td class="n">360</td><td class="n"><strong>38.5%</strong></td></tr>
-<tr><td>encord</td><td class="n">8</td><td class="n">136</td><td class="n">223</td><td class="n"><strong>37.5%</strong></td></tr>
-<tr><td>bloomreach</td><td class="n">19</td><td class="n">140</td><td class="n">2,644</td><td class="n"><strong>36.8%</strong></td></tr>
-<tr><td>scaleai</td><td class="n">109</td><td class="n">108</td><td class="n">1,245</td><td class="n"><strong>36.7%</strong></td></tr>
-<tr><td>hex</td><td class="n">39</td><td class="n">70</td><td class="n">922</td><td class="n"><strong>35.9%</strong></td></tr>
-<tr><td>modal</td><td class="n">41</td><td class="n">102</td><td class="n">747</td><td class="n"><strong>34.1%</strong></td></tr>
-<tr><td>entrata</td><td class="n">21</td><td class="n">166</td><td class="n">1,790</td><td class="n"><strong>33.3%</strong></td></tr>
-<tr><td>stockx</td><td class="n">15</td><td class="n">75</td><td class="n">278</td><td class="n"><strong>33.3%</strong></td></tr>
-<tr><td>figma</td><td class="n">83</td><td class="n">73</td><td class="n">650</td><td class="n"><strong>32.5%</strong></td></tr>
-<tr><td>togetherai</td><td class="n">40</td><td class="n">123</td><td class="n">1,028</td><td class="n"><strong>32.5%</strong></td></tr>
-<tr><td>d2l</td><td class="n">22</td><td class="n">62</td><td class="n">2,881</td><td class="n"><strong>31.8%</strong></td></tr>
-<tr><td>rain</td><td class="n">42</td><td class="n">92</td><td class="n">304</td><td class="n"><strong>31.0%</strong></td></tr>
-<tr><td>baseten</td><td class="n">95</td><td class="n">77</td><td class="n">956</td><td class="n"><strong>26.3%</strong></td></tr>
-<tr><td>circleci</td><td class="n">16</td><td class="n">44</td><td class="n">382</td><td class="n"><strong>25.0%</strong></td></tr>
-<tr><td>persona</td><td class="n">12</td><td class="n">54</td><td class="n">510</td><td class="n"><strong>25.0%</strong></td></tr>
-<tr><td>labelbox</td><td class="n">8</td><td class="n">128</td><td class="n">216</td><td class="n"><strong>25.0%</strong></td></tr>
+<tr><td>secureframe</td><td class="n">15</td><td class="n">465</td><td class="n">2,023</td><td class="n"><strong>93.3%</strong></td></tr>
+<tr><td>wrike</td><td class="n">6</td><td class="n">707</td><td class="n">1,311</td><td class="n"><strong>83.3%</strong></td></tr>
+<tr><td>character</td><td class="n">13</td><td class="n">333</td><td class="n">1,027</td><td class="n"><strong>76.9%</strong></td></tr>
+<tr><td>zilliz</td><td class="n">6</td><td class="n">471</td><td class="n">1,271</td><td class="n"><strong>66.7%</strong></td></tr>
+<tr><td>delfina</td><td class="n">27</td><td class="n">276</td><td class="n">538</td><td class="n"><strong>55.6%</strong></td></tr>
+<tr><td>entrata</td><td class="n">18</td><td class="n">182</td><td class="n">1,797</td><td class="n"><strong>55.6%</strong></td></tr>
+<tr><td>honehealth</td><td class="n">8</td><td class="n">146</td><td class="n">577</td><td class="n"><strong>50.0%</strong></td></tr>
+<tr><td>cognition</td><td class="n">9</td><td class="n">161</td><td class="n">389</td><td class="n"><strong>44.4%</strong></td></tr>
+<tr><td>databricks</td><td class="n">450</td><td class="n">118</td><td class="n">2,559</td><td class="n"><strong>41.3%</strong></td></tr>
+<tr><td>doxel</td><td class="n">10</td><td class="n">152</td><td class="n">307</td><td class="n"><strong>40.0%</strong></td></tr>
+<tr><td>scaleai</td><td class="n">113</td><td class="n">115</td><td class="n">1,252</td><td class="n"><strong>38.9%</strong></td></tr>
+<tr><td>linear</td><td class="n">13</td><td class="n">160</td><td class="n">367</td><td class="n"><strong>38.5%</strong></td></tr>
+<tr><td>modal</td><td class="n">42</td><td class="n">109</td><td class="n">754</td><td class="n"><strong>38.1%</strong></td></tr>
+<tr><td>d2l</td><td class="n">20</td><td class="n">58</td><td class="n">2,888</td><td class="n"><strong>35.0%</strong></td></tr>
+<tr><td>togetherai</td><td class="n">43</td><td class="n">129</td><td class="n">1,035</td><td class="n"><strong>34.9%</strong></td></tr>
+<tr><td>bloomreach</td><td class="n">18</td><td class="n">136</td><td class="n">2,651</td><td class="n"><strong>33.3%</strong></td></tr>
+<tr><td>elliptic</td><td class="n">6</td><td class="n">75</td><td class="n">188</td><td class="n"><strong>33.3%</strong></td></tr>
+<tr><td>hex</td><td class="n">40</td><td class="n">58</td><td class="n">929</td><td class="n"><strong>32.5%</strong></td></tr>
+<tr><td>stockx</td><td class="n">16</td><td class="n">82</td><td class="n">285</td><td class="n"><strong>31.2%</strong></td></tr>
+<tr><td>figma</td><td class="n">82</td><td class="n">55</td><td class="n">657</td><td class="n"><strong>28.0%</strong></td></tr>
+<tr><td>planetscale</td><td class="n">11</td><td class="n">72</td><td class="n">480</td><td class="n"><strong>27.3%</strong></td></tr>
+<tr><td>gocardless</td><td class="n">26</td><td class="n">43</td><td class="n">377</td><td class="n"><strong>26.9%</strong></td></tr>
+<tr><td>rain</td><td class="n">45</td><td class="n">77</td><td class="n">311</td><td class="n"><strong>26.7%</strong></td></tr>
+<tr><td>taxbit</td><td class="n">8</td><td class="n">60</td><td class="n">210</td><td class="n"><strong>25.0%</strong></td></tr>
+<tr><td>baseten</td><td class="n">97</td><td class="n">67</td><td class="n">963</td><td class="n"><strong>23.7%</strong></td></tr>
 </tbody>
 </table>
 <p class="meta">Only companies with at least five dated postings. A stale listing is not proof of a fake job — plenty of teams keep a rolling req open for a role they hire into continuously.</p>
@@ -93,7 +93,7 @@
 <p>Raw numbers: <a href="data/freshness.json">freshness.json</a>. The postings themselves, with dates and pay ranges: <a href="https://sjdfi0wjvosdju9.github.io/data/salary-ranges-full.csv">the dataset</a> (CC BY 4.0).</p>
 
 <footer>
-  <p>Read 2026-11-09 from the companies' own public job feeds. No scraping of aggregators, no cookies, no tracking. Data CC BY 4.0.</p>
+  <p>Read 2026-11-16 from the companies' own public job feeds. No scraping of aggregators, no cookies, no tracking. Data CC BY 4.0.</p>
 </footer>
 </body>
 </html>
